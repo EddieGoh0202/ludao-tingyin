@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>鹭岛听音 · 配音工作台</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3efe6;color:#243b38;
+font:16px/1.7 system-ui,"Microsoft YaHei",sans-serif}
+main{max-width:880px;margin:36px auto;padding:24px}
+h1{font-size:26px;margin:0}
+.sub{color:#667974;margin:6px 0 22px}
+.card{background:#fffdf8;border:1px solid #dedfd4;
+border-radius:18px;padding:24px;margin:18px 0}
+button,.file{display:inline-block;border:1px solid #c8d4cc;
+border-radius:10px;padding:11px 17px;background:white;
+color:inherit;font:inherit;cursor:pointer}
+button.primary{background:#267261;color:white;border-color:#267261}
+button.record{background:#b74c40;color:white;border-color:#b74c40}
+button:disabled{opacity:.4;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input[type=file]{max-width:100%}
+select{width:100%;padding:11px;border:1px solid #c8d4cc;
+border-radius:10px;font:inherit;background:white;color:inherit}
+#text{font-size:32px;font-weight:700;line-height:1.6;
+margin:20px 0;white-space:pre-wrap}
+#meta,#meaning,#tailo{color:#667974;overflow-wrap:anywhere}
+#progress{font-weight:600}
+#message{white-space:pre-wrap;margin-top:16px;min-height:28px}
+audio{width:100%;margin:18px 0}
+.note{font-size:14px;color:#667974}
+label.upload{display:block;margin-top:18px}
+progress{width:100%;height:12px;accent-color:#267261}
+@media(max-width:600px){
+ main{padding:14px;margin:10px auto}.card{padding:18px}
+ #text{font-size:27px}
+}
+</style>
+<main>
+  <h1>鹭岛听音 · 配音工作台</h1>
+  <p class="sub">一句一段，自动命名。录好后试听，满意再继续。</p>
+
+  <section class="card">
+    <label>
+      <b>① 导入台词 JSON</b>
+      <p class="note">
+        一次选择 6 个场景声音文件和 scenes.json，也可以分批添加。
+        再次导入不会删除已有录音。
+      </p>
+      <input id="jsonFiles" type="file" accept=".json,application/json" multiple>
+    </label>
+    <p id="progress">正在打开本地录音库……</p>
+    <progress id="bar" value="0" max="1"></progress>
+    <select id="list" aria-label="选择配音条目" disabled></select>
+  </section>
+
+  <section class="card">
+    <div id="meta">尚未导入台词</div>
+    <div id="text">导入后，从第一句开始。</div>
+    <div id="meaning"></div>
+    <div id="tailo"></div>
+
+    <audio id="player" controls hidden></audio>
+
+    <div class="row">
+      <button id="record" class="record" disabled>● 开始录音</button>
+      <button id="stop" disabled>■ 停止并保存</button>
+      <button id="previous" disabled>上一句</button>
+      <button id="next" class="primary" disabled>下一句</button>
+      <button id="pending" disabled>跳到未录句</button>
+    </div>
+
+    <label class="upload">
+      或上传本句已有音频：
+      <input id="audioFile" type="file"
+        accept="audio/*,.mp3,.wav,.ogg,.webm,.m4a,.mp4" disabled>
+    </label>
+    <div id="message" role="status"></div>
+  </section>
+
+  <section class="card">
+    <div class="row">
+      <button id="download" disabled>下载当前句</button>
+      <button id="export" class="primary" disabled>导出音频 ZIP</button>
+    </div>
+    <p class="note">
+      ZIP 包含音频、完整台词和对应清单；未全部录完也可以导出备份。
+      录音格式由浏览器决定，保留真实后缀，不会把 WebM 假装成 MP3。
+    </p>
+    <p class="note">
+      内容保存在此浏览器本地，不会自动上传。
+      请保持 HTML 文件路径不变，并及时导出 ZIP；
+      清理浏览器数据可能删除本地录音。
+    </p>
+  </section>
+</main>
+<script>
+'use strict';
+
+const $ = id => document.getElementById(id);
+const order = ['laocuo','bashi','zhongshan','gulangyu','zengcuoan','nanputuo'];
+const names = {
+  laocuo:'外妈老厝',bashi:'八市',zhongshan:'中山路',
+  gulangyu:'鼓浪屿',zengcuoan:'曾厝垵',nanputuo:'南普陀'
+};
+
+let db, tasks=[], clips=new Map(), index=0;
+let state='idle', ready=false, recorder=null, stream=null;
+let previewURL='', timer=null;
+
+function tell(message){ $('message').textContent=message; }
+function releaseMic(){
+  if(stream) stream.getTracks().forEach(track=>track.stop());
+  stream=null;
+  if(timer) clearInterval(timer);
+  timer=null;
+}
+function op(store,mode,action){
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(store,mode);
+    let request;
+    try{ request=action(tx.objectStore(store)); }
+    catch(error){ tx.abort(); reject(error); return; }
+    tx.oncomplete=()=>resolve(request && request.result);
+    tx.onerror=()=>reject(tx.error || new Error('本地保存失败'));
+    tx.onabort=()=>reject(tx.error || new Error('本地保存被中止'));
+  });
+}
+function current(){ return tasks[index]; }
+function sceneRank(id){
+  const n=order.indexOf(id);
+  return n<0 ? order.length : n;
+}
+function sortTasks(items){
+  return items.sort((a,b)=>
+    sceneRank(a.sceneId)-sceneRank(b.sceneId) ||
+    a.kind-b.kind ||
+    a.id.localeCompare(b.id,'en',{numeric:true})
+  );
+}
+function checkId(id){
+  if(typeof id!=='string' || !/^[A-Za-z0-9_-]+$/.test(id))
+    throw new Error('发现不支持的条目 ID：'+String(id));
+  return id;
+}
+function render(){
+  const item=current();
+  const busy=state!=='idle';
+  const done=tasks.filter(t=>clips.has(t.id)).length;
+
+  $('progress').textContent=
+    `已完成 ${done} / ${tasks.length} 句`+
+    (tasks.length ? ` · 当前第 ${index+1} 句` : '');
+  $('bar').max=Math.max(tasks.length,1);
+  $('bar').value=done;
+
+  $('list').replaceChildren();
+  tasks.forEach((t,i)=>{
+    const option=document.createElement('option');
+    option.value=i;
+    option.textContent=
+      `${clips.has(t.id)?'✓':'○'} ${String(i+1).padStart(3,'0')} · `+
+      `${names[t.sceneId]||t.sceneId} · ${t.id} · ${t.text}`;
+    $('list').append(option);
+  });
+  if(item) $('list').value=index;
+
+  $('jsonFiles').disabled=!ready || busy;
+  $('list').disabled=!item || busy;
+  $('record').disabled=!item || busy;
+  $('record').textContent=item && clips.has(item.id)
+    ? '● 重录当前句' : '● 开始录音';
+  $('stop').disabled=state!=='recording';
+  $('previous').disabled=!item || busy || index===0;
+  $('next').disabled=!item || busy || index>=tasks.length-1;
+  $('pending').disabled=!item || busy || done===tasks.length;
+  $('audioFile').disabled=!item || busy;
+  $('export').disabled=!ready || busy || !clips.size;
+  $('download').disabled=!item || busy || !clips.has(item.id);
+
+  $('meta').textContent=item
+    ? `${names[item.sceneId]||item.sceneId} · `+
+      `${item.kind===0?'声音条目':'人物对话'} · ${item.id}`+
+      (item.speaker ? ` · ${item.speaker}` : '')
+    : '尚未导入台词';
+  $('text').textContent=item ? item.text : '导入后，从第一句开始。';
+  $('meaning').textContent=item && item.mandarin
+    ? `中文含义：${item.mandarin}` : '';
+  $('tailo').textContent=item && item.tailo
+    ? `台罗参考：${item.tailo}` : '';
+
+  const player=$('player');
+  player.pause();
+  player.removeAttribute('src');
+  if(previewURL) URL.revokeObjectURL(previewURL);
+  previewURL='';
+  const saved=item && clips.get(item.id);
+  player.hidden=!saved || busy;
+  if(saved && !busy){
+    previewURL=URL.createObjectURL(saved.blob);
+    player.src=previewURL;
+  }else{
+    player.load();
+  }
+}
+async function saveClip(id,blob,extension){
+  if(!blob.size) throw new Error('音频为空，请重新录制。');
+  const clip={id,blob,extension,updatedAt:new Date().toISOString()};
+  await op('clips','readwrite',s=>s.put(clip));
+  clips.set(id,clip);
+}
+function inferExtension(type,filename=''){
+  const mime=(type||'').toLowerCase().split(';')[0];
+  const known={
+    'audio/webm':'webm','video/webm':'webm',
+    'audio/ogg':'ogg','application/ogg':'ogg',
+    'audio/mp4':'m4a','video/mp4':'mp4',
+    'audio/mpeg':'mp3','audio/mp3':'mp3',
+    'audio/wav':'wav','audio/x-wav':'wav','audio/wave':'wav',
+    'audio/flac':'flac','audio/aac':'aac'
+  };
+  if(known[mime]) return known[mime];
+  const ext=filename.split('.').pop().toLowerCase();
+  if(['webm','ogg','m4a','mp4','mp3','wav','flac','aac'].includes(ext))
+    return ext;
+  throw new Error('无法识别音频格式，请使用 WebM、MP3、WAV、OGG 或 M4A。');
+}
+function run(action){
+  return async event=>{
+    try{ await action(event); }
+    catch(error){ tell('操作失败：'+error.message); }
+  };
+}
+
+$('jsonFiles').onchange=run(async event=>{
+  const files=[...event.target.files];
+  state='importing'; render();
+  try{
+    const added=[];
+    for(const file of files){
+      const data=JSON.parse((await file.text()).replace(/^\uFEFF/,''));
+      if(Array.isArray(data)){
+        if(!data.every(s=>s && s.id && s.sceneId &&
+                          typeof s.hanzi==='string'))
+          throw new Error(file.name+' 不是声音条目数组。');
+        for(const s of data){
+          added.push({
+            id:checkId(s.id),sceneId:s.sceneId,kind:0,
+            text:s.hanzi,mandarin:s.mandarin||'',
+            tailo:s.tailo||'',speaker:s.speaker||''
+          });
+        }
+      }else if(Array.isArray(data.scenes)){
+        for(const sc of data.scenes){
+          for(const hotspot of sc.hotspots||[]){
+            (hotspot.dialogue||[]).forEach((line,n)=>{
+              if(typeof line.text!=='string' || !line.text.trim()) return;
+              added.push({
+                id:checkId(`${sc.id}-${hotspot.id}-${String(n+1).padStart(2,'0')}`),
+                sceneId:sc.id,kind:1,text:line.text,
+                mandarin:line.mandarin||'',tailo:line.tailo||'',
+                speaker:line.speaker||hotspot.label||''
+              });
+            });
+          }
+        }
+      }else{
+        throw new Error('无法识别 '+file.name+'；请选择声音 JSON 或 scenes.json。');
+      }
+    }
+    const merged=new Map(tasks.map(t=>[t.id,t]));
+    for(const item of added){
+      const previous=merged.get(item.id);
+      if(previous && previous.text!==item.text && clips.has(item.id))
+        throw new Error(item.id+' 的台词已改变且已有录音，请先核对版本。');
+      merged.set(item.id,item);
+    }
+    const nextTasks=sortTasks([...merged.values()]);
+    await op('meta','readwrite',s=>s.put(nextTasks,'tasks'));
+    tasks=nextTasks; index=0;
+    tell(`已导入，当前共 ${tasks.length} 句。请先选一句试录并试听。`);
+  }finally{
+    state='idle'; event.target.value=''; render();
+  }
+});
+
+$('list').onchange=()=>{index=Number($('list').value);tell('');render();};
+$('previous').onclick=()=>{if(index>0) index--;tell('');render();};
+$('next').onclick=()=>{
+  if(index<tasks.length-1) index++;
+  tell('');render();
+};
+$('pending').onclick=()=>{
+  for(let n=1;n<=tasks.length;n++){
+    const target=(index+n)%tasks.length;
+    if(!clips.has(tasks[target].id)){index=target;break;}
+  }
+  tell('');render();
+};
+
+$('record').onclick=run(async()=>{
+  if(!current() || state!=='idle') return;
+  if(!navigator.mediaDevices?.getUserMedia ||
+     typeof MediaRecorder==='undefined')
+    throw new Error('当前环境不支持录音，请使用 Chrome/Edge，并允许麦克风访问。');
+
+  const item=current();
+  const id=item.id;
+  state='asking'; render(); tell('正在请求麦克风权限……');
+  try{
+    stream=await navigator.mediaDevices.getUserMedia({audio:true});
+    const supported=[
+      'audio/webm;codecs=opus','audio/ogg;codecs=opus','audio/mp4'
+    ].find(type=>MediaRecorder.isTypeSupported(type));
+    recorder=supported
+      ? new MediaRecorder(stream,{mimeType:supported})
+      : new MediaRecorder(stream);
+
+    const chunks=[];
+    let failed=false;
+    recorder.ondataavailable=e=>{if(e.data.size) chunks.push(e.data);};
+    recorder.onerror=e=>{
+      failed=true;
+      tell('录音失败：'+(e.error?.message||'麦克风或编码器错误'));
+      releaseMic();
+      state='idle';render();
+    };
+    recorder.onstop=async()=>{
+      releaseMic();
+      if(failed) return;
+      state='saving';render();
+      try{
+        const mime=recorder.mimeType || chunks[0]?.type || '';
+        const blob=new Blob(chunks,{type:mime});
+        await saveClip(id,blob,inferExtension(mime));
+        tell(`已保存 ${id}。可以试听；满意后点击“下一句”。`);
+      }catch(error){
+        tell('保存失败：'+error.message+'；原有录音不会被删除。');
+      }finally{
+        recorder=null;state='idle';render();
+      }
+    };
+    recorder.start();
+    state='recording';render();
+    const started=Date.now();
+    tell('正在录音，读完后点击“停止并保存”。');
+    timer=setInterval(()=>{
+      tell(`正在录音 ${Math.floor((Date.now()-started)/1000)} 秒。读完后点击“停止并保存”。`);
+    },1000);
+  }catch(error){
+    releaseMic();recorder=null;state='idle';render();throw error;
+  }
+});
+$('stop').onclick=()=>{
+  if(recorder?.state==='recording'){
+    state='saving';render();tell('正在保存录音……');recorder.stop();
+  }
+};
+
+$('audioFile').onchange=run(async event=>{
+  const file=event.target.files[0];
+  if(!file || !current()) return;
+  const id=current().id;
+  state='saving';render();
+  try{
+    await saveClip(id,file,inferExtension(file.type,file.name));
+    tell(`已保存 ${id}，请试听确认。`);
+  }finally{
+    event.target.value='';state='idle';render();
+  }
+});
+
+function download(blob,name){
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=name;document.body.append(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),30000);
+}
+$('download').onclick=()=>{
+  const clip=clips.get(current().id);
+  if(clip) download(clip.blob,`${clip.id}.${clip.extension}`);
+};
+
+/* 无第三方依赖的 ZIP 打包，使用标准 STORE 方法。 */
+const encoder=new TextEncoder();
+const crcTable=Uint32Array.from({length:256},(_,n)=>{
+  let c=n;
+  for(let k=0;k<8;k++) c=(c&1)?0xedb88320^(c>>>1):c>>>1;
+  return c>>>0;
+});
+function crc32(bytes){
+  let crc=0xffffffff;
+  for(const byte of bytes) crc=crcTable[(crc^byte)&255]^(crc>>>8);
+  return (crc^0xffffffff)>>>0;
+}
+function header(size,fields){
+  const bytes=new Uint8Array(size),view=new DataView(bytes.buffer);
+  for(const [offset,value,width] of fields)
+    width===2 ? view.setUint16(offset,value,true)
+              : view.setUint32(offset,value,true);
+  return bytes;
+}
+async function makeZip(entries){
+  if(entries.length>65535) throw new Error('文件数量超过 ZIP 上限。');
+  const parts=[],central=[];
+  let offset=0,centralSize=0;
+  for(const entry of entries){
+    const name=encoder.encode(entry.name);
+    const bytes=new Uint8Array(await entry.blob.arrayBuffer());
+    if(offset+bytes.length+name.length+30>0xffffffff)
+      throw new Error('音频包超过 4GB，请分批备份。');
+    const crc=crc32(bytes);
+    const local=header(30,[
+      [0,0x04034b50,4],[4,20,2],[6,0x800,2],
+      [14,crc,4],[18,bytes.length,4],[22,bytes.length,4],
+      [26,name.length,2]
+    ]);
+    const dir=header(46,[
+      [0,0x02014b50,4],[4,20,2],[6,20,2],[8,0x800,2],
+      [16,crc,4],[20,bytes.length,4],[24,bytes.length,4],
+      [28,name.length,2],[42,offset,4]
+    ]);
+    parts.push(local,name,bytes);
+    central.push(dir,name);
+    offset+=local.length+name.length+bytes.length;
+    centralSize+=dir.length+name.length;
+  }
+  const end=header(22,[
+    [0,0x06054b50,4],[8,entries.length,2],[10,entries.length,2],
+    [12,centralSize,4],[16,offset,4]
+  ]);
+  return new Blob([...parts,...central,end],{type:'application/zip'});
+}
+$('export').onclick=run(async()=>{
+  state='exporting';render();tell('正在打包，请稍候……');
+  try{
+    const entries=[],manifest=[];
+    for(const [n,item] of tasks.entries()){
+      const clip=clips.get(item.id);
+      const audio=clip ? `audio/${clip.id}.${clip.extension}` : null;
+      manifest.push({number:n+1,...item,audio,
+        mime:clip?.blob.type||null,updatedAt:clip?.updatedAt||null});
+      if(clip) entries.push({name:audio,blob:clip.blob});
+    }
+    const done=manifest.filter(t=>t.audio).length;
+    const complete=done===tasks.length;
+    const data={
+      formatVersion:1,exportedAt:new Date().toISOString(),
+      total:tasks.length,recorded:done,complete,items:manifest
+    };
+    entries.push({
+      name:'manifest.json',
+      blob:new Blob([JSON.stringify(data,null,2)],{type:'application/json'})
+    });
+    entries.push({
+      name:'台词对应表.txt',
+      blob:new Blob(['\uFEFF'+manifest.map(t=>
+        `${String(t.number).padStart(3,'0')}｜${names[t.sceneId]||t.sceneId}`+
+        `｜${t.id}｜${t.speaker||''}\n`+
+        `台词：${t.text}\n中文含义：${t.mandarin||''}\n`+
+        `文件：${t.audio||'尚未录制'}`
+      ).join('\n\n')],{type:'text/plain;charset=utf-8'})
+    });
+    download(await makeZip(entries),
+      `鹭岛听音配音_${done}-${tasks.length}_${complete?'完整':'备份'}.zip`);
+    tell(`已导出 ${done}/${tasks.length} 句，包内附有台词和文件对应表。`);
+  }finally{
+    state='idle';render();
+  }
+});
+
+window.addEventListener('beforeunload',event=>{
+  if(state!=='idle'){event.preventDefault();event.returnValue='';}
+});
+
+(async()=>{
+  try{
+    db=await new Promise((resolve,reject)=>{
+      const request=indexedDB.open('ludao-voice-workbench',1);
+      request.onupgradeneeded=()=>{
+        request.result.createObjectStore('meta');
+        request.result.createObjectStore('clips',{keyPath:'id'});
+      };
+      request.onsuccess=()=>resolve(request.result);
+      request.onerror=()=>reject(request.error);
+      request.onblocked=()=>tell('本地录音库被其他窗口占用，请关闭重复窗口后重试。');
+    });
+    tasks=await op('meta','readonly',s=>s.get('tasks'))||[];
+    clips=new Map((await op('clips','readonly',s=>s.getAll()))
+      .map(clip=>[clip.id,clip]));
+    ready=true;render();
+    tell(tasks.length?'已恢复上次台词和录音进度。':'请选择台词 JSON 文件。');
+  }catch(error){
+    tell('无法打开本地录音库：'+error.message+
+      '。请使用正常浏览模式的 Chrome/Edge，允许本地存储。');
+  }
+})();
+</script>
+</html>

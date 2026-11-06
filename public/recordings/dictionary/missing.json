@@ -1,0 +1,782 @@
+{
+  "source": "https://sutian.moe.edu.tw/zh-hant/tshiau/",
+  "queryLanguage": "zh-hant",
+  "searchMode": "tai_su",
+  "generatedAt": "2026-10-31T04:25:27.737Z",
+  "naming": "targetAudio uses the existing scene prefix plus two-digit entry number, for example zs20.mp3.",
+  "total": 56,
+  "items": [
+    {
+      "id": "bs01",
+      "sceneId": "bashi",
+      "text": "这个偌济钱？",
+      "tailo": "Tsit ê guā-tsē tsînn?",
+      "mandarin": "这个多少钱？",
+      "targetAudio": "recordings/dictionary/bs01.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "偌濟"
+      ]
+    },
+    {
+      "id": "bs02",
+      "sceneId": "bashi",
+      "text": "有较俗无？",
+      "tailo": "Ū khah sio̍k bô?",
+      "mandarin": "有便宜一点吗？",
+      "targetAudio": "recordings/dictionary/bs02.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "較俗"
+      ]
+    },
+    {
+      "id": "bs03",
+      "sceneId": "bashi",
+      "text": "伤贵矣",
+      "tailo": "Siunn kuì--ah",
+      "mandarin": "太贵了",
+      "targetAudio": "recordings/dictionary/bs03.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "傷貴"
+      ]
+    },
+    {
+      "id": "bs07",
+      "sceneId": "bashi",
+      "text": "足鲜",
+      "tailo": "Tsiok tshinn",
+      "mandarin": "很新鲜",
+      "targetAudio": "recordings/dictionary/bs07.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "鮮"
+      ]
+    },
+    {
+      "id": "bs08",
+      "sceneId": "bashi",
+      "text": "一斤",
+      "tailo": "tsi̍t kin",
+      "mandarin": "一斤",
+      "targetAudio": "recordings/dictionary/bs08.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "一斤",
+        "斤"
+      ]
+    },
+    {
+      "id": "bs11",
+      "sceneId": "bashi",
+      "text": "土笋冻",
+      "tailo": "thôo-sún-tàng",
+      "mandarin": "土笋冻",
+      "targetAudio": "recordings/dictionary/bs11.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "土筍",
+        "筍"
+      ]
+    },
+    {
+      "id": "bs14",
+      "sceneId": "bashi",
+      "text": "加送一寡",
+      "tailo": "Ke sàng tsi̍t-kuá",
+      "mandarin": "多送一点",
+      "targetAudio": "recordings/dictionary/bs14.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "加送",
+        "一寡"
+      ]
+    },
+    {
+      "id": "bs15",
+      "sceneId": "bashi",
+      "text": "免找矣",
+      "tailo": "Bián tsāu--ah",
+      "mandarin": "不用找零了",
+      "targetAudio": "recordings/dictionary/bs15.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "免找"
+      ]
+    },
+    {
+      "id": "bs16",
+      "sceneId": "bashi",
+      "text": "好食",
+      "tailo": "hó-tsia̍h",
+      "mandarin": "好吃",
+      "targetAudio": "recordings/dictionary/bs16.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "好食",
+        "好",
+        "食"
+      ]
+    },
+    {
+      "id": "bs18",
+      "sceneId": "bashi",
+      "text": "买菜",
+      "tailo": "bé tshài",
+      "mandarin": "买菜",
+      "targetAudio": "recordings/dictionary/bs18.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "買菜",
+        "買",
+        "菜"
+      ]
+    },
+    {
+      "id": "bs19",
+      "sceneId": "bashi",
+      "text": "欲买啥物？",
+      "tailo": "Beh bé siánn-mih?",
+      "mandarin": "要买什么？",
+      "targetAudio": "recordings/dictionary/bs19.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "欲買",
+        "欲",
+        "啥物"
+      ]
+    },
+    {
+      "id": "zs01",
+      "sceneId": "zhongshan",
+      "text": "沙茶面",
+      "tailo": "sa-te-mī",
+      "mandarin": "沙茶面",
+      "targetAudio": "recordings/dictionary/zs01.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "沙茶麵",
+        "沙茶",
+        "麵"
+      ]
+    },
+    {
+      "id": "zs02",
+      "sceneId": "zhongshan",
+      "text": "花生汤",
+      "tailo": "hue-sing-thng",
+      "mandarin": "花生汤",
+      "targetAudio": "recordings/dictionary/zs02.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "花生湯",
+        "花生",
+        "塗豆",
+        "湯"
+      ]
+    },
+    {
+      "id": "zs03",
+      "sceneId": "zhongshan",
+      "text": "骑楼",
+      "tailo": "khiâ-lâu",
+      "mandarin": "骑楼",
+      "targetAudio": "recordings/dictionary/zs03.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "騎樓",
+        "亭仔跤"
+      ]
+    },
+    {
+      "id": "zs04",
+      "sceneId": "zhongshan",
+      "text": "鼓浪屿",
+      "tailo": "Kóo-lōng-sū",
+      "mandarin": "鼓浪屿",
+      "targetAudio": "recordings/dictionary/zs04.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "鼓浪嶼"
+      ]
+    },
+    {
+      "id": "zs05",
+      "sceneId": "zhongshan",
+      "text": "厦门",
+      "tailo": "Ē-mn̂g",
+      "mandarin": "厦门",
+      "targetAudio": "recordings/dictionary/zs05.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "廈門"
+      ]
+    },
+    {
+      "id": "zs06",
+      "sceneId": "zhongshan",
+      "text": "行街",
+      "tailo": "kiânn-ke",
+      "mandarin": "逛街",
+      "targetAudio": "recordings/dictionary/zs06.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "行街",
+        "行",
+        "街"
+      ]
+    },
+    {
+      "id": "zs07",
+      "sceneId": "zhongshan",
+      "text": "落雨矣",
+      "tailo": "Lo̍h-hōo--ah",
+      "mandarin": "下雨了",
+      "targetAudio": "recordings/dictionary/zs07.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "落雨矣",
+        "落雨"
+      ]
+    },
+    {
+      "id": "zs09",
+      "sceneId": "zhongshan",
+      "text": "伫遮",
+      "tailo": "tī tsia",
+      "mandarin": "在这里",
+      "targetAudio": "recordings/dictionary/zs09.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "佇遮",
+        "遮"
+      ]
+    },
+    {
+      "id": "zs10",
+      "sceneId": "zhongshan",
+      "text": "欲去佗位？",
+      "tailo": "Beh khì tó-uī?",
+      "mandarin": "要去哪里？",
+      "targetAudio": "recordings/dictionary/zs10.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "欲去佗位",
+        "佗位"
+      ]
+    },
+    {
+      "id": "zs11",
+      "sceneId": "zhongshan",
+      "text": "直直行",
+      "tailo": "Ti̍t-ti̍t kiânn",
+      "mandarin": "一直往前走",
+      "targetAudio": "recordings/dictionary/zs11.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "直直行",
+        "直直"
+      ]
+    },
+    {
+      "id": "zs14",
+      "sceneId": "zhongshan",
+      "text": "跋饼",
+      "tailo": "pua̍h-piánn",
+      "mandarin": "博饼",
+      "targetAudio": "recordings/dictionary/zs14.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "跋餅",
+        "博餅",
+        "餅"
+      ]
+    },
+    {
+      "id": "zs18",
+      "sceneId": "zhongshan",
+      "text": "好耍",
+      "tailo": "hó-sńg",
+      "mandarin": "好玩",
+      "targetAudio": "recordings/dictionary/zs18.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "好耍",
+        "耍"
+      ]
+    },
+    {
+      "id": "zs19",
+      "sceneId": "zhongshan",
+      "text": "慢慢仔行",
+      "tailo": "Bān-bān-á kiânn",
+      "mandarin": "慢走（送客用语）",
+      "targetAudio": "recordings/dictionary/zs19.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "慢慢仔行",
+        "慢慢仔"
+      ]
+    },
+    {
+      "id": "gl04",
+      "sceneId": "gulangyu",
+      "text": "三角梅",
+      "tailo": "sann-kak-bûi",
+      "mandarin": "三角梅",
+      "targetAudio": "recordings/dictionary/gl04.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "三角梅"
+      ]
+    },
+    {
+      "id": "gl05",
+      "sceneId": "gulangyu",
+      "text": "日光岩",
+      "tailo": "Ji̍t-kong-giâm",
+      "mandarin": "日光岩",
+      "targetAudio": "recordings/dictionary/gl05.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "日光岩"
+      ]
+    },
+    {
+      "id": "gl06",
+      "sceneId": "gulangyu",
+      "text": "渡船头",
+      "tailo": "tōo-tsûn-thâu",
+      "mandarin": "轮渡码头",
+      "targetAudio": "recordings/dictionary/gl06.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "渡船頭",
+        "渡頭",
+        "碼頭"
+      ]
+    },
+    {
+      "id": "gl07",
+      "sceneId": "gulangyu",
+      "text": "坐船",
+      "tailo": "tsē tsûn",
+      "mandarin": "坐船",
+      "targetAudio": "recordings/dictionary/gl07.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "坐船"
+      ]
+    },
+    {
+      "id": "gl08",
+      "sceneId": "gulangyu",
+      "text": "海风真透",
+      "tailo": "Hái-hong tsin thàu",
+      "mandarin": "海风很大",
+      "targetAudio": "recordings/dictionary/gl08.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "海風真透",
+        "海風"
+      ]
+    },
+    {
+      "id": "gl09",
+      "sceneId": "gulangyu",
+      "text": "红砖厝",
+      "tailo": "âng-tsng-tshù",
+      "mandarin": "红砖房",
+      "targetAudio": "recordings/dictionary/gl09.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "紅磚厝"
+      ]
+    },
+    {
+      "id": "gl11",
+      "sceneId": "gulangyu",
+      "text": "番客",
+      "tailo": "huan-kheh",
+      "mandarin": "华侨",
+      "targetAudio": "recordings/dictionary/gl11.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "番客"
+      ]
+    },
+    {
+      "id": "gl12",
+      "sceneId": "gulangyu",
+      "text": "欢迎来鼓浪屿",
+      "tailo": "Huan-gîng lâi Kóo-lōng-sū",
+      "mandarin": "欢迎来鼓浪屿",
+      "targetAudio": "recordings/dictionary/gl12.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "歡迎來鼓浪嶼",
+        "歡迎"
+      ]
+    },
+    {
+      "id": "gl16",
+      "sceneId": "gulangyu",
+      "text": "日头落山矣",
+      "tailo": "Ji̍t-thâu lo̍h-suann--ah",
+      "mandarin": "太阳下山了",
+      "targetAudio": "recordings/dictionary/gl16.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "日頭落山矣",
+        "日頭",
+        "落山"
+      ]
+    },
+    {
+      "id": "gl19",
+      "sceneId": "gulangyu",
+      "text": "慢慢仔行",
+      "tailo": "Bān-bān-á kiânn",
+      "mandarin": "慢慢走（慢走）",
+      "targetAudio": "recordings/dictionary/gl19.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "慢慢仔行",
+        "慢慢仔"
+      ]
+    },
+    {
+      "id": "gl20",
+      "sceneId": "gulangyu",
+      "text": "真好听",
+      "tailo": "Tsin hó-thiann",
+      "mandarin": "真好听",
+      "targetAudio": "recordings/dictionary/gl20.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "真好聽",
+        "好聽"
+      ]
+    },
+    {
+      "id": "zc01",
+      "sceneId": "zengcuoan",
+      "text": "烧肉粽",
+      "tailo": "sio-bah-tsàng",
+      "mandarin": "热肉粽",
+      "targetAudio": "recordings/dictionary/zc01.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "燒肉粽",
+        "肉粽"
+      ]
+    },
+    {
+      "id": "zc02",
+      "sceneId": "zengcuoan",
+      "text": "姜母鸭",
+      "tailo": "kiunn-bó-ah",
+      "mandarin": "姜母鸭",
+      "targetAudio": "recordings/dictionary/zc02.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "姜母鴨"
+      ]
+    },
+    {
+      "id": "zc04",
+      "sceneId": "zengcuoan",
+      "text": "王船",
+      "tailo": "ông-tsûn",
+      "mandarin": "王船",
+      "targetAudio": "recordings/dictionary/zc04.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "王船"
+      ]
+    },
+    {
+      "id": "zc06",
+      "sceneId": "zengcuoan",
+      "text": "鼎边糊",
+      "tailo": "tiánn-pinn-kôo",
+      "mandarin": "锅边糊",
+      "targetAudio": "recordings/dictionary/zc06.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "鼎邊糊"
+      ]
+    },
+    {
+      "id": "zc07",
+      "sceneId": "zengcuoan",
+      "text": "灯仔",
+      "tailo": "ting-á",
+      "mandarin": "灯笼",
+      "targetAudio": "recordings/dictionary/zc07.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "燈仔"
+      ]
+    },
+    {
+      "id": "zc10",
+      "sceneId": "zengcuoan",
+      "text": "天暗矣",
+      "tailo": "Thinn àm--ah",
+      "mandarin": "天黑了",
+      "targetAudio": "recordings/dictionary/zc10.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "天暗矣",
+        "天暗"
+      ]
+    },
+    {
+      "id": "zc11",
+      "sceneId": "zengcuoan",
+      "text": "鱼仔",
+      "tailo": "hî-á",
+      "mandarin": "小鱼",
+      "targetAudio": "recordings/dictionary/zc11.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "魚仔",
+        "魚"
+      ]
+    },
+    {
+      "id": "zc12",
+      "sceneId": "zengcuoan",
+      "text": "风真大",
+      "tailo": "Hong tsin tuā",
+      "mandarin": "风很大",
+      "targetAudio": "recordings/dictionary/zc12.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "風真大",
+        "風"
+      ]
+    },
+    {
+      "id": "zc13",
+      "sceneId": "zengcuoan",
+      "text": "沙茶面",
+      "tailo": "sa-te-mī",
+      "mandarin": "沙茶面",
+      "targetAudio": "recordings/dictionary/zc13.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "沙茶麵",
+        "沙茶",
+        "麵"
+      ]
+    },
+    {
+      "id": "zc14",
+      "sceneId": "zengcuoan",
+      "text": "好食",
+      "tailo": "hó-tsia̍h",
+      "mandarin": "好吃",
+      "targetAudio": "recordings/dictionary/zc14.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "好食",
+        "好"
+      ]
+    },
+    {
+      "id": "zc15",
+      "sceneId": "zengcuoan",
+      "text": "一粒偌济钱？",
+      "tailo": "Tsi̍t lia̍p guā-tsē tsînn?",
+      "mandarin": "一个多少钱？",
+      "targetAudio": "recordings/dictionary/zc15.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "一粒偌濟錢",
+        "偌濟"
+      ]
+    },
+    {
+      "id": "zc19",
+      "sceneId": "zengcuoan",
+      "text": "食果子拜树头",
+      "tailo": "Tsia̍h kué-tsí pài tshiū-thâu",
+      "mandarin": "吃水果要拜树根（饮水思源）",
+      "targetAudio": "recordings/dictionary/zc19.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "食果子拜樹頭"
+      ]
+    },
+    {
+      "id": "zc20",
+      "sceneId": "zengcuoan",
+      "text": "闲闲仔",
+      "tailo": "îng-îng-á",
+      "mandarin": "悠闲地",
+      "targetAudio": "recordings/dictionary/zc20.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "閒閒仔"
+      ]
+    },
+    {
+      "id": "np03",
+      "sceneId": "nanputuo",
+      "text": "素饼",
+      "tailo": "sòo-piánn",
+      "mandarin": "素饼",
+      "targetAudio": "recordings/dictionary/np03.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "素餅"
+      ]
+    },
+    {
+      "id": "np06",
+      "sceneId": "nanputuo",
+      "text": "五老峰",
+      "tailo": "Ngóo-ló-hong",
+      "mandarin": "五老峰",
+      "targetAudio": "recordings/dictionary/np06.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "五老峰"
+      ]
+    },
+    {
+      "id": "np07",
+      "sceneId": "nanputuo",
+      "text": "钟声",
+      "tailo": "tsing-siann",
+      "mandarin": "钟声",
+      "targetAudio": "recordings/dictionary/np07.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "鐘聲"
+      ]
+    },
+    {
+      "id": "np10",
+      "sceneId": "nanputuo",
+      "text": "心肝静",
+      "tailo": "sim-kuann tsīng",
+      "mandarin": "心里平静",
+      "targetAudio": "recordings/dictionary/np10.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "心肝靜",
+        "心肝"
+      ]
+    },
+    {
+      "id": "np12",
+      "sceneId": "nanputuo",
+      "text": "寺庙",
+      "tailo": "sī-biō",
+      "mandarin": "寺庙",
+      "targetAudio": "recordings/dictionary/np12.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "寺廟",
+        "廟寺"
+      ]
+    },
+    {
+      "id": "np13",
+      "sceneId": "nanputuo",
+      "text": "好心有好报",
+      "tailo": "Hó-sim ū hó-pò",
+      "mandarin": "好心有好报",
+      "targetAudio": "recordings/dictionary/np13.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "好心有好報",
+        "好心"
+      ]
+    },
+    {
+      "id": "np14",
+      "sceneId": "nanputuo",
+      "text": "扒山",
+      "tailo": "peh-suann",
+      "mandarin": "爬山",
+      "targetAudio": "recordings/dictionary/np14.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "扒山"
+      ]
+    },
+    {
+      "id": "np15",
+      "sceneId": "nanputuo",
+      "text": "放生池",
+      "tailo": "hòng-sing-tî",
+      "mandarin": "放生池",
+      "targetAudio": "recordings/dictionary/np15.mp3",
+      "status": "missing",
+      "searchMode": "tai_su",
+      "attemptedQueries": [
+        "放生池"
+      ]
+    }
+  ]
+}

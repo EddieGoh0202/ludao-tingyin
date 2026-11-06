@@ -1,0 +1,310 @@
+[
+  {
+    "id": "zc01",
+    "sceneId": "zengcuoan",
+    "hanzi": "烧肉粽",
+    "tailo": "sio-bah-tsàng",
+    "mandarin": "热肉粽",
+    "culture": "厦门肉粽用五花肉、香菇、虾米、栗子包成，「烧」是热的意思。老歌《烧肉粽》唱的就是叫卖声。",
+    "category": "food",
+    "frequency": 89.9,
+    "pos": {
+      "x": 36,
+      "y": 214
+    },
+    "speaker": "摊主",
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc02",
+    "sceneId": "zengcuoan",
+    "hanzi": "姜母鸭",
+    "tailo": "kiunn-bó-ah",
+    "mandarin": "姜母鸭",
+    "culture": "用老姜、麻油和米酒焖鸭肉，闽南人秋冬进补的家常菜。",
+    "category": "food",
+    "frequency": 97.9,
+    "pos": {
+      "x": 70,
+      "y": 250
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc03",
+    "sceneId": "zengcuoan",
+    "hanzi": "石敢当",
+    "tailo": "Tsio̍h-kám-tong",
+    "mandarin": "石敢当",
+    "culture": "立在巷口、路冲的石碑，闽南人相信它能挡煞辟邪。",
+    "category": "place",
+    "frequency": 104.1,
+    "pos": {
+      "x": 104,
+      "y": 192
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc03.mp3"
+  },
+  {
+    "id": "zc04",
+    "sceneId": "zengcuoan",
+    "hanzi": "王船",
+    "tailo": "ông-tsûn",
+    "mandarin": "王船",
+    "culture": "送王船是闽南沿海祈求平安的民俗，2020 年列入联合国非遗名录。",
+    "category": "place",
+    "frequency": 92.3,
+    "pos": {
+      "x": 138,
+      "y": 232
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc05",
+    "sceneId": "zengcuoan",
+    "hanzi": "讨海",
+    "tailo": "thó-hái",
+    "mandarin": "出海打鱼",
+    "culture": "曾厝垵原本是渔村，「讨海人」就是靠海吃饭的渔民。",
+    "category": "daily",
+    "frequency": 100.7,
+    "pos": {
+      "x": 172,
+      "y": 204
+    },
+    "speaker": "讨海阿伯",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc05.mp3"
+  },
+  {
+    "id": "zc06",
+    "sceneId": "zengcuoan",
+    "hanzi": "鼎边糊",
+    "tailo": "tiánn-pinn-kôo",
+    "mandarin": "锅边糊",
+    "category": "food",
+    "frequency": 88.7,
+    "pos": {
+      "x": 206,
+      "y": 246
+    },
+    "times": [
+      "morning"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc07",
+    "sceneId": "zengcuoan",
+    "hanzi": "灯仔",
+    "tailo": "ting-á",
+    "mandarin": "灯笼",
+    "category": "place",
+    "frequency": 95.1,
+    "pos": {
+      "x": 240,
+      "y": 186
+    },
+    "times": [
+      "night"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc08",
+    "sceneId": "zengcuoan",
+    "hanzi": "巷仔",
+    "tailo": "hāng-á",
+    "mandarin": "小巷",
+    "category": "place",
+    "frequency": 102.9,
+    "pos": {
+      "x": 274,
+      "y": 226
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc08.mp3"
+  },
+  {
+    "id": "zc09",
+    "sceneId": "zengcuoan",
+    "hanzi": "海墘",
+    "tailo": "hái-kînn",
+    "mandarin": "海边",
+    "category": "place",
+    "frequency": 91.1,
+    "pos": {
+      "x": 308,
+      "y": 254
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc09.mp3"
+  },
+  {
+    "id": "zc10",
+    "sceneId": "zengcuoan",
+    "hanzi": "天暗矣",
+    "tailo": "Thinn àm--ah",
+    "mandarin": "天黑了",
+    "category": "daily",
+    "frequency": 98.3,
+    "pos": {
+      "x": 342,
+      "y": 200
+    },
+    "times": [
+      "dusk",
+      "night"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc11",
+    "sceneId": "zengcuoan",
+    "hanzi": "鱼仔",
+    "tailo": "hî-á",
+    "mandarin": "小鱼",
+    "category": "market",
+    "frequency": 106.5,
+    "pos": {
+      "x": 376,
+      "y": 236
+    },
+    "speaker": "讨海阿伯",
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc12",
+    "sceneId": "zengcuoan",
+    "hanzi": "风真大",
+    "tailo": "Hong tsin tuā",
+    "mandarin": "风很大",
+    "category": "daily",
+    "frequency": 93.5,
+    "pos": {
+      "x": 410,
+      "y": 190
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc13",
+    "sceneId": "zengcuoan",
+    "hanzi": "沙茶面",
+    "tailo": "sa-te-mī",
+    "mandarin": "沙茶面",
+    "culture": "沙茶酱源自南洋，经华侨带回厦门，成了本地最有名的面食。",
+    "category": "food",
+    "frequency": 101.9,
+    "pos": {
+      "x": 444,
+      "y": 248
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc14",
+    "sceneId": "zengcuoan",
+    "hanzi": "好食",
+    "tailo": "hó-tsia̍h",
+    "mandarin": "好吃",
+    "category": "food",
+    "frequency": 87.3,
+    "pos": {
+      "x": 478,
+      "y": 208
+    },
+    "speaker": "年轻人",
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc15",
+    "sceneId": "zengcuoan",
+    "hanzi": "一粒偌济钱？",
+    "tailo": "Tsi̍t lia̍p guā-tsē tsînn?",
+    "mandarin": "一个多少钱？",
+    "category": "market",
+    "frequency": 96.1,
+    "pos": {
+      "x": 512,
+      "y": 186
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc16",
+    "sceneId": "zengcuoan",
+    "hanzi": "拍拚",
+    "tailo": "phah-piànn",
+    "mandarin": "努力打拼",
+    "category": "daily",
+    "frequency": 105.3,
+    "pos": {
+      "x": 546,
+      "y": 228
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc16.mp3"
+  },
+  {
+    "id": "zc17",
+    "sceneId": "zengcuoan",
+    "hanzi": "厝边头尾",
+    "tailo": "tshù-pinn thâu-bué",
+    "mandarin": "左邻右舍",
+    "category": "family",
+    "frequency": 90.3,
+    "pos": {
+      "x": 580,
+      "y": 252
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc17.mp3"
+  },
+  {
+    "id": "zc18",
+    "sceneId": "zengcuoan",
+    "hanzi": "海水",
+    "tailo": "hái-tsuí",
+    "mandarin": "海水",
+    "category": "place",
+    "frequency": 99.1,
+    "pos": {
+      "x": 614,
+      "y": 198
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zc18.mp3"
+  },
+  {
+    "id": "zc19",
+    "sceneId": "zengcuoan",
+    "hanzi": "食果子拜树头",
+    "tailo": "Tsia̍h kué-tsí pài tshiū-thâu",
+    "mandarin": "吃水果要拜树根（饮水思源）",
+    "category": "proverb",
+    "frequency": 107.7,
+    "pos": {
+      "x": 648,
+      "y": 238
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zc20",
+    "sceneId": "zengcuoan",
+    "hanzi": "闲闲仔",
+    "tailo": "îng-îng-á",
+    "mandarin": "悠闲地",
+    "category": "daily",
+    "frequency": 94.3,
+    "pos": {
+      "x": 682,
+      "y": 210
+    },
+    "speaker": "年轻人",
+    "reviewStatus": "pending"
+  }
+]

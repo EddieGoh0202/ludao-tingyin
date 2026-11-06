@@ -1,0 +1,22 @@
+[
+  { "id": "lc01", "sceneId": "laocuo", "hanzi": "汝好", "tailo": "Lí hó", "mandarin": "你好", "category": "greeting", "frequency": 96.1, "pos": { "x": 30, "y": 220 }, "speaker": "厝边阿姨", "reviewStatus": "pending" },
+  { "id": "lc02", "sceneId": "laocuo", "hanzi": "敖早", "tailo": "Gâu-tsá", "mandarin": "早安", "culture": "字面意思是「起得真早」，是闽南人早上见面的问候。", "category": "greeting", "frequency": 89.7, "pos": { "x": 98, "y": 199 }, "times": ["morning"], "speaker": "阿公", "reviewStatus": "pending" },
+  { "id": "lc03", "sceneId": "laocuo", "hanzi": "食饱未？", "tailo": "Tsia̍h-pá bē?", "mandarin": "吃饱了吗？", "culture": "闽南人见面常用的问候语，不一定真的在问吃饭。", "category": "greeting", "frequency": 100.9, "pos": { "x": 182, "y": 241 }, "speaker": "隔壁阿伯", "reviewStatus": "pending" },
+  { "id": "lc04", "sceneId": "laocuo", "hanzi": "阿嬷", "tailo": "A-má", "mandarin": "奶奶 / 外婆", "category": "family", "frequency": 92.1, "pos": { "x": 250, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "lc05", "sceneId": "laocuo", "hanzi": "阿公", "tailo": "A-kong", "mandarin": "爷爷 / 外公", "category": "family", "frequency": 103.3, "pos": { "x": 318, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "lc06", "sceneId": "laocuo", "hanzi": "多谢", "tailo": "To-siā", "mandarin": "谢谢", "category": "daily", "frequency": 88.9, "pos": { "x": 385, "y": 199 }, "reviewStatus": "pending" },
+  { "id": "lc07", "sceneId": "laocuo", "hanzi": "免客气", "tailo": "Bián kheh-khì", "mandarin": "不客气", "category": "daily", "frequency": 98.5, "pos": { "x": 453, "y": 246 }, "reviewStatus": "pending" },
+  { "id": "lc08", "sceneId": "laocuo", "hanzi": "来食茶", "tailo": "Lâi tsia̍h tê", "mandarin": "来喝茶", "culture": "闽南人爱泡功夫茶，喝茶说「食茶」。客人进门第一句常是「来食茶」。", "category": "daily", "frequency": 93.7, "pos": { "x": 521, "y": 215 }, "speaker": "阿嬷", "reviewStatus": "pending" },
+  { "id": "lc09", "sceneId": "laocuo", "hanzi": "我转来矣", "tailo": "Guá tńg--lâi--ah", "mandarin": "我回来了", "category": "family", "frequency": 90.5, "pos": { "x": 588, "y": 235 }, "reviewStatus": "pending" },
+  { "id": "lc10", "sceneId": "laocuo", "hanzi": "囡仔", "tailo": "gín-á", "mandarin": "小孩", "category": "family", "frequency": 101.7, "pos": { "x": 656, "y": 205 }, "reviewStatus": "pending" },
+  { "id": "lc11", "sceneId": "laocuo", "hanzi": "真媠", "tailo": "Tsin suí", "mandarin": "真漂亮", "category": "daily", "frequency": 94.5, "pos": { "x": 64, "y": 251 }, "reviewStatus": "pending" },
+  { "id": "lc12", "sceneId": "laocuo", "hanzi": "好势", "tailo": "hó-sè", "mandarin": "妥当、顺利", "category": "daily", "frequency": 99.3, "pos": { "x": 140, "y": 184 }, "reviewStatus": "pending" },
+  { "id": "lc13", "sceneId": "laocuo", "hanzi": "古早味", "tailo": "kóo-tsá-bī", "mandarin": "老味道、传统风味", "category": "food", "frequency": 88.1, "pos": { "x": 216, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "lc14", "sceneId": "laocuo", "hanzi": "天光矣", "tailo": "Thinn kng--ah", "mandarin": "天亮了", "category": "daily", "frequency": 95.3, "pos": { "x": 284, "y": 189 }, "times": ["morning"], "reviewStatus": "pending" },
+  { "id": "lc15", "sceneId": "laocuo", "hanzi": "暗安", "tailo": "Àm-an", "mandarin": "晚安", "category": "greeting", "frequency": 102.5, "pos": { "x": 352, "y": 251 }, "times": ["night"], "reviewStatus": "pending" },
+  { "id": "lc16", "sceneId": "laocuo", "hanzi": "歇睏一下", "tailo": "Hioh-khùn tsi̍t-ē", "mandarin": "休息一下", "category": "daily", "frequency": 91.3, "pos": { "x": 419, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "lc17", "sceneId": "laocuo", "hanzi": "厝内", "tailo": "tshù-lāi", "mandarin": "家里", "category": "place", "frequency": 97.7, "pos": { "x": 487, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "lc18", "sceneId": "laocuo", "hanzi": "爱拼才会赢", "tailo": "Ài piànn tsiah ē iânn", "mandarin": "肯拼搏才会成功", "culture": "同名闽南语歌曲传唱两岸，也代表闽南人敢闯敢拼的精神。", "category": "proverb", "frequency": 92.9, "pos": { "x": 555, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "lc19", "sceneId": "laocuo", "hanzi": "囝孙", "tailo": "kiánn-sun", "mandarin": "子孙", "category": "family", "frequency": 96.9, "pos": { "x": 622, "y": 184 }, "reviewStatus": "pending" },
+  { "id": "lc20", "sceneId": "laocuo", "hanzi": "食饭", "tailo": "Tsia̍h-pn̄g", "mandarin": "吃饭", "category": "daily", "frequency": 100.1, "pos": { "x": 690, "y": 225 }, "times": ["noon", "dusk"], "speaker": "阿嬷", "reviewStatus": "pending" }
+]

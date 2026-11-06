@@ -1,0 +1,26 @@
+{
+  "name": "ludao-tingyin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 9000 --strictPort",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 9001 --strictPort",
+    "validate": "node tools/validate-content.mjs && node tools/validate-recordings.mjs",
+    "test:audio": "node tools/test-audio.mjs",
+    "voice:coverage": "node tools/voice-coverage.mjs",
+    "voice:merge": "node tools/merge-voice.mjs",
+    "typecheck": "tsc --noEmit",
+    "fetch:dictionary": "node tools/fetch-dictionary-audio.mjs",
+    "retry:dictionary": "node tools/retry-dictionary-audio.mjs",
+    "fetch:dialogue": "node tools/fetch-dialogue-audio.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}

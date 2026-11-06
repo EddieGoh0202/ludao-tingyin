@@ -1,0 +1,92 @@
+{
+  "reviewStatus": "pending",
+  "bargain": {
+    "title": "八市砍价 · 头家娘的海鲜摊",
+    "intro": {
+      "hanzi": "少年家，来看海蛎、花蛤，今仔日的上鲜！",
+      "tailo": "Siàu-liân-ke, lâi khuànn ô-á, hue-ham, kin-á-ji̍t--ê siōng tshinn!",
+      "mandarin": "小伙子，来看看海蛎、花蛤，今天的最新鲜！"
+    },
+    "rounds": [
+      {
+        "line": "海蛎一斤三十箍。",
+        "tailo": "Ô-á tsi̍t kin sann-tsa̍p khoo.",
+        "mandarin": "海蛎一斤三十块。",
+        "prompt": "头家娘说海蛎一斤卖多少钱？",
+        "options": [
+          { "hanzi": "三十块", "tailo": "" },
+          { "hanzi": "十三块", "tailo": "" },
+          { "hanzi": "三块", "tailo": "" }
+        ],
+        "answer": 0,
+        "explain": "「三十箍」sann-tsa̍p khoo 就是三十块，「箍」khoo 是“块（钱）”。问价可以说「偌济钱？」luā-tsē tsînn。"
+      },
+      {
+        "line": "这是今仔日透早拄到的，足鲜呢！",
+        "tailo": "Tse sī kin-á-ji̍t thàu-tsá tú kàu--ê, tsiok tshinn--neh!",
+        "mandarin": "这是今天一大早刚到的，很新鲜呢！",
+        "prompt": "你嫌太贵，想请头家娘便宜一点，应该怎么说？",
+        "options": [
+          { "hanzi": "伤贵矣，算较俗咧！", "tailo": "Siunn kuì--ah, sǹg khah sio̍k--leh!" },
+          { "hanzi": "真好食！", "tailo": "Tsin hó-tsia̍h!" },
+          { "hanzi": "多谢，再会。", "tailo": "To-siā, tsài-huē." }
+        ],
+        "answer": 0,
+        "explain": "「伤贵」siunn kuì = 太贵；「较俗」khah sio̍k = 便宜一点。「算较俗咧」是厦门菜市场最常听到的砍价话。"
+      },
+      {
+        "line": "好啦，算你二十五箍，好无？",
+        "tailo": "Hó--lah, sǹg lí jī-tsa̍p-gōo khoo, hó--bô?",
+        "mandarin": "好吧，算你二十五块，好不好？",
+        "prompt": "头家娘让价了，你想答应买一斤，应该怎么说？",
+        "options": [
+          { "hanzi": "好，我买一斤。", "tailo": "Hó, guá bué tsi̍t kin." },
+          { "hanzi": "我无爱。", "tailo": "Guá bô ài." },
+          { "hanzi": "你是啥物人？", "tailo": "Lí sī siánn-mih lâng?" }
+        ],
+        "answer": 0,
+        "explain": "「二十五箍」jī-tsa̍p-gōo khoo = 二十五块；「好无？」hó--bô 是“好不好”。答应就说「好」hó，「买」bué，「一斤」tsi̍t kin。"
+      }
+    ],
+    "passScore": 2,
+    "win": {
+      "hanzi": "你真会讲价，二十五箍予你，紧提去！",
+      "tailo": "Lí tsin ē kóng-kè, jī-tsa̍p-gōo khoo hōo lí, kín the̍h--khì!",
+      "mandarin": "你真会讲价，二十五块给你，快拿去吧！"
+    },
+    "lose": {
+      "hanzi": "听无你咧讲啥，三十箍无价啦！",
+      "tailo": "Thiann-bô lí teh kóng siánn, sann-tsa̍p khoo bô kè--lah!",
+      "mandarin": "听不懂你在说什么，三十块不讲价啦！"
+    }
+  },
+  "bobing": {
+    "title": "中山路博饼 · 中秋会饼",
+    "intro": {
+      "hanzi": "中秋来博饼，看你会博着状元无？",
+      "tailo": "Tiong-tshiu lâi pua̍h-piánn, khuànn lí ē pua̍h-tio̍h tsiōng-guân--bô?",
+      "mandarin": "中秋来博饼，看你能不能博到状元？"
+    },
+    "rollLabel": "跋！",
+    "prizes": [
+      { "key": "zhuangyuan", "name": "状元", "tailo": "tsiōng-guân", "desc": "四个「四」以上，或五个、六个同点——最大奖！" },
+      { "key": "duitang", "name": "对堂", "tailo": "tuì-tông", "desc": "一到六各一颗，顺子。" },
+      { "key": "sanhong", "name": "三红", "tailo": "sann-âng", "desc": "三个「四」。" },
+      { "key": "sijin", "name": "四进", "tailo": "sì-tsìn", "desc": "四个同点（不是「四」）。" },
+      { "key": "erju", "name": "二举", "tailo": "jī-kí", "desc": "两个「四」。" },
+      { "key": "yixiu", "name": "一秀", "tailo": "it-siù", "desc": "一个「四」。" },
+      { "key": "none", "name": "无奖", "tailo": "bô tsióng", "desc": "这次没中，再跋一次！" }
+    ],
+    "pityAfter": 8,
+    "pityLine": {
+      "hanzi": "好运来矣！",
+      "tailo": "Hó-ūn lâi--ah!",
+      "mandarin": "好运来了！"
+    },
+    "winLine": {
+      "hanzi": "恭喜！博着状元矣！",
+      "tailo": "Kiong-hí! Pua̍h-tio̍h tsiōng-guân--ah!",
+      "mandarin": "恭喜！博到状元了！"
+    }
+  }
+}

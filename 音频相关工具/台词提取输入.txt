@@ -1,0 +1,2009 @@
+文件：content/challenges.json
+[
+  { "id": "c-lc01", "soundId": "lc01", "type": "listen_choose", "prompt": "听一听，这句话是什么意思？", "options": ["你好", "再见", "谢谢"], "answer": 0, "explain": "「汝」= 你，「好」= 好，合起来就是「你好」。" },
+  { "id": "c-lc02", "soundId": "lc02", "type": "listen_choose", "prompt": "清早听到「Gâu-tsá」，对方在说什么？", "options": ["早安", "晚安", "慢走"], "answer": 0, "explain": "「Gâu-tsá」字面是「很早」，用作早安问候。" },
+  { "id": "c-lc03", "soundId": "lc03", "type": "dialogue_choice", "prompt": "隔壁阿伯问：「食饱未？」你该怎么回？", "options": ["食饱矣，多谢！", "我欲转去矣。", "今仔日真闹热。"], "answer": 0, "explain": "「食饱矣」= 吃饱了，是最常见也最礼貌的回应。" },
+  { "id": "c-lc04", "soundId": "lc04", "type": "listen_choose", "prompt": "「A-má」指的是谁？", "options": ["外婆 / 奶奶", "妈妈", "姐姐"], "answer": 0, "explain": "在闽南话里父系母系的祖母都可以叫「阿嬷」。" },
+  { "id": "c-lc05", "soundId": "lc05", "type": "listen_choose", "prompt": "「A-kong」指的是谁？", "options": ["爷爷 / 外公", "舅舅", "哥哥"], "answer": 0, "explain": "「阿公」是祖父辈的称呼。" },
+  { "id": "c-lc06", "soundId": "lc06", "type": "dialogue_choice", "prompt": "阿嬷递茶给你，你说「多谢」。她最可能怎么回？", "options": ["免客气", "伤贵矣", "天光矣"], "answer": 0, "explain": "「免客气」= 不用客气。" },
+  { "id": "c-lc07", "soundId": "lc07", "type": "listen_choose", "prompt": "「Bián kheh-khì」是什么意思？", "options": ["不客气", "不要客气地站着", "不必来了"], "answer": 0, "explain": "「免」= 不必，「客气」= 客气。" },
+  { "id": "c-lc08", "soundId": "lc08", "type": "find_object", "prompt": "阿嬷说「来食茶」，在图中找出茶壶。", "options": ["茶壶", "菜脯", "藤椅", "收音机", "风狮爷", "竹筛"], "answer": 0, "explain": "闽南人待客先奉茶，「食茶」就是喝茶。" },
+  { "id": "c-lc09", "soundId": "lc09", "type": "reorder", "prompt": "把词排成「我回来了」：", "tokens": ["转来", "我", "矣"], "answer": [1, 0, 2], "explain": "语序是「我 + 转来 + 矣」，「矣」是句末语气词。" },
+  { "id": "c-lc10", "soundId": "lc10", "type": "listen_choose", "prompt": "「gín-á」指的是？", "options": ["小孩", "邻居", "客人"], "answer": 0, "explain": "「囡仔」是闽南话对小孩的称呼。" },
+  { "id": "c-lc11", "soundId": "lc11", "type": "tone_discrimination", "prompt": "「Tsin suí」的声调走向是？先听两个音。", "options": ["先高平后高降", "两个都是低平", "先降后升"], "answer": 0, "explain": "「tsin」阴平 44 高平，「suí」上声 53 高降。" },
+  { "id": "c-lc12", "soundId": "lc12", "type": "listen_choose", "prompt": "「hó-sè」表示事情怎么样？", "options": ["妥当、顺利", "糟糕透顶", "还很早"], "answer": 0, "explain": "「好势」常用来表示事情办妥了、状态不错。" },
+  { "id": "c-lc13", "soundId": "lc13", "type": "listen_choose", "prompt": "「kóo-tsá-bī」常用来形容什么？", "options": ["传统的老味道", "刚出炉的热度", "古代的书籍"], "answer": 0, "explain": "「古早」= 从前，「味」= 味道。" },
+  { "id": "c-lc14", "soundId": "lc14", "type": "listen_choose", "prompt": "「Thinn kng--ah」是什么时候说的话？", "options": ["清晨天刚亮", "正午最热", "深夜要睡"], "answer": 0, "explain": "「天光」= 天亮，「矣」表示变化完成。" },
+  { "id": "c-lc15", "soundId": "lc15", "type": "listen_choose", "prompt": "睡前听到「Àm-an」，意思是？", "options": ["晚安", "早上好", "路上小心"], "answer": 0, "explain": "「暗」= 夜晚，「安」= 平安。" },
+  { "id": "c-lc16", "soundId": "lc16", "type": "dialogue_choice", "prompt": "阿公看你累了，说「歇睏一下」。他的意思是？", "options": ["先去休息一会儿", "再去干点活", "快点吃饭"], "answer": 0, "explain": "「歇睏」= 休息、睡一会儿。" },
+  { "id": "c-lc17", "soundId": "lc17", "type": "listen_choose", "prompt": "「tshù-lāi」指的是？", "options": ["家里", "屋顶", "村外"], "answer": 0, "explain": "「厝」= 房子，「内」= 里面。" },
+  { "id": "c-lc18", "soundId": "lc18", "type": "proverb_fill", "prompt": "补全俗谚：「爱拼才会赢」的下一句常接？", "options": ["三分天注定，七分靠打拼", "一寸光阴一寸金", "有理走遍天下"], "answer": 0, "explain": "「三分天注定，七分靠打拼」出自同名歌曲，唱出闽南人的拼搏观。" },
+  { "id": "c-lc19", "soundId": "lc19", "type": "listen_choose", "prompt": "「kiánn-sun」是什么意思？", "options": ["子孙后代", "兄弟姐妹", "邻居朋友"], "answer": 0, "explain": "「囝」= 儿子、孩子，「孙」= 孙辈。" },
+  { "id": "c-lc20", "soundId": "lc20", "type": "repeat_after", "prompt": "跟读「Tsia̍h-pn̄g」，注意「pn̄g」的鼻音。", "answer": 0, "explain": "「食饭」= 吃饭，「pn̄g」是带鼻音的韵母。" },
+
+  { "id": "c-bs01", "soundId": "bs01", "type": "listen_choose", "prompt": "在八市听到「Tsit ê guā-tsē tsînn?」，这是在问什么？", "options": ["这个多少钱", "这个怎么吃", "这个在哪里"], "answer": 0, "explain": "「偌济」= 多少，「钱」= 钱。" },
+  { "id": "c-bs02", "soundId": "bs02", "type": "dialogue_choice", "prompt": "你想让头家娘便宜一点，该说？", "options": ["有较俗无？", "有较贵无？", "有好食无？"], "answer": 0, "explain": "「俗」= 便宜，「有较…无」是闽南话常用的比较问句。" },
+  { "id": "c-bs03", "soundId": "bs03", "type": "listen_choose", "prompt": "「Siunn kuì--ah」表达什么？", "options": ["太贵了", "太咸了", "太大了"], "answer": 0, "explain": "「伤」在这里是「太」的意思，「贵」= 贵。" },
+  { "id": "c-bs04", "soundId": "bs04", "type": "find_object", "prompt": "找出「ô-á」（海蛎）。", "options": ["海蛎", "花蛤", "小管", "石斑鱼", "土笋冻", "虾"], "answer": 0, "explain": "厦门人说「蚵仔」，就是海蛎。" },
+  { "id": "c-bs05", "soundId": "bs05", "type": "listen_choose", "prompt": "「ô-á-tsian」是哪道小吃？", "options": ["海蛎煎", "面线糊", "沙茶面"], "answer": 0, "explain": "「tsian」= 煎，海蛎煎是厦门街头名小吃。" },
+  { "id": "c-bs06", "soundId": "bs06", "type": "listen_choose", "prompt": "「hî」是什么？", "options": ["鱼", "虾", "蟹"], "answer": 0, "explain": "厦门腔「鱼」读 hî，台湾腔多读 hû。" },
+  { "id": "c-bs07", "soundId": "bs07", "type": "dialogue_choice", "prompt": "卖鱼阿伯说「Tsiok tshinn」。他在夸什么？", "options": ["鱼很新鲜", "鱼很便宜", "鱼很大条"], "answer": 0, "explain": "「鲜」读 tshinn，和「青」同音。" },
+  { "id": "c-bs08", "soundId": "bs08", "type": "listen_choose", "prompt": "「tsi̍t kin」是多少？", "options": ["一斤", "一两", "一袋"], "answer": 0, "explain": "「kin」= 斤。" },
+  { "id": "c-bs09", "soundId": "bs09", "type": "listen_choose", "prompt": "在市场喊「thâu-ke」，是在叫谁？", "options": ["老板", "顾客", "伙计"], "answer": 0, "explain": "「头家」= 老板，也用于称呼店主。" },
+  { "id": "c-bs10", "soundId": "bs10", "type": "listen_choose", "prompt": "「thâu-ke-niû」是？", "options": ["老板娘", "老板的女儿", "女顾客"], "answer": 0, "explain": "在「头家」后加「娘」表示老板娘。" },
+  { "id": "c-bs11", "soundId": "bs11", "type": "proverb_fill", "prompt": "厦门名小吃「土笋冻」的原料其实是？", "options": ["海边的星虫", "竹笋", "海带"], "answer": 0, "explain": "土笋冻用的是滩涂里的星虫（土笋），熬煮后凝成冻。" },
+  { "id": "c-bs12", "soundId": "bs12", "type": "listen_choose", "prompt": "「tshài-thâu」是哪种菜？", "options": ["萝卜", "白菜", "芹菜"], "answer": 0, "explain": "「菜头」= 萝卜，过年吃菜头粿寓意好彩头。" },
+  { "id": "c-bs13", "soundId": "bs13", "type": "listen_choose", "prompt": "「han-tsî」是什么？", "options": ["地瓜", "番茄", "芋头"], "answer": 0, "explain": "「番薯」= 地瓜，是闽南传统主食之一。" },
+  { "id": "c-bs14", "soundId": "bs14", "type": "dialogue_choice", "prompt": "想让头家娘多送一点葱，说哪句？", "options": ["Ke sàng tsi̍t-kuá", "Bián tsāu--ah", "Siunn kuì--ah"], "answer": 0, "explain": "「加」= 多，「送」= 送，「一寡」= 一些。" },
+  { "id": "c-bs15", "soundId": "bs15", "type": "dialogue_choice", "prompt": "付钱后对找回的零钱说「免找矣」，意思是？", "options": ["不用找零了", "不用袋子了", "不用称了"], "answer": 0, "explain": "「找」= 找零，「免」= 不用。" },
+  { "id": "c-bs16", "soundId": "bs16", "type": "listen_choose", "prompt": "「hó-tsia̍h」是什么意思？", "options": ["好吃", "好看", "好贵"], "answer": 0, "explain": "「食」= 吃，闽南话说吃用「食」。" },
+  { "id": "c-bs17", "soundId": "bs17", "type": "tone_discrimination", "prompt": "「hê」是阳平，调值是？", "options": ["24 升调", "44 高平", "21 低降"], "answer": 0, "explain": "厦门腔阳平读 24，由中往高升。" },
+  { "id": "c-bs18", "soundId": "bs18", "type": "reorder", "prompt": "把词排成「买菜」：", "tokens": ["tshài", "bé"], "answer": [1, 0], "explain": "闽南话动词在前：「bé（买）+ tshài（菜）」。" },
+  { "id": "c-bs19", "soundId": "bs19", "type": "listen_choose", "prompt": "「Beh bé siánn-mih?」是头家娘在问？", "options": ["要买什么", "要多少钱", "什么时候来"], "answer": 0, "explain": "「beh」= 要，「siánn-mih」= 什么。" },
+  { "id": "c-bs20", "soundId": "bs20", "type": "listen_choose", "prompt": "「秤头足」是什么意思？", "options": ["分量给得足", "秤坏了", "价钱很高"], "answer": 0, "explain": "「秤头」指称出来的分量，「足」= 足够。" },
+
+  { "id": "c-zs01", "soundId": "zs01", "type": "listen_choose", "prompt": "「sa-te-mī」是哪道厦门名小吃？", "options": ["沙茶面", "拌面", "面线糊"], "answer": 0, "explain": "沙茶酱由南洋华侨带回，成了厦门味道的代表。" },
+  { "id": "c-zs02", "soundId": "zs02", "type": "listen_choose", "prompt": "「hue-sing-thng」是什么？", "options": ["花生汤", "绿豆汤", "四果汤"], "answer": 0, "explain": "「花生」读 hue-sing，「汤」读 thng。" },
+  { "id": "c-zs03", "soundId": "zs03", "type": "listen_choose", "prompt": "中山路两旁那种带长廊的老建筑叫？", "options": ["骑楼", "土楼", "番仔楼"], "answer": 0, "explain": "骑楼底层架空成走廊，适合多雨的厦门。" },
+  { "id": "c-zs04", "soundId": "zs04", "type": "tone_discrimination", "prompt": "「Kóo-lōng-sū」三个音节的调型依次是？", "options": ["高降 - 中平 - 中平", "高平 - 高平 - 高降", "低降 - 升调 - 高平"], "answer": 0, "explain": "「Kóo」上声 53，「lōng」「sū」阳去 22。" },
+  { "id": "c-zs05", "soundId": "zs05", "type": "listen_choose", "prompt": "「Ē-mn̂g」是哪里？", "options": ["厦门", "金门", "泉州"], "answer": 0, "explain": "厦门旧称「下门」，闽南话读 Ē-mn̂g。" },
+  { "id": "c-zs06", "soundId": "zs06", "type": "listen_choose", "prompt": "「kiânn-ke」是什么意思？", "options": ["逛街", "回家", "开车"], "answer": 0, "explain": "「行」= 走，「街」= 街，厦门腔「街」读 ke。" },
+  { "id": "c-zs07", "soundId": "zs07", "type": "dialogue_choice", "prompt": "骑楼下有人喊「Lo̍h-hōo--ah」，你该？", "options": ["撑开雨伞", "脱掉外套", "戴上墨镜"], "answer": 0, "explain": "「落雨」= 下雨，「矣」表示已经开始。" },
+  { "id": "c-zs08", "soundId": "zs08", "type": "listen_choose", "prompt": "「hōo-suànn」是什么？", "options": ["雨伞", "雨衣", "雨鞋"], "answer": 0, "explain": "「雨」读 hōo，「伞」读 suànn。" },
+  { "id": "c-zs09", "soundId": "zs09", "type": "listen_choose", "prompt": "「tī tsia」表示？", "options": ["在这里", "在那里", "去哪里"], "answer": 0, "explain": "「伫」= 在，「遮」= 这里。" },
+  { "id": "c-zs10", "soundId": "zs10", "type": "dialogue_choice", "prompt": "游客问「Beh khì tó-uī?」，怎么用闽南话回答「去鼓浪屿」？", "options": ["欲去鼓浪屿", "欲来鼓浪屿", "伫鼓浪屿"], "answer": 0, "explain": "「欲 khì」= 要去，方向助词用「去」。" },
+  { "id": "c-zs11", "soundId": "zs11", "type": "listen_choose", "prompt": "「Ti̍t-ti̍t kiânn」是让你怎么走？", "options": ["一直往前走", "马上停下", "原路返回"], "answer": 0, "explain": "「直直」= 一直，「行」= 走。" },
+  { "id": "c-zs12", "soundId": "zs12", "type": "listen_choose", "prompt": "「tò-pîng」是哪一边？", "options": ["左边", "右边", "对面"], "answer": 0, "explain": "「倒」= 左，「爿」= 边。闽南话分「倒爿 / 正爿」。" },
+  { "id": "c-zs13", "soundId": "zs13", "type": "listen_choose", "prompt": "「tsiànn-pîng」是哪一边？", "options": ["右边", "左边", "后边"], "answer": 0, "explain": "「正」= 右，和「倒（左）」相对。" },
+  { "id": "c-zs14", "soundId": "zs14", "type": "proverb_fill", "prompt": "中秋博饼掷几颗骰子？", "options": ["六颗", "四颗", "两颗"], "answer": 0, "explain": "六颗骰子掷入大瓷碗，按「一秀、二举、四进、三红、对堂、状元」得奖。" },
+  { "id": "c-zs15", "soundId": "zs15", "type": "listen_choose", "prompt": "博饼里「tsiōng-guân」是？", "options": ["状元（最大奖）", "最小的奖", "主持的人"], "answer": 0, "explain": "状元是博饼的最高等级，通常要掷出四个四点以上。" },
+  { "id": "c-zs16", "soundId": "zs16", "type": "listen_choose", "prompt": "「Tiong-tshiu」是哪个节日？", "options": ["中秋节", "端午节", "春节"], "answer": 0, "explain": "「中秋」闽南话读 Tiong-tshiu。" },
+  { "id": "c-zs17", "soundId": "zs17", "type": "tone_discrimination", "prompt": "厦门腔「闹热」的「热」，声母接近？", "options": ["l（读 lia̍t）", "j（读 jia̍t）", "r（读 ria̍t）"], "answer": 0, "explain": "厦门腔把日母字读成 l，这是和台湾腔明显不同的一点。" },
+  { "id": "c-zs18", "soundId": "zs18", "type": "listen_choose", "prompt": "「hó-sńg」是什么意思？", "options": ["好玩", "好累", "好看"], "answer": 0, "explain": "「耍」读 sńg，意思是玩。" },
+  { "id": "c-zs19", "soundId": "zs19", "type": "dialogue_choice", "prompt": "客人要走了，店主说「Bān-bān-á kiânn」，这是？", "options": ["慢走（送客）", "快点走", "别走"], "answer": 0, "explain": "「慢慢仔」= 慢慢地，是客气的送别语。" },
+  { "id": "c-zs20", "soundId": "zs20", "type": "reorder", "prompt": "把词排成「一人一款命」：", "tokens": ["tsi̍t khuán", "tsi̍t lâng", "miā"], "answer": [1, 0, 2], "explain": "「一人」+「一款」+「命」，即每个人一种命运。" },
+  { "id": "c-gl01", "soundId": "gl01", "type": "find_object", "prompt": "琴师说「kǹg-khîm」，在图中找出它。", "options": ["钢琴", "风琴", "吉他", "鼓", "二胡", "唢呐"], "answer": 0, "explain": "「钢琴」读 kǹg-khîm，鼓浪屿被称为「钢琴之岛」。" },
+  { "id": "c-gl02", "soundId": "gl02", "type": "listen_choose", "prompt": "「tuānn khîm」是什么意思？", "options": ["弹琴", "买琴", "搬琴"], "answer": 0, "explain": "「弹」读 tuānn，「琴」读 khîm。" },
+  { "id": "c-gl03", "soundId": "gl03", "type": "listen_choose", "prompt": "「iûnn-lâu」指的是？", "options": ["西式小楼", "庙宇", "渔船"], "answer": 0, "explain": "「洋」= 外来的、西式的，「楼」= 楼房。" },
+  { "id": "c-gl04", "soundId": "gl04", "type": "listen_choose", "prompt": "「sann-kak-bûi」是哪种花？", "options": ["三角梅", "茉莉花", "水仙花"], "answer": 0, "explain": "三角梅是厦门市花，「三角」读 sann-kak。" },
+  { "id": "c-gl05", "soundId": "gl05", "type": "listen_choose", "prompt": "「Ji̍t-kong-giâm」是鼓浪屿的哪里？", "options": ["日光岩", "菽庄花园", "龙头路"], "answer": 0, "explain": "「日」读 ji̍t，「光」读 kong，「岩」读 giâm。" },
+  { "id": "c-gl06", "soundId": "gl06", "type": "dialogue_choice", "prompt": "游客问你去哪里搭船回厦门，你可以说？", "options": ["去渡船头", "去日光岩", "去厝内"], "answer": 0, "explain": "「渡船头」= 码头，在那里坐轮渡。" },
+  { "id": "c-gl07", "soundId": "gl07", "type": "reorder", "prompt": "把词排成「我欲坐船」：", "tokens": ["坐船", "我", "欲"], "answer": [1, 2, 0], "explain": "「欲」= 要，语序是「我 + 欲 + 坐船」。" },
+  { "id": "c-gl08", "soundId": "gl08", "type": "listen_choose", "prompt": "阿伯说「Hái-hong tsin thàu」，是什么意思？", "options": ["海风很大", "海水很冷", "海边很远"], "answer": 0, "explain": "「透」形容风势强劲。" },
+  { "id": "c-gl09", "soundId": "gl09", "type": "find_object", "prompt": "「âng-tsng-tshù」是哪一种房子？", "options": ["红砖房", "木头房", "草房", "铁皮房", "竹楼", "土楼"], "answer": 0, "explain": "「红」读 âng，「砖」读 tsng，「厝」= 房子。" },
+  { "id": "c-gl10", "soundId": "gl10", "type": "listen_choose", "prompt": "「tshîng-á」指的是？", "options": ["榕树", "松树", "椰子树"], "answer": 0, "explain": "「榕仔」= 榕树，厦门市树。" },
+  { "id": "c-gl11", "soundId": "gl11", "type": "listen_choose", "prompt": "「huan-kheh」是指什么人？", "options": ["海外华侨", "外地游客", "卖菜的人"], "answer": 0, "explain": "早年下南洋谋生的闽南人被叫作「番客」。" },
+  { "id": "c-gl12", "soundId": "gl12", "type": "dialogue_choice", "prompt": "岛民阿伯对刚下船的你说了一句话，最可能是？", "options": ["欢迎来鼓浪屿", "暗安", "伤贵矣"], "answer": 0, "explain": "「Huan-gîng lâi」= 欢迎来。" },
+  { "id": "c-gl13", "soundId": "gl13", "type": "listen_choose", "prompt": "「kiânn-lōo」是什么意思？", "options": ["走路", "跑步", "坐车"], "answer": 0, "explain": "闽南话「行」= 走，「路」= 路。" },
+  { "id": "c-gl14", "soundId": "gl14", "type": "listen_choose", "prompt": "「hái-sua-poo」是哪里？", "options": ["沙滩", "山顶", "菜市场"], "answer": 0, "explain": "「海沙埔」= 海边的沙地。" },
+  { "id": "c-gl15", "soundId": "gl15", "type": "dialogue_choice", "prompt": "游客举着相机说「hip-siōng」，他想？", "options": ["拍照", "问路", "买饼"], "answer": 0, "explain": "「翕相」= 拍照，是闽南话的老说法。" },
+  { "id": "c-gl16", "soundId": "gl16", "type": "listen_choose", "prompt": "「Ji̍t-thâu lo̍h-suann--ah」描述的是？", "options": ["太阳下山了", "太阳出来了", "下雨了"], "answer": 0, "explain": "「日头」= 太阳，「落山」= 下山。" },
+  { "id": "c-gl17", "soundId": "gl17", "type": "find_object", "prompt": "「ānn-piánn」是哪种点心？", "options": ["馅饼", "月饼", "包子", "肉粽", "麻糍", "春卷"], "answer": 0, "explain": "鼓浪屿馅饼是有名的伴手礼。" },
+  { "id": "c-gl18", "soundId": "gl18", "type": "listen_choose", "prompt": "「hî-uân」是什么？", "options": ["鱼丸", "肉丸", "汤圆"], "answer": 0, "explain": "「鱼」读 hî，「丸」读 uân。" },
+  { "id": "c-gl19", "soundId": "gl19", "type": "repeat_after", "prompt": "跟着琴师说一遍：「慢慢仔行」", "answer": 0, "explain": "「Bān-bān-á kiânn」是客气的送别语，意思是慢走。" },
+  { "id": "c-gl20", "soundId": "gl20", "type": "tone_discrimination", "prompt": "「好听」的「好」hó 是哪种声调？", "options": ["上声 53 高降", "阳平 24 低升", "阴平 44 高平"], "answer": 0, "explain": "「hó」带锐音符，厦门腔读高降调。" },
+  { "id": "c-zc01", "soundId": "zc01", "type": "find_object", "prompt": "摊主喊「sio-bah-tsàng」，在图中找出它。", "options": ["肉粽", "馅饼", "鱼丸", "海蛎煎", "土笋冻", "花生汤"], "answer": 0, "explain": "「烧」= 热，「肉粽」= 肉粽子。" },
+  { "id": "c-zc02", "soundId": "zc02", "type": "listen_choose", "prompt": "「kiunn-bó-ah」是哪道菜？", "options": ["姜母鸭", "白斩鸡", "卤鸭蛋"], "answer": 0, "explain": "「姜母」= 老姜，「鸭」读 ah。" },
+  { "id": "c-zc03", "soundId": "zc03", "type": "listen_choose", "prompt": "巷口立着的「Tsio̍h-kám-tong」有什么作用？", "options": ["挡煞辟邪", "标记门牌", "拴船用"], "answer": 0, "explain": "石敢当立在路冲，闽南人相信它能挡煞。" },
+  { "id": "c-zc04", "soundId": "zc04", "type": "proverb_fill", "prompt": "「送王船」这项民俗是为了祈求什么？", "options": ["出海平安", "考试及第", "生意兴隆"], "answer": 0, "explain": "送王船是闽南沿海祈求海上平安的民俗，已列入联合国非遗。" },
+  { "id": "c-zc05", "soundId": "zc05", "type": "listen_choose", "prompt": "「thó-hái」是什么意思？", "options": ["出海打鱼", "讨价还价", "游泳"], "answer": 0, "explain": "「讨海」= 向大海讨生活，就是打鱼。" },
+  { "id": "c-zc06", "soundId": "zc06", "type": "listen_choose", "prompt": "「tiánn-pinn-kôo」是什么早点？", "options": ["锅边糊", "豆浆", "油条"], "answer": 0, "explain": "「鼎」= 锅，米浆沿锅边烫熟成片，再煮成汤。" },
+  { "id": "c-zc07", "soundId": "zc07", "type": "find_object", "prompt": "夜里巷子亮起「ting-á」，找出它。", "options": ["灯笼", "风筝", "雨伞", "扇子", "渔网", "斗笠"], "answer": 0, "explain": "「灯仔」= 灯笼，「仔」是小称词尾。" },
+  { "id": "c-zc08", "soundId": "zc08", "type": "listen_choose", "prompt": "「hāng-á」是？", "options": ["小巷", "大街", "码头"], "answer": 0, "explain": "「巷仔」= 小巷子。" },
+  { "id": "c-zc09", "soundId": "zc09", "type": "listen_choose", "prompt": "「hái-kînn」是哪里？", "options": ["海边", "海底", "海岛"], "answer": 0, "explain": "「墘」= 边缘，「海墘」= 海边。" },
+  { "id": "c-zc10", "soundId": "zc10", "type": "dialogue_choice", "prompt": "阿伯说「Thinn àm--ah」，他接着最可能说？", "options": ["紧转去食饭", "敖早", "来翕相"], "answer": 0, "explain": "「天暗矣」= 天黑了，该回家吃饭了。" },
+  { "id": "c-zc11", "soundId": "zc11", "type": "listen_choose", "prompt": "讨海阿伯桶里装的「hî-á」是？", "options": ["小鱼", "螃蟹", "海带"], "answer": 0, "explain": "「鱼仔」= 小鱼。" },
+  { "id": "c-zc12", "soundId": "zc12", "type": "reorder", "prompt": "把词排成「风真大」：", "tokens": ["大", "风", "真"], "answer": [1, 2, 0], "explain": "「风 + 真 + 大」，「真」= 很。" },
+  { "id": "c-zc13", "soundId": "zc13", "type": "listen_choose", "prompt": "「sa-te-mī」是什么？", "options": ["沙茶面", "炸酱面", "拌面"], "answer": 0, "explain": "沙茶酱源自南洋，「沙茶」读 sa-te。" },
+  { "id": "c-zc14", "soundId": "zc14", "type": "dialogue_choice", "prompt": "你尝了一口沙茶面，想夸它好吃，可以说？", "options": ["真好食！", "真好听！", "真媠！"], "answer": 0, "explain": "「好食」= 好吃；「好听」形容声音，「媠」形容外表。" },
+  { "id": "c-zc15", "soundId": "zc15", "type": "listen_choose", "prompt": "「Tsi̍t lia̍p guā-tsē tsînn?」在问什么？", "options": ["一个多少钱", "现在几点", "要不要吃"], "answer": 0, "explain": "「粒」= 个，「偌济钱」= 多少钱。" },
+  { "id": "c-zc16", "soundId": "zc16", "type": "listen_choose", "prompt": "「phah-piànn」是什么意思？", "options": ["努力打拼", "打架", "拍照"], "answer": 0, "explain": "「拍拚」= 努力奋斗，和「爱拼才会赢」的「拼」同源。" },
+  { "id": "c-zc17", "soundId": "zc17", "type": "listen_choose", "prompt": "「tshù-pinn thâu-bué」指的是？", "options": ["左邻右舍", "屋顶屋脚", "一家老小"], "answer": 0, "explain": "「厝边」= 邻居，「头尾」指前后左右。" },
+  { "id": "c-zc18", "soundId": "zc18", "type": "tone_discrimination", "prompt": "「海水」hái-tsuí 两个字的声调是？", "options": ["两个都是上声", "先平后降", "两个都是阳平"], "answer": 0, "explain": "「hái」「tsuí」都带锐音符，是上声；连读时前字变调。" },
+  { "id": "c-zc19", "soundId": "zc19", "type": "proverb_fill", "prompt": "「食果子，拜___」，空格应该是？", "options": ["树头", "神明", "阿公"], "answer": 0, "explain": "吃水果要感谢种树的人，比喻饮水思源。" },
+  { "id": "c-zc20", "soundId": "zc20", "type": "repeat_after", "prompt": "跟读「îng-îng-á」，感受悠闲的语气。", "answer": 0, "explain": "「闲闲仔」= 悠闲地，叠字加「仔」让语气更轻松。" },
+  { "id": "c-np01", "soundId": "np01", "type": "listen_choose", "prompt": "闽南话的「pài-pài」是什么意思？", "options": ["烧香祭拜", "再见", "拍手"], "answer": 0, "explain": "闽南话「拜拜」指祭拜神明祖先，不是再见。" },
+  { "id": "c-np02", "soundId": "np02", "type": "find_object", "prompt": "香客说「sio-hiunn」，找出要用的东西。", "options": ["香", "蜡烛", "钟", "木鱼", "签筒", "灯笼"], "answer": 0, "explain": "「烧香」的「香」读 hiunn。" },
+  { "id": "c-np03", "soundId": "np03", "type": "listen_choose", "prompt": "「sòo-piánn」是什么？", "options": ["素饼", "馅饼", "月饼"], "answer": 0, "explain": "南普陀素饼用素油做酥皮，不含荤油。" },
+  { "id": "c-np04", "soundId": "np04", "type": "dialogue_choice", "prompt": "师父说「我食菜」，意思是？", "options": ["我吃素", "我爱吃青菜", "我在买菜"], "answer": 0, "explain": "闽南话「食菜」专指吃素。" },
+  { "id": "c-np05", "soundId": "np05", "type": "listen_choose", "prompt": "放生池里的「liân-hue」是？", "options": ["荷花", "菊花", "桃花"], "answer": 0, "explain": "「莲花」读 liân-hue。" },
+  { "id": "c-np06", "soundId": "np06", "type": "listen_choose", "prompt": "寺后的「Ngóo-ló-hong」是？", "options": ["五老峰", "日光岩", "万石山"], "answer": 0, "explain": "「五」读 ngóo，「老」读 ló，「峰」读 hong。" },
+  { "id": "c-np07", "soundId": "np07", "type": "listen_choose", "prompt": "清早传来「tsing-siann」，那是？", "options": ["钟声", "歌声", "雨声"], "answer": 0, "explain": "「钟」读 tsing，「声」读 siann。" },
+  { "id": "c-np08", "soundId": "np08", "type": "dialogue_choice", "prompt": "在寺里向僧人问路，开头应该怎么称呼？", "options": ["师父", "头家", "阿伯"], "answer": 0, "explain": "对僧人尊称「师父」sai-hū。" },
+  { "id": "c-np09", "soundId": "np09", "type": "repeat_after", "prompt": "跟着师父说「pîng-an」。", "answer": 0, "explain": "「平安」是寺里最常听到的祝福。" },
+  { "id": "c-np10", "soundId": "np10", "type": "listen_choose", "prompt": "「sim-kuann tsīng」是什么意思？", "options": ["心里平静", "心里着急", "心肝宝贝"], "answer": 0, "explain": "「心肝」在这里指内心，「静」= 平静。" },
+  { "id": "c-np11", "soundId": "np11", "type": "listen_choose", "prompt": "香客阿姨念着「pó-pì」，意思是？", "options": ["保佑", "宝贝", "报名"], "answer": 0, "explain": "「保庇」= 保佑，祈福时常说。" },
+  { "id": "c-np12", "soundId": "np12", "type": "listen_choose", "prompt": "「sī-biō」是？", "options": ["寺庙", "市场", "学校"], "answer": 0, "explain": "「寺」读 sī，「庙」读 biō。" },
+  { "id": "c-np13", "soundId": "np13", "type": "proverb_fill", "prompt": "「好心有___」，空格应该是？", "options": ["好报", "好食", "好势"], "answer": 0, "explain": "「好心有好报」，劝人行善。" },
+  { "id": "c-np14", "soundId": "np14", "type": "listen_choose", "prompt": "「peh-suann」是什么意思？", "options": ["爬山", "下山", "看山"], "answer": 0, "explain": "「扒」读 peh，指攀爬。" },
+  { "id": "c-np15", "soundId": "np15", "type": "find_object", "prompt": "「hòng-sing-tî」在哪里？找出来。", "options": ["放生池", "钟楼", "大殿", "石阶", "香炉", "山门"], "answer": 0, "explain": "「放生池」里养着香客放生的鱼和龟。" },
+  { "id": "c-np16", "soundId": "np16", "type": "listen_choose", "prompt": "「ē-hng」是一天中的什么时候？", "options": ["晚上", "早上", "中午"], "answer": 0, "explain": "「下昏」= 晚上，厦门腔常用。" },
+  { "id": "c-np17", "soundId": "np17", "type": "dialogue_choice", "prompt": "你问大殿在哪，师父说「伫头前」，意思是？", "options": ["在前面", "在后面", "在山上"], "answer": 0, "explain": "「头前」= 前面，「伫」= 在。" },
+  { "id": "c-np18", "soundId": "np18", "type": "listen_choose", "prompt": "师父说「kám-un」，是在表达？", "options": ["感谢", "道歉", "告别"], "answer": 0, "explain": "「感恩」= 感谢，寺里常用。" },
+  { "id": "c-np19", "soundId": "np19", "type": "dialogue_choice", "prompt": "离开寺庙时，师父说「Sūn-kiânn」，意思是？", "options": ["慢走、一路顺利", "请进", "快跑"], "answer": 0, "explain": "「顺行」= 走好，是送客用语。" },
+  { "id": "c-np20", "soundId": "np20", "type": "reorder", "prompt": "把词排成「一样米饲百样人」：", "tokens": ["百样人", "一样米", "饲"], "answer": [1, 2, 0], "explain": "「一样米 + 饲 + 百样人」，「饲」= 养。" }
+]
+
+
+文件：content/glossary.json
+[
+  { "term": "汝", "tailo": "lí", "note": "你。厦门腔常用「汝」，与「你」同源。" },
+  { "term": "厝", "tailo": "tshù", "note": "房子、家。「老厝」指祖屋，「厝内」指家里。" },
+  { "term": "食", "tailo": "tsia̍h", "note": "吃、喝都用「食」：食饭、食茶。" },
+  { "term": "媠", "tailo": "suí", "note": "漂亮、好看。也写作「美」的白读。" },
+  { "term": "俗", "tailo": "sio̍k", "note": "便宜。注意不是「俗气」。" },
+  { "term": "伤", "tailo": "siunn", "note": "太、过于。「伤贵」= 太贵。" },
+  { "term": "偌济", "tailo": "guā-tsē", "note": "多少。问价钱、数量都用它。" },
+  { "term": "遮", "tailo": "tsia", "note": "这里。「伫遮」= 在这里。" },
+  { "term": "矣", "tailo": "--ah", "note": "句末语气词，表示变化或完成，类似普通话「了」。" },
+  { "term": "囡仔", "tailo": "gín-á", "note": "小孩。" },
+  { "term": "头家", "tailo": "thâu-ke", "note": "老板。加「娘」成「头家娘」= 老板娘。" },
+  { "term": "跋饼", "tailo": "pua̍h-piánn", "note": "博饼。厦门中秋特有的掷骰子民俗。" },
+  { "term": "闹热", "tailo": "lāu-lia̍t", "note": "热闹。厦门腔「热」读 lia̍t。" },
+  { "term": "古早", "tailo": "kóo-tsá", "note": "从前、传统。「古早味」= 老味道。" },
+  { "term": "琴", "tailo": "khîm", "note": "琴。「钢琴」读 kǹg-khîm，鼓浪屿被称为「钢琴之岛」。" },
+  { "term": "洋楼", "tailo": "iûnn-lâu", "note": "西式小楼。鼓浪屿上许多是归国华侨所建。" },
+  { "term": "番客", "tailo": "huan-kheh", "note": "早年下南洋谋生的闽南人，即海外华侨。" },
+  { "term": "讨海", "tailo": "thó-hái", "note": "出海打鱼，向大海讨生活。" },
+  { "term": "烧", "tailo": "sio", "note": "热。「烧肉粽」= 热肉粽，不是烤肉。" },
+  { "term": "粽", "tailo": "tsàng", "note": "粽子。厦门肉粽馅料丰富。" },
+  { "term": "姜母", "tailo": "kiunn-bó", "note": "老姜。「姜母鸭」是秋冬进补名菜。" },
+  { "term": "拜拜", "tailo": "pài-pài", "note": "烧香祭拜神明或祖先，不是「再见」。" },
+  { "term": "香", "tailo": "hiunn", "note": "供神用的香。「烧香」= sio-hiunn。" },
+  { "term": "食菜", "tailo": "tsia̍h-tshài", "note": "吃素，不是单纯吃蔬菜。" },
+  { "term": "翕相", "tailo": "hip-siōng", "note": "拍照，闽南话的老说法。" },
+  { "term": "日头", "tailo": "ji̍t-thâu", "note": "太阳。「日头落山」= 太阳下山。" },
+  { "term": "厝边", "tailo": "tshù-pinn", "note": "邻居。「厝边头尾」= 左邻右舍。" },
+  { "term": "敖早", "tailo": "gâu-tsá", "note": "早安。字面是「起得早」，早上见面的问候。" }
+]
+
+
+文件：content/knowledge.json
+{
+  "knowledge": [
+    {
+      "id": "k-lc-tea", "sceneId": "laocuo", "title": "功夫茶", "tailo": "kang-hu-tê", "category": "custom", "prop": "tea", "x": 70, "y": 194,
+      "summary": "闽南人一天从一泡茶开始，客人进门先「来食茶」。",
+      "body": [
+        "功夫茶讲究「烫杯、洗茶、冲泡、斟茶」，小小的茶杯一口一杯，主人不停地斟，客人不停地聊。",
+        "厦门人常喝闽南乌龙茶，安溪铁观音最常见。斟茶时轮流点满几个杯子，叫「关公巡城」「韩信点兵」。",
+        "喝茶在闽南话里说「食茶」，招呼人坐下说「来食茶」，比「请坐」更亲切。"
+      ],
+      "words": [
+        { "hanzi": "食茶", "tailo": "tsia̍h tê", "mandarin": "喝茶" },
+        { "hanzi": "茶瓯", "tailo": "tê-au", "mandarin": "茶杯" },
+        { "hanzi": "铁观音", "tailo": "thih-kuan-im", "mandarin": "铁观音" }
+      ]
+    },
+    {
+      "id": "k-lc-wall", "sceneId": "laocuo", "title": "出砖入石", "tailo": "tshut-tsng-ji̍p-tsio̍h", "category": "architecture", "prop": "wall", "x": 250, "y": 194,
+      "summary": "红砖和白石交错砌成的墙，是闽南大厝的招牌。",
+      "body": [
+        "古早闽南人把倒塌房屋留下的破砖、碎石混在一起砌墙，砖略凸出、石略凹入，所以叫「出砖入石」。",
+        "这种墙既节省材料又结实，红白相间还很好看，成为闽南红砖厝独有的装饰。",
+        "看到墙面高低错落、红白相间，就知道这是一座老闽南厝。"
+      ],
+      "words": [
+        { "hanzi": "红砖", "tailo": "âng-tsng", "mandarin": "红砖" },
+        { "hanzi": "石头", "tailo": "tsio̍h-thâu", "mandarin": "石头" }
+      ]
+    },
+    {
+      "id": "k-lc-well", "sceneId": "laocuo", "title": "天井古井", "tailo": "thinn-tsínn kóo-tsínn", "category": "architecture", "prop": "well", "x": 430, "y": 194,
+      "summary": "大厝中间露天的天井采光通风，井水夏天冰凉。",
+      "body": [
+        "闽南大厝围着中间的天井布局，雨水从四面屋顶流进天井，寓意「四水归堂」，财不外流。",
+        "天井边常有一口古井，以前洗菜、洗衣、冰西瓜都靠它，是一家人的生活中心。"
+      ],
+      "words": [
+        { "hanzi": "天井", "tailo": "thinn-tsínn", "mandarin": "天井" },
+        { "hanzi": "井水", "tailo": "tsínn-tsuí", "mandarin": "井水" }
+      ]
+    },
+    {
+      "id": "k-lc-caipo", "sceneId": "laocuo", "title": "晒菜脯", "tailo": "phak tshài-póo", "category": "food", "prop": "caipo", "x": 640, "y": 194,
+      "summary": "萝卜切条用盐腌、太阳晒，就是闽南人家家有的菜脯。",
+      "body": [
+        "冬天萝卜（菜头）丰收，阿嬷把它切开撒盐，铺在竹筛上晒干，反复几次就成了菜脯。",
+        "菜脯可以配粥，也能炒蛋做成香喷喷的「菜脯卵」。放得越久颜色越深，老菜脯还被当成养生的宝贝。"
+      ],
+      "words": [
+        { "hanzi": "菜脯", "tailo": "tshài-póo", "mandarin": "萝卜干" },
+        { "hanzi": "菜脯卵", "tailo": "tshài-póo-nn̄g", "mandarin": "萝卜干炒蛋" },
+        { "hanzi": "曝日", "tailo": "pha̍k-ji̍t", "mandarin": "晒太阳" }
+      ]
+    },
+    {
+      "id": "k-bs-tusundong", "sceneId": "bashi", "title": "土笋冻", "tailo": "thôo-sún-tàng", "category": "food", "prop": "tusundong", "x": 70, "y": 194,
+      "summary": "晶莹的小冻里卷着海边的星虫，是厦门人的心头好。",
+      "body": [
+        "土笋其实不是笋，而是生长在海边滩涂的星虫。洗净熬煮后，胶质冷却凝固成一个个小冻。",
+        "吃的时候蘸酱油、陈醋、蒜蓉、芥末和辣酱，口感爽脆冰凉。第一次吃的人常被它的模样吓到，吃了却停不下来。"
+      ],
+      "words": [
+        { "hanzi": "土笋冻", "tailo": "thôo-sún-tàng", "mandarin": "土笋冻" },
+        { "hanzi": "冻", "tailo": "tàng", "mandarin": "冻、凝固" }
+      ]
+    },
+    {
+      "id": "k-bs-oyster", "sceneId": "bashi", "title": "海蛎煎", "tailo": "ô-á-tsian", "category": "food", "prop": "oyster", "x": 250, "y": 194,
+      "summary": "海蛎、地瓜粉、蒜苗、鸡蛋一起煎，外脆里嫩。",
+      "body": [
+        "厦门沿海盛产小颗海蛎，闽南话叫「蚵仔」。把海蛎和地瓜粉浆、蒜苗拌匀，在大平底锅里煎到金黄，再打上鸡蛋。",
+        "好吃的海蛎煎要「粉少蚵多」，蘸一点甜辣酱。台湾叫「蚵仔煎」，和厦门是同一道菜。"
+      ],
+      "words": [
+        { "hanzi": "蚵仔", "tailo": "ô-á", "mandarin": "海蛎" },
+        { "hanzi": "煎", "tailo": "tsian", "mandarin": "煎" },
+        { "hanzi": "番薯粉", "tailo": "han-tsî-hún", "mandarin": "地瓜粉" }
+      ]
+    },
+    {
+      "id": "k-bs-scale", "sceneId": "bashi", "title": "杆秤", "tailo": "kuáinn-tshìn", "category": "craft", "prop": "scale", "x": 430, "y": 194,
+      "summary": "一根木杆、一个铁秤砣，老菜市场的分量全靠它。",
+      "body": [
+        "杆秤靠杠杆原理称重：提起秤纽，移动秤砣，看秤星（刻度点）平衡就知道重量。",
+        "菜市场夸人「秤头足」，意思是分量给得够、不短斤少两，是做生意最实在的信用。"
+      ],
+      "words": [
+        { "hanzi": "秤", "tailo": "tshìn", "mandarin": "秤" },
+        { "hanzi": "秤头", "tailo": "tshìn-thâu", "mandarin": "分量" },
+        { "hanzi": "一斤", "tailo": "tsi̍t kin", "mandarin": "一斤（500 克）" }
+      ]
+    },
+    {
+      "id": "k-bs-fishball", "sceneId": "bashi", "title": "鱼丸", "tailo": "hî-uân", "category": "food", "prop": "fishball", "x": 640, "y": 194,
+      "summary": "鱼肉打成浆挤成丸，咬开会爆汁，汤里撒点芹菜珠。",
+      "body": [
+        "厦门鱼丸多用鲨鱼肉或鳗鱼肉，加少量地瓜粉，反复摔打成胶，才有弹牙的口感。",
+        "有的鱼丸里还包一小团肉馅，叫「包心鱼丸」。煮汤时加点芹菜珠、胡椒粉，是最家常的一碗。"
+      ],
+      "words": [
+        { "hanzi": "鱼丸", "tailo": "hî-uân", "mandarin": "鱼丸" },
+        { "hanzi": "鱼浆", "tailo": "hî-tsiunn", "mandarin": "鱼浆" },
+        { "hanzi": "汤", "tailo": "thng", "mandarin": "汤" }
+      ]
+    },
+    {
+      "id": "k-zs-shacha", "sceneId": "zhongshan", "title": "沙茶面", "tailo": "sa-te-mī", "category": "food", "prop": "shacha", "x": 70, "y": 194,
+      "summary": "南洋血统的沙茶酱，熬进一碗厦门人的早餐。",
+      "body": [
+        "沙茶源自东南亚的「沙嗲」，由下南洋的华侨带回厦门，用花生、虾米、辣椒、香料炒成浓酱。",
+        "沙茶面的面条是碱水油面，汤底用沙茶酱加骨汤熬，配料自己挑：猪肝、鱿鱼、豆干、大肠、鸭血……一碗就是一顿丰盛的早餐。"
+      ],
+      "words": [
+        { "hanzi": "沙茶", "tailo": "sa-te", "mandarin": "沙茶" },
+        { "hanzi": "面", "tailo": "mī", "mandarin": "面" },
+        { "hanzi": "料", "tailo": "liāu", "mandarin": "配料" }
+      ]
+    },
+    {
+      "id": "k-zs-qilou", "sceneId": "zhongshan", "title": "骑楼", "tailo": "khiâ-lâu", "category": "architecture", "prop": "qilou", "x": 250, "y": 194,
+      "summary": "楼下让出长廊给行人遮阳避雨，是南洋传来的街区设计。",
+      "body": [
+        "骑楼一层向内退，柱子撑着二楼，形成一条连续的有顶走廊。人在廊下走，日晒雨淋都不怕。",
+        "中山路的骑楼融合南洋与欧式装饰，拱窗、山花、女儿墙各不相同，从上世纪二十年代一直站到现在。"
+      ],
+      "words": [
+        { "hanzi": "骑楼", "tailo": "khiâ-lâu", "mandarin": "骑楼" },
+        { "hanzi": "走廊", "tailo": "tsáu-lông", "mandarin": "走廊" },
+        { "hanzi": "遮雨", "tailo": "jia-hōo", "mandarin": "挡雨" }
+      ]
+    },
+    {
+      "id": "k-zs-peanut", "sceneId": "zhongshan", "title": "花生汤", "tailo": "hue-sing-thng", "category": "food", "prop": "peanut", "x": 430, "y": 194,
+      "summary": "花生煮到一抿就化，汤色乳白，配油条或甜饼。",
+      "body": [
+        "做花生汤要先把花生仁泡胀、去膜，再用小火炖几个小时，直到花生「入口即化」。",
+        "厦门人喝花生汤常配一根油条，或者打一个生鸡蛋冲成蛋花。冬天热喝，夏天冰镇。"
+      ],
+      "words": [
+        { "hanzi": "花生", "tailo": "hue-sing", "mandarin": "花生" },
+        { "hanzi": "甜甜", "tailo": "tinn-tinn", "mandarin": "甜甜的" },
+        { "hanzi": "油条", "tailo": "iû-tiâu", "mandarin": "油条" }
+      ]
+    },
+    {
+      "id": "k-zs-pia", "sceneId": "zhongshan", "title": "馅饼", "tailo": "hānn-piánn", "category": "food", "prop": "pia", "x": 640, "y": 194,
+      "summary": "酥皮一层层，里头是绿豆沙或肉馅，配茶刚好。",
+      "body": [
+        "厦门馅饼分甜咸两种：甜的是绿豆沙、红豆沙，咸的包肉丁、香菇、虾米。",
+        "皮要用猪油和面，烤出来层层起酥，一咬掉渣。老厦门买馅饼当伴手礼，讲究「皮酥、馅香、不腻」。"
+      ],
+      "words": [
+        { "hanzi": "馅饼", "tailo": "hānn-piánn", "mandarin": "馅饼" },
+        { "hanzi": "绿豆", "tailo": "li̍k-tāu", "mandarin": "绿豆" },
+        { "hanzi": "酥", "tailo": "soo", "mandarin": "酥" }
+      ]
+    },
+    {
+      "id": "k-gl-piano", "sceneId": "gulangyu", "title": "钢琴之岛", "tailo": "kǹg-khîm tsi tó", "category": "custom", "prop": "piano", "x": 70, "y": 194,
+      "summary": "小岛上曾家家有琴，鼓浪屿因此被叫作「琴岛」。",
+      "body": [
+        "近代鼓浪屿是国际社区，教堂、学校带来西洋音乐。鼎盛时岛上几百户人家就有上百台钢琴，密度全国罕见。",
+        "岛上出了周淑安、李嘉禄等音乐家，还有中国第一座钢琴博物馆。走在巷子里听见琴声，是鼓浪屿最经典的记忆。"
+      ],
+      "words": [
+        { "hanzi": "钢琴", "tailo": "kǹg-khîm", "mandarin": "钢琴" },
+        { "hanzi": "琴声", "tailo": "khîm-siann", "mandarin": "琴声" },
+        { "hanzi": "音乐", "tailo": "im-ga̍k", "mandarin": "音乐" }
+      ]
+    },
+    {
+      "id": "k-gl-villa", "sceneId": "gulangyu", "title": "万国建筑", "tailo": "bān-kok kiàn-tiok", "category": "architecture", "prop": "villa", "x": 250, "y": 194,
+      "summary": "领事馆、洋行、华侨别墅挤在小岛上，风格各不相同。",
+      "body": [
+        "鸦片战争后厦门开埠，各国在鼓浪屿设领事馆，华侨也回乡建别墅，留下哥特、罗马、南洋、闽南红砖混搭的建筑群。",
+        "这些老房子被称为「万国建筑博览」。红瓦、拱廊、外廊、柱式，再加上本地的红砖与石雕，形成独一无二的岛上市容。"
+      ],
+      "words": [
+        { "hanzi": "洋楼", "tailo": "iûnn-lâu", "mandarin": "洋楼" },
+        { "hanzi": "番仔楼", "tailo": "huan-á-lâu", "mandarin": "华侨建的洋楼" },
+        { "hanzi": "红瓦", "tailo": "âng-hiā", "mandarin": "红瓦" }
+      ]
+    },
+    {
+      "id": "k-gl-bougain", "sceneId": "gulangyu", "title": "三角梅", "tailo": "sam-kak-muî", "category": "nature", "prop": "bougain", "x": 430, "y": 194,
+      "summary": "厦门市花，一年开好几季，紫红色爬满老墙。",
+      "body": [
+        "三角梅耐热耐旱，在厦门几乎一年四季都能开花。我们看到的「花瓣」其实是三片苞叶，真正的小花藏在中间。",
+        "1986 年三角梅被选为厦门市花。鼓浪屿的老墙、洋楼阳台上，常常垂下一整片紫红色的花瀑。"
+      ],
+      "words": [
+        { "hanzi": "三角梅", "tailo": "sam-kak-muî", "mandarin": "三角梅" },
+        { "hanzi": "花", "tailo": "hue", "mandarin": "花" },
+        { "hanzi": "开花", "tailo": "khui-hue", "mandarin": "开花" }
+      ]
+    },
+    {
+      "id": "k-gl-sunrock", "sceneId": "gulangyu", "title": "日光岩", "tailo": "Ji̍t-kong-giâm", "category": "nature", "prop": "sunrock", "x": 640, "y": 194,
+      "summary": "鼓浪屿最高点，站上去能望见整个厦门港。",
+      "body": [
+        "日光岩是一块巨大的花岗岩，海拔约 93 米，是鼓浪屿的最高点，俗称「岩仔山」。",
+        "传说郑成功曾在这里操练水师。登上岩顶，鹭江、厦门本岛和点点船帆尽收眼底。"
+      ],
+      "words": [
+        { "hanzi": "日光岩", "tailo": "Ji̍t-kong-giâm", "mandarin": "日光岩" },
+        { "hanzi": "山顶", "tailo": "suann-tíng", "mandarin": "山顶" },
+        { "hanzi": "海", "tailo": "hái", "mandarin": "海" }
+      ]
+    },
+    {
+      "id": "k-zc-zongzi", "sceneId": "zengcuoan", "title": "烧肉粽", "tailo": "sio-bah-tsàng", "category": "food", "prop": "zongzi", "x": 70, "y": 194,
+      "summary": "热腾腾的咸肉粽，料多饭香，是闽南夜市的老味道。",
+      "body": [
+        "闽南烧肉粽用卤过的糯米，包进三层肉、香菇、虾米、栗子、咸蛋黄，用竹叶裹好蒸透。",
+        "「烧」在闽南话里是「热」的意思。卖粽的阿伯一声「烧肉粽！」，是许多厦门人的童年夜晚。"
+      ],
+      "words": [
+        { "hanzi": "粽", "tailo": "tsàng", "mandarin": "粽子" },
+        { "hanzi": "烧", "tailo": "sio", "mandarin": "热" },
+        { "hanzi": "三层肉", "tailo": "sann-tsàn-bah", "mandarin": "五花肉" }
+      ]
+    },
+    {
+      "id": "k-zc-shigandang", "sceneId": "zengcuoan", "title": "石敢当", "tailo": "tsio̍h-kám-tong", "category": "custom", "prop": "shigandang", "x": 250, "y": 194,
+      "summary": "立在路口墙角的小石碑，替一家人挡住煞气。",
+      "body": [
+        "闽南人认为房子正对路口（路冲）不吉利，就在墙角立一块刻着「石敢当」或「泰山石敢当」的石碑镇守。",
+        "渔村海风大，石敢当也寄托了「挡风浪、保平安」的心愿。曾厝垵的巷子里，至今还能找到不少老石碑。"
+      ],
+      "words": [
+        { "hanzi": "石敢当", "tailo": "tsio̍h-kám-tong", "mandarin": "石敢当" },
+        { "hanzi": "路冲", "tailo": "lōo-tshiong", "mandarin": "正对路口" }
+      ]
+    },
+    {
+      "id": "k-zc-wangchuan", "sceneId": "zengcuoan", "title": "送王船", "tailo": "sàng-ông-tsûn", "category": "custom", "prop": "wangchuan", "x": 430, "y": 194,
+      "summary": "渔村把造好的王船送出海，祈求出海平安、风调雨顺。",
+      "body": [
+        "送王船是闽南沿海的古老民俗：村民合力打造一艘精美木船，迎请「王爷」上船，再巡境、送到海边。",
+        "2020 年，「送王船」由中国和马来西亚联合申报，列入联合国教科文组织人类非物质文化遗产代表作名录。"
+      ],
+      "words": [
+        { "hanzi": "王船", "tailo": "ông-tsûn", "mandarin": "王船" },
+        { "hanzi": "讨海", "tailo": "thó-hái", "mandarin": "出海捕鱼" },
+        { "hanzi": "平安", "tailo": "pîng-an", "mandarin": "平安" }
+      ]
+    },
+    {
+      "id": "k-zc-gingerduck", "sceneId": "zengcuoan", "title": "姜母鸭", "tailo": "kionn-bú-ah", "category": "food", "prop": "gingerduck", "x": 640, "y": 194,
+      "summary": "老姜、麻油、米酒焖番鸭，砂锅一开满巷飘香。",
+      "body": [
+        "「姜母」是指老姜。姜母鸭用大量老姜和麻油爆香，再放番鸭块、米酒，砂锅里小火慢焖。",
+        "闽南人相信它驱寒暖身，秋冬晚上围着砂锅吃一锅，是最实在的「补」。"
+      ],
+      "words": [
+        { "hanzi": "姜母", "tailo": "kionn-bú", "mandarin": "老姜" },
+        { "hanzi": "鸭", "tailo": "ah", "mandarin": "鸭" },
+        { "hanzi": "麻油", "tailo": "muâ-iû", "mandarin": "芝麻油" }
+      ]
+    },
+    {
+      "id": "k-np-supia", "sceneId": "nanputuo", "title": "素饼", "tailo": "sòo-piánn", "category": "food", "prop": "supia", "x": 70, "y": 194,
+      "summary": "南普陀的素饼皮薄馅香，是来寺里必带的伴手礼。",
+      "body": [
+        "南普陀素饼用植物油和面，不含荤腥，馅料有绿豆沙、芋泥、椰丝等，酥得一碰就掉渣。",
+        "许多人拜完佛会买几盒带回家，分给家里的老人和囡仔，寓意分享平安福气。"
+      ],
+      "words": [
+        { "hanzi": "素", "tailo": "sòo", "mandarin": "素（不含荤）" },
+        { "hanzi": "饼", "tailo": "piánn", "mandarin": "饼" }
+      ]
+    },
+    {
+      "id": "k-np-censer", "sceneId": "nanputuo", "title": "香炉与敬香", "tailo": "hiunn-lôo", "category": "custom", "prop": "censer", "x": 250, "y": 194,
+      "summary": "大殿前的铜香炉里青烟袅袅，三支香表达敬意。",
+      "body": [
+        "闽南人拜拜常点三支香，双手持香齐眉，默念心愿后插进香炉。初一、十五是寺庙最热闹的日子。",
+        "现在南普陀提倡「文明敬香」，少烧香、烧小香，也是保护环境、保护古建筑的好习惯。"
+      ],
+      "words": [
+        { "hanzi": "香", "tailo": "hiunn", "mandarin": "香" },
+        { "hanzi": "拜拜", "tailo": "pài-pài", "mandarin": "祭拜" },
+        { "hanzi": "香炉", "tailo": "hiunn-lôo", "mandarin": "香炉" }
+      ]
+    },
+    {
+      "id": "k-np-lotus", "sceneId": "nanputuo", "title": "放生池", "tailo": "hòng-sing-tî", "category": "nature", "prop": "lotus", "x": 430, "y": 194,
+      "summary": "寺前的大池塘里荷叶田田，乌龟和锦鲤悠闲游动。",
+      "body": [
+        "放生池原本用来放养信众带来的鱼龟，体现佛教「慈悲护生」的理念。夏天池里开满荷花。",
+        "荷花「出淤泥而不染」，在佛教里象征清净。池边常有人静静坐着看鱼，是寺里最安静的角落。"
+      ],
+      "words": [
+        { "hanzi": "莲花", "tailo": "liân-hue", "mandarin": "荷花" },
+        { "hanzi": "水池", "tailo": "tsuí-tî", "mandarin": "水池" },
+        { "hanzi": "龟", "tailo": "ku", "mandarin": "乌龟" }
+      ]
+    },
+    {
+      "id": "k-np-fostone", "sceneId": "nanputuo", "title": "「佛」字石刻", "tailo": "Pu̍t jī tsio̍h-khik", "category": "craft", "prop": "fostone", "x": 640, "y": 194,
+      "summary": "后山巨石上刻着一个四米多高的「佛」字。",
+      "body": [
+        "南普陀后山的岩壁上，刻着清代书写的巨大「佛」字，高约四米多，远远就能看见，是寺里的标志之一。",
+        "沿着山路往上走，还有许多历代名人的题刻。闽南石刻工艺精湛，惠安石匠的手艺更是远近闻名。"
+      ],
+      "words": [
+        { "hanzi": "佛", "tailo": "pu̍t", "mandarin": "佛" },
+        { "hanzi": "石头", "tailo": "tsio̍h-thâu", "mandarin": "石头" },
+        { "hanzi": "刻字", "tailo": "khik-jī", "mandarin": "刻字" }
+      ]
+    }
+  ]
+}
+
+
+文件：content/minigames.json
+{
+  "reviewStatus": "pending",
+  "bargain": {
+    "title": "八市砍价 · 头家娘的海鲜摊",
+    "intro": {
+      "hanzi": "少年家，来看海蛎、花蛤，今仔日的上鲜！",
+      "tailo": "Siàu-liân-ke, lâi khuànn ô-á, hue-ham, kin-á-ji̍t--ê siōng tshinn!",
+      "mandarin": "小伙子，来看看海蛎、花蛤，今天的最新鲜！"
+    },
+    "rounds": [
+      {
+        "line": "海蛎一斤三十箍。",
+        "tailo": "Ô-á tsi̍t kin sann-tsa̍p khoo.",
+        "mandarin": "海蛎一斤三十块。",
+        "prompt": "头家娘说海蛎一斤卖多少钱？",
+        "options": [
+          { "hanzi": "三十块", "tailo": "" },
+          { "hanzi": "十三块", "tailo": "" },
+          { "hanzi": "三块", "tailo": "" }
+        ],
+        "answer": 0,
+        "explain": "「三十箍」sann-tsa̍p khoo 就是三十块，「箍」khoo 是“块（钱）”。问价可以说「偌济钱？」luā-tsē tsînn。"
+      },
+      {
+        "line": "这是今仔日透早拄到的，足鲜呢！",
+        "tailo": "Tse sī kin-á-ji̍t thàu-tsá tú kàu--ê, tsiok tshinn--neh!",
+        "mandarin": "这是今天一大早刚到的，很新鲜呢！",
+        "prompt": "你嫌太贵，想请头家娘便宜一点，应该怎么说？",
+        "options": [
+          { "hanzi": "伤贵矣，算较俗咧！", "tailo": "Siunn kuì--ah, sǹg khah sio̍k--leh!" },
+          { "hanzi": "真好食！", "tailo": "Tsin hó-tsia̍h!" },
+          { "hanzi": "多谢，再会。", "tailo": "To-siā, tsài-huē." }
+        ],
+        "answer": 0,
+        "explain": "「伤贵」siunn kuì = 太贵；「较俗」khah sio̍k = 便宜一点。「算较俗咧」是厦门菜市场最常听到的砍价话。"
+      },
+      {
+        "line": "好啦，算你二十五箍，好无？",
+        "tailo": "Hó--lah, sǹg lí jī-tsa̍p-gōo khoo, hó--bô?",
+        "mandarin": "好吧，算你二十五块，好不好？",
+        "prompt": "头家娘让价了，你想答应买一斤，应该怎么说？",
+        "options": [
+          { "hanzi": "好，我买一斤。", "tailo": "Hó, guá bué tsi̍t kin." },
+          { "hanzi": "我无爱。", "tailo": "Guá bô ài." },
+          { "hanzi": "你是啥物人？", "tailo": "Lí sī siánn-mih lâng?" }
+        ],
+        "answer": 0,
+        "explain": "「二十五箍」jī-tsa̍p-gōo khoo = 二十五块；「好无？」hó--bô 是“好不好”。答应就说「好」hó，「买」bué，「一斤」tsi̍t kin。"
+      }
+    ],
+    "passScore": 2,
+    "win": {
+      "hanzi": "你真会讲价，二十五箍予你，紧提去！",
+      "tailo": "Lí tsin ē kóng-kè, jī-tsa̍p-gōo khoo hōo lí, kín the̍h--khì!",
+      "mandarin": "你真会讲价，二十五块给你，快拿去吧！"
+    },
+    "lose": {
+      "hanzi": "听无你咧讲啥，三十箍无价啦！",
+      "tailo": "Thiann-bô lí teh kóng siánn, sann-tsa̍p khoo bô kè--lah!",
+      "mandarin": "听不懂你在说什么，三十块不讲价啦！"
+    }
+  },
+  "bobing": {
+    "title": "中山路博饼 · 中秋会饼",
+    "intro": {
+      "hanzi": "中秋来博饼，看你会博着状元无？",
+      "tailo": "Tiong-tshiu lâi pua̍h-piánn, khuànn lí ē pua̍h-tio̍h tsiōng-guân--bô?",
+      "mandarin": "中秋来博饼，看你能不能博到状元？"
+    },
+    "rollLabel": "跋！",
+    "prizes": [
+      { "key": "zhuangyuan", "name": "状元", "tailo": "tsiōng-guân", "desc": "四个「四」以上，或五个、六个同点——最大奖！" },
+      { "key": "duitang", "name": "对堂", "tailo": "tuì-tông", "desc": "一到六各一颗，顺子。" },
+      { "key": "sanhong", "name": "三红", "tailo": "sann-âng", "desc": "三个「四」。" },
+      { "key": "sijin", "name": "四进", "tailo": "sì-tsìn", "desc": "四个同点（不是「四」）。" },
+      { "key": "erju", "name": "二举", "tailo": "jī-kí", "desc": "两个「四」。" },
+      { "key": "yixiu", "name": "一秀", "tailo": "it-siù", "desc": "一个「四」。" },
+      { "key": "none", "name": "无奖", "tailo": "bô tsióng", "desc": "这次没中，再跋一次！" }
+    ],
+    "pityAfter": 8,
+    "pityLine": {
+      "hanzi": "好运来矣！",
+      "tailo": "Hó-ūn lâi--ah!",
+      "mandarin": "好运来了！"
+    },
+    "winLine": {
+      "hanzi": "恭喜！博着状元矣！",
+      "tailo": "Kiong-hí! Pua̍h-tio̍h tsiōng-guân--ah!",
+      "mandarin": "恭喜！博到状元了！"
+    }
+  }
+}
+
+
+文件：content/quests.json
+[
+  { "id": "q-laocuo-1", "title": "阿嬷的茶", "desc": "在老厝里收集 5 段声音", "sceneId": "laocuo", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "解锁「八市」的线索" },
+  { "id": "q-laocuo-2", "title": "厝边头尾", "desc": "收集全部 20 段老厝声音", "sceneId": "laocuo", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：老厝完整页" },
+  { "id": "q-bashi-1", "title": "会晓讲价", "desc": "在八市砍价成功一次", "sceneId": "bashi", "goal": { "type": "minigame_win", "target": 1, "key": "bargain" }, "reward": "头家娘送你一把葱" },
+  { "id": "q-bashi-2", "title": "八市的声音", "desc": "收集全部 20 段八市声音", "sceneId": "bashi", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：八市完整页" },
+  { "id": "q-zs-1", "title": "状元郎", "desc": "博饼掷出一次状元", "sceneId": "zhongshan", "goal": { "type": "minigame_win", "target": 1, "key": "bobing" }, "reward": "状元饼一枚" },
+  { "id": "q-zs-2", "title": "骑楼听雨", "desc": "收集全部 20 段中山路声音", "sceneId": "zhongshan", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：中山路完整页" },
+  { "id": "q-gl-1", "title": "琴岛初听", "desc": "在鼓浪屿收集 5 段声音", "sceneId": "gulangyu", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "琴师送你一张老唱片" },
+  { "id": "q-gl-2", "title": "钢琴之岛", "desc": "收集全部 20 段鼓浪屿声音", "sceneId": "gulangyu", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：鼓浪屿完整页" },
+  { "id": "q-zc-1", "title": "讨海人的话", "desc": "在曾厝垵收集 5 段声音", "sceneId": "zengcuoan", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "摊主请你食一粒烧肉粽" },
+  { "id": "q-zc-2", "title": "渔村灯火", "desc": "收集全部 20 段曾厝垵声音", "sceneId": "zengcuoan", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：曾厝垵完整页" },
+  { "id": "q-np-1", "title": "晨钟", "desc": "在南普陀收集 5 段声音", "sceneId": "nanputuo", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "师父送你一块素饼" },
+  { "id": "q-np-2", "title": "心肝静", "desc": "收集全部 20 段南普陀声音", "sceneId": "nanputuo", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：南普陀完整页" },
+  { "id": "q-all", "title": "鹭岛听音人", "desc": "收集全部 120 段声音", "sceneId": "laocuo", "goal": { "type": "collect_total", "target": 120 }, "reward": "结局：把收音机交给下一个囡仔" }
+]
+
+
+文件：content/scenes.json
+{
+  "scenes": [
+    {
+      "id": "laocuo",
+      "name": "外妈老厝",
+      "tailo": "Guā-má ê lāu-tshù",
+      "desc": "红砖燕尾脊的闽南老厝，天井里晒着菜脯，阿嬷正在泡茶。",
+      "palette": "laocuo",
+      "mapPos": { "x": 300, "y": 150 },
+      "unlock": { "requireCollected": 0 },
+      "storyIntro": "暑假回到厦门外妈家。阿公留下一台老收音机：「这台收音机听会着厝边头尾的声。」打开它，把散落在老厝里的闽南话收集回来吧。",
+      "hotspots": [
+        {
+          "id": "ama",
+          "label": "阿嬷",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "ama",
+          "dialogue": [
+            { "speaker": "阿嬷", "text": "汝转来矣！紧入来坐，日头遮大。", "tailo": "Lí tńg--lâi--ah! Kín ji̍p--lâi tsē, ji̍t-thâu tsia tuā." },
+            { "speaker": "阿嬷", "text": "先来食茶。这泡是铁观音，你阿公上爱彼个味。", "tailo": "Sing lâi tsia̍h tê. Tsit phàu sī thih-kuan-im, lí a-kong siōng ài hit ê bī." },
+            { "speaker": "我", "text": "阿嬷，阿公彼台收音机犹阁会振无？", "tailo": "A-má, a-kong hit tâi siu-im-ki iáu-koh ē tín--bô?" },
+            { "speaker": "阿嬷", "text": "会啦，慢慢仔转，声就出来矣。", "tailo": "Ē--lah, bān-bān-á tńg, siann tō tshut--lâi--ah." }
+          ]
+        },
+        {
+          "id": "akong",
+          "label": "阿公的藤椅",
+          "x": 340,
+          "y": 206,
+          "w": 30,
+          "h": 34,
+          "action": "npc",
+          "sprite": "akong",
+          "dialogue": [
+            { "speaker": "阿公", "text": "坐遮，风对天井吹入来，上凉。", "tailo": "Tsē tsia, hong tuì thinn-tsínn tshue--ji̍p--lâi, siōng liâng." },
+            { "speaker": "阿公", "text": "汝知影无？这款厝叫做「燕尾脊」，翘起来亲像燕仔尾。", "tailo": "Lí tsai-iánn--bô? Tsit khuán tshù kiò-tsò «iàn-bué-tsiah», khiàu--khí-lâi tshin-tshiūnn iàn-á-bué." },
+            { "speaker": "我", "text": "彼片墙哪会一瑰红一瑰白？", "tailo": "Hit phiàn tshiûnn ná ē tsi̍t kuī âng tsi̍t kuī pe̍h?" },
+            { "speaker": "阿公", "text": "彼是「出砖入石」，古早人用破砖碎石起的，俭阁勇。", "tailo": "He sī «tshut-tsng-ji̍p-tsio̍h», kóo-tsá-lâng iōng phuà-tsng tshuì-tsio̍h khí--ê, khiām koh ióng." }
+          ]
+        },
+        {
+          "id": "neighbor",
+          "label": "厝边阿姨",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "pilgrim",
+          "dialogue": [
+            { "speaker": "厝边阿姨", "text": "食饱未？我拄才煎一盘菜脯卵，提一寡予汝。", "tailo": "Tsia̍h-pá--bē? Guá tú-tsiah tsian tsi̍t puânn tshài-póo-nn̄g, the̍h tsi̍t-kuá hōo lí." },
+            { "speaker": "我", "text": "多谢阿姨！", "tailo": "To-siā a-î!" },
+            { "speaker": "厝边阿姨", "text": "免客气啦，厝边头尾逐家拢是家己人。", "tailo": "Bián kheh-khì--lah, tshù-pinn thâu-bué ta̍k-ke lóng sī ka-kī-lâng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bashi",
+      "name": "八市",
+      "tailo": "Pat-tshī",
+      "desc": "第八市场，海鲜摊一字排开，叫卖声、讨价声此起彼伏。",
+      "palette": "bashi",
+      "mapPos": { "x": 215, "y": 128 },
+      "unlock": { "requireCollected": 6, "fromScene": "laocuo" },
+      "storyIntro": "清早的八市最闹热。听说头家娘只同会讲闽南话的人算较俗，来试看觅！",
+      "hotspots": [
+        {
+          "id": "boss",
+          "label": "头家娘",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "boss",
+          "dialogue": [
+            { "speaker": "头家娘", "text": "少年家，欲买啥物？今仔日的蚵仔足肥。", "tailo": "Siàu-liân-ke, beh bé siánn-mih? Kin-á-ji̍t--ê ô-á tsiok puî." },
+            { "speaker": "我", "text": "头家娘，一斤偌济钱？", "tailo": "Thâu-ke-niû, tsi̍t kin guā-tsē tsînn?" },
+            { "speaker": "头家娘", "text": "三十箍。毋过汝会晓讲闽南话，算你较俗。", "tailo": "Sann-tsa̍p khoo. M̄-koh lí ē-hiáu kóng Bân-lâm-uē, sǹg lí khah sio̍k." }
+          ]
+        },
+        {
+          "id": "stall",
+          "label": "海鲜摊（砍价）",
+          "x": 340,
+          "y": 206,
+          "w": 70,
+          "h": 46,
+          "action": "minigame:bargain",
+          "sprite": "obj-stall"
+        },
+        {
+          "id": "fishman",
+          "label": "卖鱼阿伯",
+          "x": 540,
+          "y": 218,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "uncle",
+          "dialogue": [
+            { "speaker": "卖鱼阿伯", "text": "看觅！这尾石斑透早拄落船，鳃犹咧振。", "tailo": "Khuànn-māi! Tsit bué tsio̍h-pan thàu-tsá tú lo̍h-tsûn, tshi iáu leh tín." },
+            { "speaker": "我", "text": "按怎看鱼鲜无鲜？", "tailo": "Án-tsuánn khuànn hî tshinn bô tshinn?" },
+            { "speaker": "卖鱼阿伯", "text": "目睭清、鳃红、肉有弹性，就是鲜。买转去紧煮，莫囥过暗。", "tailo": "Ba̍k-tsiu tshing, tshi âng, bah ū tân-sìng, tō sī tshinn. Bé tńg--khì kín tsú, mài khǹg kuè àm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山路",
+      "tailo": "Tiong-san-lōo",
+      "desc": "南洋风骑楼连成长廊，沙茶面香气飘满街，远处是鹭江与鼓浪屿。",
+      "palette": "zhongshan",
+      "mapPos": { "x": 200, "y": 160 },
+      "unlock": { "requireCollected": 14, "fromScene": "bashi" },
+      "storyIntro": "中秋快到了，中山路骑楼下已经传来骰子落碗的声音——有人在跋饼！",
+      "hotspots": [
+        {
+          "id": "noodle",
+          "label": "沙茶面头家",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "noodle",
+          "dialogue": [
+            { "speaker": "沙茶面头家", "text": "来一碗沙茶面无？料家己拣，大肠、鱿鱼、豆干拢有。", "tailo": "Lâi tsi̍t uánn sa-te-mī--bô? Liāu ka-kī kíng, tuā-tn̂g, jiû-hî, tāu-kuann lóng ū." },
+            { "speaker": "我", "text": "我欲加一个卵，莫伤辣。", "tailo": "Guá beh ke tsi̍t ê nn̄g, mài siunn hiam." },
+            { "speaker": "沙茶面头家", "text": "好势！沙茶是阮阿公对南洋学转来的，汤头熬规暝。", "tailo": "Hó-sè! Sa-te sī gún a-kong uì Lâm-iûnn o̍h--tńg-lâi--ê, thng-thâu ngâu kui-mî." }
+          ]
+        },
+        {
+          "id": "bobing",
+          "label": "骑楼下的博饼桌（跋饼）",
+          "x": 340,
+          "y": 206,
+          "w": 60,
+          "h": 40,
+          "action": "minigame:bobing",
+          "sprite": "obj-bobing"
+        },
+        {
+          "id": "tourist",
+          "label": "问路的游客",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            { "speaker": "游客", "text": "请问鼓浪屿欲去佗位坐船？", "tailo": "Tshiánn-mn̄g Kóo-lōng-sū beh khì tó-uī tsē tsûn?" },
+            { "speaker": "我", "text": "直直行到海边，倒爿就是轮渡码头。", "tailo": "Ti̍t-ti̍t kiânn kàu hái-pinn, tò-pîng tō sī lûn-tōo bé-thâu." },
+            { "speaker": "游客", "text": "多谢！你的闽南话讲了真好。", "tailo": "To-siā! Lí ê Bân-lâm-uē kóng liáu tsin hó." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gulangyu",
+      "name": "鼓浪屿",
+      "tailo": "Kóo-lōng-sū",
+      "desc": "万国建筑掩映在榕树和三角梅之间，巷子里不时飘出钢琴声。",
+      "palette": "gulangyu",
+      "mapPos": { "x": 150, "y": 175 },
+      "unlock": { "requireCollected": 24, "fromScene": "zhongshan" },
+      "storyIntro": "坐轮渡过鹭江，鼓浪屿到了。海浪拍礁石的声音像鼓——这就是「鼓浪」的由来。",
+      "hotspots": [
+        {
+          "id": "pianist",
+          "label": "弹琴的阿姐",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "pianist",
+          "dialogue": [
+            { "speaker": "弹琴阿姐", "text": "汝嘛是来听琴的？鼓浪屿逐间厝几若台钢琴。", "tailo": "Lí mā sī lâi thiann khîm--ê? Kóo-lōng-sū ta̍k king tshù kuí-nā tâi kǹg-khîm." },
+            { "speaker": "我", "text": "这首曲真好听，叫做啥物？", "tailo": "Tsit siú khik tsin hó-thiann, kiò-tsò siánn-mih?" },
+            { "speaker": "阿姐", "text": "《鼓浪屿之波》。慢慢仔听，海风会共你唱后半段。", "tailo": "«Kóo-lōng-sū tsi pho». Bān-bān-á thiann, hái-hong ē kā lí tshiùnn āu puànn-tuānn." }
+          ]
+        },
+        {
+          "id": "islander",
+          "label": "老岛民阿伯",
+          "x": 340,
+          "y": 206,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "islander",
+          "dialogue": [
+            { "speaker": "老岛民阿伯", "text": "阮佇岛顶蹛七十冬矣，囡仔时就佇这条巷仔走来走去。", "tailo": "Gún tī tó-tíng tuà tshit-tsa̍p tang--ah, gín-á sî tō tī tsit tiâu hāng-á tsáu-lâi-tsáu-khì." },
+            { "speaker": "我", "text": "这遐的洋楼是啥人起的？", "tailo": "Tsia hia ê iûnn-lâu sī siánn-lâng khí--ê?" },
+            { "speaker": "老岛民阿伯", "text": "有番客、有外国领事馆，所以叫「万国建筑」。", "tailo": "Ū huan-kheh, ū guā-kok líng-sū-kuán, sóo-í kiò «bān-kok kiàn-tiok»." }
+          ]
+        },
+        {
+          "id": "visitor",
+          "label": "翕相的游客",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            { "speaker": "游客", "text": "会使共阮翕一张相无？后壁彼丛三角梅真媠！", "tailo": "Ē-sái kā gún hip tsi̍t tiunn siòng--bô? Āu-piah hit tsâng sam-kak-muî tsin suí!" },
+            { "speaker": "我", "text": "好啊，一、二、三——笑！", "tailo": "Hó--ah, it, jī, sann——tshiò!" },
+            { "speaker": "游客", "text": "多谢！等一下欲去日光岩看日头落山。", "tailo": "To-siā! Tán--tsi̍t-ē beh khì Ji̍t-kong-giâm khuànn ji̍t-thâu lo̍h-suann." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zengcuoan",
+      "name": "曾厝垵",
+      "tailo": "Tsan-tshù-uann",
+      "desc": "渔村的石厝挨着文艺小店，窄巷里挂满灯笼，走到巷尾就是海。",
+      "palette": "zengcuoan",
+      "mapPos": { "x": 330, "y": 215 },
+      "unlock": { "requireCollected": 34, "fromScene": "gulangyu" },
+      "storyIntro": "天欲暗矣，曾厝垵的灯笼一盏一盏亮起来。海风里混着烧肉粽和姜母鸭的味。",
+      "hotspots": [
+        {
+          "id": "vendor",
+          "label": "卖烧肉粽阿伯",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "vendor",
+          "dialogue": [
+            { "speaker": "卖粽阿伯", "text": "烧肉粽拄出锅，烧烫烫，欲食紧来。", "tailo": "Sio-bah-tsàng tú tshut-ue, sio-thǹg-thǹg, beh tsia̍h kín lâi." },
+            { "speaker": "我", "text": "阿伯，粽仔内底包啥物？", "tailo": "A-peh, tsàng-á lāi-té pau siánn-mih?" },
+            { "speaker": "卖粽阿伯", "text": "三层肉、香菇、咸卵仁、栗子，阁有虾米。沾甜辣酱上对味。", "tailo": "Sann-tsàn-bah, hiunn-koo, kiâm-nn̄g-jîn, la̍t-tsí, koh ū hê-bí. Tsim thinn-lua̍h-tsiùnn siōng tuì-bī." }
+          ]
+        },
+        {
+          "id": "fisher",
+          "label": "渔家阿姐",
+          "x": 340,
+          "y": 206,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "fisher",
+          "dialogue": [
+            { "speaker": "渔家阿姐", "text": "阮祖公三代拢佇遮讨海。这马逐家改做小店矣。", "tailo": "Gún tsóo-kong sann tāi lóng tī tsia thó-hái. Tsit-má ta̍k-ke kái tsò sió-tiàm--ah." },
+            { "speaker": "我", "text": "巷仔尾彼间是卖啥？", "tailo": "Hāng-á-bué hit king sī bē siánn?" },
+            { "speaker": "渔家阿姐", "text": "卖姜母鸭。老姜、麻油、米酒，寒天食一碗上补。", "tailo": "Bē kionn-bú-ah. Lāu-kionn, muâ-iû, bí-tsiú, kuânn-thinn tsia̍h tsi̍t uánn siōng póo." }
+          ]
+        },
+        {
+          "id": "young",
+          "label": "开小店的少年家",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            { "speaker": "少年家", "text": "阮遮的店，一半是古厝改的。墙顶的石敢当拢留着。", "tailo": "Gún tsia ê tiàm, tsi̍t-puànn sī kóo-tshù kái--ê. Tshiûnn-tíng ê tsio̍h-kám-tong lóng lâu--leh." },
+            { "speaker": "我", "text": "石敢当是咧镇啥？", "tailo": "Tsio̍h-kám-tong sī leh tìn siánn?" },
+            { "speaker": "少年家", "text": "镇路冲、镇海风。古早人起厝，一定会先看风水。", "tailo": "Tìn lōo-tshiong, tìn hái-hong. Kóo-tsá-lâng khí tshù, it-tīng ē sing khuànn hong-suí." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanputuo",
+      "name": "南普陀",
+      "tailo": "Lâm-phóo-tô",
+      "desc": "黄墙红柱的千年古刹，放生池里荷花正开，后山是五老峰的青影。",
+      "palette": "nanputuo",
+      "mapPos": { "x": 265, "y": 200 },
+      "unlock": { "requireCollected": 46, "fromScene": "zengcuoan" },
+      "storyIntro": "南普陀的钟声一响，整座五老峰都静下来。师父说：心静，才听得清别人的话。",
+      "hotspots": [
+        {
+          "id": "monk",
+          "label": "师父",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "monk",
+          "dialogue": [
+            { "speaker": "师父", "text": "施主，入来食一杯茶。行遮远，歇睏一下。", "tailo": "Si-tšú, ji̍p--lâi tsia̍h tsi̍t puê tê. Kiânn tsiah hn̄g, hioh-khùn tsi̍t-ē." },
+            { "speaker": "我", "text": "师父，闽南话的经文，我听着有淡薄仔生。", "tailo": "Su-hū, Bân-lâm-uē ê king-bûn, guá thiann-tio̍h ū tām-po̍h-á tshinn." },
+            { "speaker": "师父", "text": "慢慢仔读，一字一字读予伊清。语言亲像香，急是袂着的。", "tailo": "Bān-bān-á tha̍k, tsi̍t jī tsi̍t jī tha̍k hōo i tshing. Gí-giân tshin-tshiūnn hiunn, kip sī bē tio̍h--ê." }
+          ]
+        },
+        {
+          "id": "pilgrim",
+          "label": "拜拜的阿婶",
+          "x": 340,
+          "y": 206,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "pilgrim",
+          "dialogue": [
+            { "speaker": "拜拜阿婶", "text": "来，三支香，先拜天公，阁拜佛祖。", "tailo": "Lâi, sann ki hiunn, sing pài Thinn-kong, koh pài Pu̍t-tsóo." },
+            { "speaker": "我", "text": "阿婶，汝逐个月拢来？", "tailo": "A-tsím, lí ta̍k kò gue̍h lóng lâi?" },
+            { "speaker": "拜拜阿婶", "text": "初一十五一定来。拜完买一盒素饼转去分囡仔。", "tailo": "Tshe-it tsa̍p-gōo it-tīng lâi. Pài liáu bé tsi̍t a̍p sòo-piánn tńg--khì pun gín-á." }
+          ]
+        },
+        {
+          "id": "visitor2",
+          "label": "爬山的少年",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            { "speaker": "少年", "text": "对遮上去就是五老峰，天气好会当看着鼓浪屿。", "tailo": "Tuì tsia tsiūnn--khì tō sī Ngóo-lóo-hong, thinn-khì hó ē-tàng khuànn-tio̍h Kóo-lōng-sū." },
+            { "speaker": "我", "text": "遐远？我犹未食中昼呢。", "tailo": "Hiah hn̄g? Guá iáu-buē tsia̍h tiong-tàu--neh." },
+            { "speaker": "少年", "text": "山下有素菜馆，食饱阁有气力。走！", "tailo": "Suann-ē ū sòo-tshài-kuán, tsia̍h-pá koh ū khuì-la̍t. Tsáu!" }
+          ]
+        }
+      ]
+    }
+  ],
+  "upcoming": []
+}
+
+
+文件：content/sounds\bashi.json
+[
+  { "id": "bs01", "sceneId": "bashi", "hanzi": "这个偌济钱？", "tailo": "Tsit ê guā-tsē tsînn?", "mandarin": "这个多少钱？", "category": "market", "frequency": 94.9, "pos": { "x": 30, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "bs02", "sceneId": "bashi", "hanzi": "有较俗无？", "tailo": "Ū khah sio̍k bô?", "mandarin": "有便宜一点吗？", "culture": "「俗」在闽南话里是便宜的意思，不是「俗气」。", "category": "market", "frequency": 99.7, "pos": { "x": 98, "y": 246 }, "reviewStatus": "pending" },
+  { "id": "bs03", "sceneId": "bashi", "hanzi": "伤贵矣", "tailo": "Siunn kuì--ah", "mandarin": "太贵了", "category": "market", "frequency": 88.5, "pos": { "x": 165, "y": 199 }, "reviewStatus": "pending" },
+  { "id": "bs04", "sceneId": "bashi", "hanzi": "蚵仔", "tailo": "ô-á", "mandarin": "海蛎（牡蛎）", "culture": "厦门普通话叫「海蛎」，闽南话叫「蚵仔」。", "category": "food", "frequency": 102.1, "pos": { "x": 233, "y": 235 }, "reviewStatus": "pending" },
+  { "id": "bs05", "sceneId": "bashi", "hanzi": "蚵仔煎", "tailo": "ô-á-tsian", "mandarin": "海蛎煎", "culture": "海蛎加地瓜粉、蒜苗煎成，是厦门街头经典小吃。", "category": "food", "frequency": 91.7, "pos": { "x": 301, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "bs06", "sceneId": "bashi", "hanzi": "鱼", "tailo": "hî", "mandarin": "鱼", "category": "food", "frequency": 97.3, "pos": { "x": 368, "y": 251 }, "reviewStatus": "pending" },
+  { "id": "bs07", "sceneId": "bashi", "hanzi": "足鲜", "tailo": "Tsiok tshinn", "mandarin": "很新鲜", "category": "market", "frequency": 89.3, "pos": { "x": 436, "y": 194 }, "speaker": "卖鱼阿伯", "reviewStatus": "pending" },
+  { "id": "bs08", "sceneId": "bashi", "hanzi": "一斤", "tailo": "tsi̍t kin", "mandarin": "一斤", "category": "market", "frequency": 100.5, "pos": { "x": 504, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "bs09", "sceneId": "bashi", "hanzi": "头家", "tailo": "thâu-ke", "mandarin": "老板", "category": "market", "frequency": 93.3, "pos": { "x": 572, "y": 205 }, "reviewStatus": "pending" },
+  { "id": "bs10", "sceneId": "bashi", "hanzi": "头家娘", "tailo": "thâu-ke-niû", "mandarin": "老板娘", "category": "market", "frequency": 98.1, "pos": { "x": 639, "y": 246 }, "reviewStatus": "pending" },
+  { "id": "bs11", "sceneId": "bashi", "hanzi": "土笋冻", "tailo": "thôo-sún-tàng", "mandarin": "土笋冻", "culture": "用海边的星虫熬煮成冻，配酱油、醋、蒜蓉，是厦门名小吃。", "category": "food", "frequency": 87.7, "pos": { "x": 690, "y": 199 }, "reviewStatus": "pending" },
+  { "id": "bs12", "sceneId": "bashi", "hanzi": "菜头", "tailo": "tshài-thâu", "mandarin": "萝卜", "culture": "菜头谐音「彩头」，过年常吃菜头粿讨好彩头。", "category": "food", "frequency": 95.7, "pos": { "x": 64, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "bs13", "sceneId": "bashi", "hanzi": "番薯", "tailo": "han-tsî", "mandarin": "地瓜", "category": "food", "frequency": 101.3, "pos": { "x": 132, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "bs14", "sceneId": "bashi", "hanzi": "加送一寡", "tailo": "Ke sàng tsi̍t-kuá", "mandarin": "多送一点", "category": "market", "frequency": 90.1, "pos": { "x": 199, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "bs15", "sceneId": "bashi", "hanzi": "免找矣", "tailo": "Bián tsāu--ah", "mandarin": "不用找零了", "category": "market", "frequency": 96.5, "pos": { "x": 267, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "bs16", "sceneId": "bashi", "hanzi": "好食", "tailo": "hó-tsia̍h", "mandarin": "好吃", "category": "food", "frequency": 92.5, "pos": { "x": 335, "y": 225 }, "reviewStatus": "pending" },
+  { "id": "bs17", "sceneId": "bashi", "hanzi": "虾", "tailo": "hê", "mandarin": "虾", "category": "food", "frequency": 102.9, "pos": { "x": 402, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "bs18", "sceneId": "bashi", "hanzi": "买菜", "tailo": "bé tshài", "mandarin": "买菜", "category": "market", "frequency": 94.1, "pos": { "x": 470, "y": 256 }, "times": ["morning", "noon"], "reviewStatus": "pending" },
+  { "id": "bs19", "sceneId": "bashi", "hanzi": "欲买啥物？", "tailo": "Beh bé siánn-mih?", "mandarin": "要买什么？", "category": "market", "frequency": 98.9, "pos": { "x": 538, "y": 184 }, "speaker": "头家娘", "reviewStatus": "pending" },
+  { "id": "bs20", "sceneId": "bashi", "hanzi": "秤头", "tailo": "tshìn-thâu", "mandarin": "分量（秤得足不足）", "culture": "菜市场说「秤头足」，就是分量给得够、不缺斤少两。", "category": "market", "frequency": 90.9, "pos": { "x": 605, "y": 225 }, "reviewStatus": "pending" }
+]
+
+
+文件：content/sounds\gulangyu.json
+[
+  { "id": "gl01", "sceneId": "gulangyu", "hanzi": "钢琴", "tailo": "kǹg-khîm", "mandarin": "钢琴", "culture": "鼓浪屿人均钢琴拥有率曾居全国前列，被称为「钢琴之岛」。", "category": "daily", "frequency": 88.3, "pos": { "x": 40, "y": 196 }, "speaker": "琴师", "reviewStatus": "pending" },
+  { "id": "gl02", "sceneId": "gulangyu", "hanzi": "弹琴", "tailo": "tuānn khîm", "mandarin": "弹琴", "category": "daily", "frequency": 95.7, "pos": { "x": 74, "y": 236 }, "speaker": "琴师", "reviewStatus": "pending" },
+  { "id": "gl03", "sceneId": "gulangyu", "hanzi": "洋楼", "tailo": "iûnn-lâu", "mandarin": "西式小楼", "culture": "岛上保留了上千栋中西合璧的老洋楼，很多是归国华侨所建。", "category": "place", "frequency": 101.1, "pos": { "x": 108, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "gl04", "sceneId": "gulangyu", "hanzi": "三角梅", "tailo": "sann-kak-bûi", "mandarin": "三角梅", "culture": "三角梅是厦门市花，墙头巷尾一年四季都能看到。", "category": "place", "frequency": 90.9, "pos": { "x": 142, "y": 252 }, "reviewStatus": "pending" },
+  { "id": "gl05", "sceneId": "gulangyu", "hanzi": "日光岩", "tailo": "Ji̍t-kong-giâm", "mandarin": "日光岩", "category": "place", "frequency": 104.5, "pos": { "x": 176, "y": 188 }, "reviewStatus": "pending" },
+  { "id": "gl06", "sceneId": "gulangyu", "hanzi": "渡船头", "tailo": "tōo-tsûn-thâu", "mandarin": "轮渡码头", "category": "place", "frequency": 93.1, "pos": { "x": 210, "y": 224 }, "reviewStatus": "pending" },
+  { "id": "gl07", "sceneId": "gulangyu", "hanzi": "坐船", "tailo": "tsē tsûn", "mandarin": "坐船", "category": "daily", "frequency": 99.5, "pos": { "x": 244, "y": 244 }, "times": ["morning", "noon"], "reviewStatus": "pending" },
+  { "id": "gl08", "sceneId": "gulangyu", "hanzi": "海风真透", "tailo": "Hái-hong tsin thàu", "mandarin": "海风很大", "category": "daily", "frequency": 87.5, "pos": { "x": 278, "y": 202 }, "speaker": "岛民阿伯", "reviewStatus": "pending" },
+  { "id": "gl09", "sceneId": "gulangyu", "hanzi": "红砖厝", "tailo": "âng-tsng-tshù", "mandarin": "红砖房", "culture": "闽南红砖厝用烧成红色的砖瓦砌成，屋脊两端像燕尾一样翘起。", "category": "place", "frequency": 97.3, "pos": { "x": 312, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "gl10", "sceneId": "gulangyu", "hanzi": "榕仔", "tailo": "tshîng-á", "mandarin": "榕树", "culture": "老榕树的气根垂到地上，树下常有老人乘凉、讲古。", "category": "place", "frequency": 106.1, "pos": { "x": 346, "y": 190 }, "reviewStatus": "pending" },
+  { "id": "gl11", "sceneId": "gulangyu", "hanzi": "番客", "tailo": "huan-kheh", "mandarin": "华侨", "culture": "早年下南洋谋生的闽南人被称为「番客」，他们寄回的「侨批」承载着乡愁。", "category": "family", "frequency": 91.7, "pos": { "x": 380, "y": 248 }, "speaker": "岛民阿伯", "reviewStatus": "pending" },
+  { "id": "gl12", "sceneId": "gulangyu", "hanzi": "欢迎来鼓浪屿", "tailo": "Huan-gîng lâi Kóo-lōng-sū", "mandarin": "欢迎来鼓浪屿", "category": "greeting", "frequency": 102.7, "pos": { "x": 414, "y": 214 }, "speaker": "岛民阿伯", "reviewStatus": "pending" },
+  { "id": "gl13", "sceneId": "gulangyu", "hanzi": "行路", "tailo": "kiânn-lōo", "mandarin": "走路", "culture": "鼓浪屿岛上没有机动车，出门基本靠走路。", "category": "daily", "frequency": 94.9, "pos": { "x": 448, "y": 186 }, "reviewStatus": "pending" },
+  { "id": "gl14", "sceneId": "gulangyu", "hanzi": "海沙埔", "tailo": "hái-sua-poo", "mandarin": "沙滩", "category": "place", "frequency": 89.1, "pos": { "x": 482, "y": 238 }, "reviewStatus": "pending" },
+  { "id": "gl15", "sceneId": "gulangyu", "hanzi": "翕相", "tailo": "hip-siōng", "mandarin": "拍照", "category": "daily", "frequency": 100.3, "pos": { "x": 516, "y": 206 }, "speaker": "游客", "reviewStatus": "pending" },
+  { "id": "gl16", "sceneId": "gulangyu", "hanzi": "日头落山矣", "tailo": "Ji̍t-thâu lo̍h-suann--ah", "mandarin": "太阳下山了", "category": "daily", "frequency": 96.5, "pos": { "x": 550, "y": 254 }, "times": ["dusk"], "reviewStatus": "pending" },
+  { "id": "gl17", "sceneId": "gulangyu", "hanzi": "馅饼", "tailo": "ānn-piánn", "mandarin": "馅饼", "culture": "鼓浪屿馅饼皮酥馅甜，是游客最常带走的伴手礼。", "category": "food", "frequency": 107.3, "pos": { "x": 584, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "gl18", "sceneId": "gulangyu", "hanzi": "鱼丸", "tailo": "hî-uân", "mandarin": "鱼丸", "category": "food", "frequency": 92.5, "pos": { "x": 618, "y": 192 }, "reviewStatus": "pending" },
+  { "id": "gl19", "sceneId": "gulangyu", "hanzi": "慢慢仔行", "tailo": "Bān-bān-á kiânn", "mandarin": "慢慢走（慢走）", "category": "greeting", "frequency": 98.7, "pos": { "x": 652, "y": 242 }, "speaker": "琴师", "reviewStatus": "pending" },
+  { "id": "gl20", "sceneId": "gulangyu", "hanzi": "真好听", "tailo": "Tsin hó-thiann", "mandarin": "真好听", "category": "daily", "frequency": 103.9, "pos": { "x": 686, "y": 212 }, "times": ["night"], "reviewStatus": "pending" }
+]
+
+
+文件：content/sounds\laocuo.json
+[
+  { "id": "lc01", "sceneId": "laocuo", "hanzi": "汝好", "tailo": "Lí hó", "mandarin": "你好", "category": "greeting", "frequency": 96.1, "pos": { "x": 30, "y": 220 }, "speaker": "厝边阿姨", "reviewStatus": "pending" },
+  { "id": "lc02", "sceneId": "laocuo", "hanzi": "敖早", "tailo": "Gâu-tsá", "mandarin": "早安", "culture": "字面意思是「起得真早」，是闽南人早上见面的问候。", "category": "greeting", "frequency": 89.7, "pos": { "x": 98, "y": 199 }, "times": ["morning"], "speaker": "阿公", "reviewStatus": "pending" },
+  { "id": "lc03", "sceneId": "laocuo", "hanzi": "食饱未？", "tailo": "Tsia̍h-pá bē?", "mandarin": "吃饱了吗？", "culture": "闽南人见面常用的问候语，不一定真的在问吃饭。", "category": "greeting", "frequency": 100.9, "pos": { "x": 182, "y": 241 }, "speaker": "隔壁阿伯", "reviewStatus": "pending" },
+  { "id": "lc04", "sceneId": "laocuo", "hanzi": "阿嬷", "tailo": "A-má", "mandarin": "奶奶 / 外婆", "category": "family", "frequency": 92.1, "pos": { "x": 250, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "lc05", "sceneId": "laocuo", "hanzi": "阿公", "tailo": "A-kong", "mandarin": "爷爷 / 外公", "category": "family", "frequency": 103.3, "pos": { "x": 318, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "lc06", "sceneId": "laocuo", "hanzi": "多谢", "tailo": "To-siā", "mandarin": "谢谢", "category": "daily", "frequency": 88.9, "pos": { "x": 385, "y": 199 }, "reviewStatus": "pending" },
+  { "id": "lc07", "sceneId": "laocuo", "hanzi": "免客气", "tailo": "Bián kheh-khì", "mandarin": "不客气", "category": "daily", "frequency": 98.5, "pos": { "x": 453, "y": 246 }, "reviewStatus": "pending" },
+  { "id": "lc08", "sceneId": "laocuo", "hanzi": "来食茶", "tailo": "Lâi tsia̍h tê", "mandarin": "来喝茶", "culture": "闽南人爱泡功夫茶，喝茶说「食茶」。客人进门第一句常是「来食茶」。", "category": "daily", "frequency": 93.7, "pos": { "x": 521, "y": 215 }, "speaker": "阿嬷", "reviewStatus": "pending" },
+  { "id": "lc09", "sceneId": "laocuo", "hanzi": "我转来矣", "tailo": "Guá tńg--lâi--ah", "mandarin": "我回来了", "category": "family", "frequency": 90.5, "pos": { "x": 588, "y": 235 }, "reviewStatus": "pending" },
+  { "id": "lc10", "sceneId": "laocuo", "hanzi": "囡仔", "tailo": "gín-á", "mandarin": "小孩", "category": "family", "frequency": 101.7, "pos": { "x": 656, "y": 205 }, "reviewStatus": "pending" },
+  { "id": "lc11", "sceneId": "laocuo", "hanzi": "真媠", "tailo": "Tsin suí", "mandarin": "真漂亮", "category": "daily", "frequency": 94.5, "pos": { "x": 64, "y": 251 }, "reviewStatus": "pending" },
+  { "id": "lc12", "sceneId": "laocuo", "hanzi": "好势", "tailo": "hó-sè", "mandarin": "妥当、顺利", "category": "daily", "frequency": 99.3, "pos": { "x": 140, "y": 184 }, "reviewStatus": "pending" },
+  { "id": "lc13", "sceneId": "laocuo", "hanzi": "古早味", "tailo": "kóo-tsá-bī", "mandarin": "老味道、传统风味", "category": "food", "frequency": 88.1, "pos": { "x": 216, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "lc14", "sceneId": "laocuo", "hanzi": "天光矣", "tailo": "Thinn kng--ah", "mandarin": "天亮了", "category": "daily", "frequency": 95.3, "pos": { "x": 284, "y": 189 }, "times": ["morning"], "reviewStatus": "pending" },
+  { "id": "lc15", "sceneId": "laocuo", "hanzi": "暗安", "tailo": "Àm-an", "mandarin": "晚安", "category": "greeting", "frequency": 102.5, "pos": { "x": 352, "y": 251 }, "times": ["night"], "reviewStatus": "pending" },
+  { "id": "lc16", "sceneId": "laocuo", "hanzi": "歇睏一下", "tailo": "Hioh-khùn tsi̍t-ē", "mandarin": "休息一下", "category": "daily", "frequency": 91.3, "pos": { "x": 419, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "lc17", "sceneId": "laocuo", "hanzi": "厝内", "tailo": "tshù-lāi", "mandarin": "家里", "category": "place", "frequency": 97.7, "pos": { "x": 487, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "lc18", "sceneId": "laocuo", "hanzi": "爱拼才会赢", "tailo": "Ài piànn tsiah ē iânn", "mandarin": "肯拼搏才会成功", "culture": "同名闽南语歌曲传唱两岸，也代表闽南人敢闯敢拼的精神。", "category": "proverb", "frequency": 92.9, "pos": { "x": 555, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "lc19", "sceneId": "laocuo", "hanzi": "囝孙", "tailo": "kiánn-sun", "mandarin": "子孙", "category": "family", "frequency": 96.9, "pos": { "x": 622, "y": 184 }, "reviewStatus": "pending" },
+  { "id": "lc20", "sceneId": "laocuo", "hanzi": "食饭", "tailo": "Tsia̍h-pn̄g", "mandarin": "吃饭", "category": "daily", "frequency": 100.1, "pos": { "x": 690, "y": 225 }, "times": ["noon", "dusk"], "speaker": "阿嬷", "reviewStatus": "pending" }
+]
+
+
+文件：content/sounds\nanputuo.json
+[
+  { "id": "np01", "sceneId": "nanputuo", "hanzi": "拜拜", "tailo": "pài-pài", "mandarin": "拜神、祭拜", "culture": "闽南话「拜拜」不是再见，而是烧香祭拜。逢年过节家家都要「拜拜」。", "category": "daily", "frequency": 90.1, "pos": { "x": 44, "y": 206 }, "speaker": "香客阿姨", "reviewStatus": "pending" },
+  { "id": "np02", "sceneId": "nanputuo", "hanzi": "烧香", "tailo": "sio-hiunn", "mandarin": "烧香", "category": "daily", "frequency": 98.9, "pos": { "x": 78, "y": 242 }, "times": ["morning"], "reviewStatus": "pending" },
+  { "id": "np03", "sceneId": "nanputuo", "hanzi": "素饼", "tailo": "sòo-piánn", "mandarin": "素饼", "culture": "南普陀素饼用素油做酥皮，不含荤油，是寺里有名的茶点。", "category": "food", "frequency": 104.7, "pos": { "x": 112, "y": 188 }, "reviewStatus": "pending" },
+  { "id": "np04", "sceneId": "nanputuo", "hanzi": "食菜", "tailo": "tsia̍h-tshài", "mandarin": "吃素", "culture": "闽南话「食菜」专指吃素，不是单纯吃蔬菜。", "category": "food", "frequency": 93.9, "pos": { "x": 146, "y": 228 }, "speaker": "师父", "reviewStatus": "pending" },
+  { "id": "np05", "sceneId": "nanputuo", "hanzi": "莲花", "tailo": "liân-hue", "mandarin": "荷花", "category": "place", "frequency": 101.5, "pos": { "x": 180, "y": 252 }, "reviewStatus": "pending" },
+  { "id": "np06", "sceneId": "nanputuo", "hanzi": "五老峰", "tailo": "Ngóo-ló-hong", "mandarin": "五老峰", "culture": "南普陀背倚五座山峰，远看像五位老人并肩而坐。", "category": "place", "frequency": 88.1, "pos": { "x": 214, "y": 198 }, "reviewStatus": "pending" },
+  { "id": "np07", "sceneId": "nanputuo", "hanzi": "钟声", "tailo": "tsing-siann", "mandarin": "钟声", "category": "daily", "frequency": 96.7, "pos": { "x": 248, "y": 234 }, "times": ["morning", "dusk"], "reviewStatus": "pending" },
+  { "id": "np08", "sceneId": "nanputuo", "hanzi": "师父", "tailo": "sai-hū", "mandarin": "师父（对僧人的称呼）", "category": "family", "frequency": 105.9, "pos": { "x": 282, "y": 186 }, "reviewStatus": "pending" },
+  { "id": "np09", "sceneId": "nanputuo", "hanzi": "平安", "tailo": "pîng-an", "mandarin": "平安", "category": "greeting", "frequency": 91.5, "pos": { "x": 316, "y": 220 }, "speaker": "师父", "reviewStatus": "pending" },
+  { "id": "np10", "sceneId": "nanputuo", "hanzi": "心肝静", "tailo": "sim-kuann tsīng", "mandarin": "心里平静", "category": "daily", "frequency": 99.7, "pos": { "x": 350, "y": 248 }, "reviewStatus": "pending" },
+  { "id": "np11", "sceneId": "nanputuo", "hanzi": "保庇", "tailo": "pó-pì", "mandarin": "保佑", "category": "daily", "frequency": 87.7, "pos": { "x": 384, "y": 196 }, "speaker": "香客阿姨", "reviewStatus": "pending" },
+  { "id": "np12", "sceneId": "nanputuo", "hanzi": "寺庙", "tailo": "sī-biō", "mandarin": "寺庙", "category": "place", "frequency": 95.5, "pos": { "x": 418, "y": 238 }, "reviewStatus": "pending" },
+  { "id": "np13", "sceneId": "nanputuo", "hanzi": "好心有好报", "tailo": "Hó-sim ū hó-pò", "mandarin": "好心有好报", "category": "proverb", "frequency": 102.3, "pos": { "x": 452, "y": 190 }, "reviewStatus": "pending" },
+  { "id": "np14", "sceneId": "nanputuo", "hanzi": "扒山", "tailo": "peh-suann", "mandarin": "爬山", "category": "daily", "frequency": 92.7, "pos": { "x": 486, "y": 226 }, "reviewStatus": "pending" },
+  { "id": "np15", "sceneId": "nanputuo", "hanzi": "放生池", "tailo": "hòng-sing-tî", "mandarin": "放生池", "category": "place", "frequency": 100.9, "pos": { "x": 520, "y": 254 }, "reviewStatus": "pending" },
+  { "id": "np16", "sceneId": "nanputuo", "hanzi": "下昏", "tailo": "ē-hng", "mandarin": "晚上", "category": "daily", "frequency": 89.5, "pos": { "x": 554, "y": 204 }, "times": ["night"], "reviewStatus": "pending" },
+  { "id": "np17", "sceneId": "nanputuo", "hanzi": "头前", "tailo": "thâu-tsîng", "mandarin": "前面", "category": "place", "frequency": 97.1, "pos": { "x": 588, "y": 186 }, "reviewStatus": "pending" },
+  { "id": "np18", "sceneId": "nanputuo", "hanzi": "感恩", "tailo": "kám-un", "mandarin": "感恩、感谢", "category": "greeting", "frequency": 106.7, "pos": { "x": 622, "y": 232 }, "speaker": "师父", "reviewStatus": "pending" },
+  { "id": "np19", "sceneId": "nanputuo", "hanzi": "顺行", "tailo": "Sūn-kiânn", "mandarin": "慢走（送客用语）", "category": "greeting", "frequency": 94.1, "pos": { "x": 656, "y": 250 }, "reviewStatus": "pending" },
+  { "id": "np20", "sceneId": "nanputuo", "hanzi": "一样米饲百样人", "tailo": "Tsi̍t-iūnn bí tshī pah-iūnn lâng", "mandarin": "一样米养百样人", "culture": "意思是同样的米养出各式各样的人，劝人包容彼此的不同。", "category": "proverb", "frequency": 103.1, "pos": { "x": 688, "y": 212 }, "reviewStatus": "pending" }
+]
+
+
+文件：content/sounds\zengcuoan.json
+[
+  { "id": "zc01", "sceneId": "zengcuoan", "hanzi": "烧肉粽", "tailo": "sio-bah-tsàng", "mandarin": "热肉粽", "culture": "厦门肉粽用五花肉、香菇、虾米、栗子包成，「烧」是热的意思。老歌《烧肉粽》唱的就是叫卖声。", "category": "food", "frequency": 89.9, "pos": { "x": 36, "y": 214 }, "speaker": "摊主", "reviewStatus": "pending" },
+  { "id": "zc02", "sceneId": "zengcuoan", "hanzi": "姜母鸭", "tailo": "kiunn-bó-ah", "mandarin": "姜母鸭", "culture": "用老姜、麻油和米酒焖鸭肉，闽南人秋冬进补的家常菜。", "category": "food", "frequency": 97.9, "pos": { "x": 70, "y": 250 }, "reviewStatus": "pending" },
+  { "id": "zc03", "sceneId": "zengcuoan", "hanzi": "石敢当", "tailo": "Tsio̍h-kám-tong", "mandarin": "石敢当", "culture": "立在巷口、路冲的石碑，闽南人相信它能挡煞辟邪。", "category": "place", "frequency": 104.1, "pos": { "x": 104, "y": 192 }, "reviewStatus": "pending" },
+  { "id": "zc04", "sceneId": "zengcuoan", "hanzi": "王船", "tailo": "ông-tsûn", "mandarin": "王船", "culture": "送王船是闽南沿海祈求平安的民俗，2020 年列入联合国非遗名录。", "category": "place", "frequency": 92.3, "pos": { "x": 138, "y": 232 }, "reviewStatus": "pending" },
+  { "id": "zc05", "sceneId": "zengcuoan", "hanzi": "讨海", "tailo": "thó-hái", "mandarin": "出海打鱼", "culture": "曾厝垵原本是渔村，「讨海人」就是靠海吃饭的渔民。", "category": "daily", "frequency": 100.7, "pos": { "x": 172, "y": 204 }, "speaker": "讨海阿伯", "reviewStatus": "pending" },
+  { "id": "zc06", "sceneId": "zengcuoan", "hanzi": "鼎边糊", "tailo": "tiánn-pinn-kôo", "mandarin": "锅边糊", "category": "food", "frequency": 88.7, "pos": { "x": 206, "y": 246 }, "times": ["morning"], "reviewStatus": "pending" },
+  { "id": "zc07", "sceneId": "zengcuoan", "hanzi": "灯仔", "tailo": "ting-á", "mandarin": "灯笼", "category": "place", "frequency": 95.1, "pos": { "x": 240, "y": 186 }, "times": ["night"], "reviewStatus": "pending" },
+  { "id": "zc08", "sceneId": "zengcuoan", "hanzi": "巷仔", "tailo": "hāng-á", "mandarin": "小巷", "category": "place", "frequency": 102.9, "pos": { "x": 274, "y": 226 }, "reviewStatus": "pending" },
+  { "id": "zc09", "sceneId": "zengcuoan", "hanzi": "海墘", "tailo": "hái-kînn", "mandarin": "海边", "category": "place", "frequency": 91.1, "pos": { "x": 308, "y": 254 }, "reviewStatus": "pending" },
+  { "id": "zc10", "sceneId": "zengcuoan", "hanzi": "天暗矣", "tailo": "Thinn àm--ah", "mandarin": "天黑了", "category": "daily", "frequency": 98.3, "pos": { "x": 342, "y": 200 }, "times": ["dusk", "night"], "reviewStatus": "pending" },
+  { "id": "zc11", "sceneId": "zengcuoan", "hanzi": "鱼仔", "tailo": "hî-á", "mandarin": "小鱼", "category": "market", "frequency": 106.5, "pos": { "x": 376, "y": 236 }, "speaker": "讨海阿伯", "reviewStatus": "pending" },
+  { "id": "zc12", "sceneId": "zengcuoan", "hanzi": "风真大", "tailo": "Hong tsin tuā", "mandarin": "风很大", "category": "daily", "frequency": 93.5, "pos": { "x": 410, "y": 190 }, "reviewStatus": "pending" },
+  { "id": "zc13", "sceneId": "zengcuoan", "hanzi": "沙茶面", "tailo": "sa-te-mī", "mandarin": "沙茶面", "culture": "沙茶酱源自南洋，经华侨带回厦门，成了本地最有名的面食。", "category": "food", "frequency": 101.9, "pos": { "x": 444, "y": 248 }, "reviewStatus": "pending" },
+  { "id": "zc14", "sceneId": "zengcuoan", "hanzi": "好食", "tailo": "hó-tsia̍h", "mandarin": "好吃", "category": "food", "frequency": 87.3, "pos": { "x": 478, "y": 208 }, "speaker": "年轻人", "reviewStatus": "pending" },
+  { "id": "zc15", "sceneId": "zengcuoan", "hanzi": "一粒偌济钱？", "tailo": "Tsi̍t lia̍p guā-tsē tsînn?", "mandarin": "一个多少钱？", "category": "market", "frequency": 96.1, "pos": { "x": 512, "y": 186 }, "reviewStatus": "pending" },
+  { "id": "zc16", "sceneId": "zengcuoan", "hanzi": "拍拚", "tailo": "phah-piànn", "mandarin": "努力打拼", "category": "daily", "frequency": 105.3, "pos": { "x": 546, "y": 228 }, "reviewStatus": "pending" },
+  { "id": "zc17", "sceneId": "zengcuoan", "hanzi": "厝边头尾", "tailo": "tshù-pinn thâu-bué", "mandarin": "左邻右舍", "category": "family", "frequency": 90.3, "pos": { "x": 580, "y": 252 }, "reviewStatus": "pending" },
+  { "id": "zc18", "sceneId": "zengcuoan", "hanzi": "海水", "tailo": "hái-tsuí", "mandarin": "海水", "category": "place", "frequency": 99.1, "pos": { "x": 614, "y": 198 }, "reviewStatus": "pending" },
+  { "id": "zc19", "sceneId": "zengcuoan", "hanzi": "食果子拜树头", "tailo": "Tsia̍h kué-tsí pài tshiū-thâu", "mandarin": "吃水果要拜树根（饮水思源）", "category": "proverb", "frequency": 107.7, "pos": { "x": 648, "y": 238 }, "reviewStatus": "pending" },
+  { "id": "zc20", "sceneId": "zengcuoan", "hanzi": "闲闲仔", "tailo": "îng-îng-á", "mandarin": "悠闲地", "category": "daily", "frequency": 94.3, "pos": { "x": 682, "y": 210 }, "speaker": "年轻人", "reviewStatus": "pending" }
+]
+
+
+文件：content/sounds\zhongshan.json
+[
+  { "id": "zs01", "sceneId": "zhongshan", "hanzi": "沙茶面", "tailo": "sa-te-mī", "mandarin": "沙茶面", "culture": "厦门代表小吃。沙茶酱源自东南亚，由华侨带回厦门。", "category": "food", "frequency": 97.1, "pos": { "x": 30, "y": 225 }, "reviewStatus": "pending" },
+  { "id": "zs02", "sceneId": "zhongshan", "hanzi": "花生汤", "tailo": "hue-sing-thng", "mandarin": "花生汤", "category": "food", "frequency": 90.7, "pos": { "x": 98, "y": 199 }, "reviewStatus": "pending" },
+  { "id": "zs03", "sceneId": "zhongshan", "hanzi": "骑楼", "tailo": "khiâ-lâu", "mandarin": "骑楼", "culture": "中山路骑楼融合南洋风格，楼下连成长廊，可以遮阳避雨。", "category": "place", "frequency": 101.9, "pos": { "x": 165, "y": 246 }, "reviewStatus": "pending" },
+  { "id": "zs04", "sceneId": "zhongshan", "hanzi": "鼓浪屿", "tailo": "Kóo-lōng-sū", "mandarin": "鼓浪屿", "category": "place", "frequency": 93.9, "pos": { "x": 233, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "zs05", "sceneId": "zhongshan", "hanzi": "厦门", "tailo": "Ē-mn̂g", "mandarin": "厦门", "category": "place", "frequency": 88.3, "pos": { "x": 301, "y": 235 }, "reviewStatus": "pending" },
+  { "id": "zs06", "sceneId": "zhongshan", "hanzi": "行街", "tailo": "kiânn-ke", "mandarin": "逛街", "category": "daily", "frequency": 99.5, "pos": { "x": 368, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "zs07", "sceneId": "zhongshan", "hanzi": "落雨矣", "tailo": "Lo̍h-hōo--ah", "mandarin": "下雨了", "category": "daily", "frequency": 92.3, "pos": { "x": 436, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "zs08", "sceneId": "zhongshan", "hanzi": "雨伞", "tailo": "hōo-suànn", "mandarin": "雨伞", "category": "daily", "frequency": 102.7, "pos": { "x": 504, "y": 194 }, "reviewStatus": "pending" },
+  { "id": "zs09", "sceneId": "zhongshan", "hanzi": "伫遮", "tailo": "tī tsia", "mandarin": "在这里", "category": "place", "frequency": 95.5, "pos": { "x": 572, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "zs10", "sceneId": "zhongshan", "hanzi": "欲去佗位？", "tailo": "Beh khì tó-uī?", "mandarin": "要去哪里？", "category": "place", "frequency": 89.9, "pos": { "x": 639, "y": 205 }, "reviewStatus": "pending" },
+  { "id": "zs11", "sceneId": "zhongshan", "hanzi": "直直行", "tailo": "Ti̍t-ti̍t kiânn", "mandarin": "一直往前走", "category": "place", "frequency": 100.3, "pos": { "x": 690, "y": 251 }, "reviewStatus": "pending" },
+  { "id": "zs12", "sceneId": "zhongshan", "hanzi": "倒爿", "tailo": "tò-pîng", "mandarin": "左边", "category": "place", "frequency": 91.5, "pos": { "x": 64, "y": 256 }, "reviewStatus": "pending" },
+  { "id": "zs13", "sceneId": "zhongshan", "hanzi": "正爿", "tailo": "tsiànn-pîng", "mandarin": "右边", "category": "place", "frequency": 98.7, "pos": { "x": 132, "y": 184 }, "reviewStatus": "pending" },
+  { "id": "zs14", "sceneId": "zhongshan", "hanzi": "跋饼", "tailo": "pua̍h-piánn", "mandarin": "博饼", "culture": "中秋博饼是厦门特有的习俗：六颗骰子掷进大碗，按点数组合领「状元」「对堂」等奖。", "category": "daily", "frequency": 94.7, "pos": { "x": 199, "y": 220 }, "reviewStatus": "pending" },
+  { "id": "zs15", "sceneId": "zhongshan", "hanzi": "状元", "tailo": "tsiōng-guân", "mandarin": "状元（博饼最大奖）", "category": "daily", "frequency": 103.5, "pos": { "x": 267, "y": 251 }, "reviewStatus": "pending" },
+  { "id": "zs16", "sceneId": "zhongshan", "hanzi": "中秋", "tailo": "Tiong-tshiu", "mandarin": "中秋节", "category": "daily", "frequency": 89.1, "pos": { "x": 335, "y": 189 }, "reviewStatus": "pending" },
+  { "id": "zs17", "sceneId": "zhongshan", "hanzi": "闹热", "tailo": "lāu-lia̍t", "mandarin": "热闹", "culture": "厦门腔常把 j 声母读成 l，「热」读 lia̍t（台湾腔多读 jia̍t）。", "category": "daily", "frequency": 96.3, "pos": { "x": 402, "y": 230 }, "reviewStatus": "pending" },
+  { "id": "zs18", "sceneId": "zhongshan", "hanzi": "好耍", "tailo": "hó-sńg", "mandarin": "好玩", "category": "daily", "frequency": 101.1, "pos": { "x": 470, "y": 210 }, "reviewStatus": "pending" },
+  { "id": "zs19", "sceneId": "zhongshan", "hanzi": "慢慢仔行", "tailo": "Bān-bān-á kiânn", "mandarin": "慢走（送客用语）", "category": "greeting", "frequency": 93.1, "pos": { "x": 538, "y": 246 }, "times": ["dusk", "night"], "reviewStatus": "pending" },
+  { "id": "zs20", "sceneId": "zhongshan", "hanzi": "一人一款命", "tailo": "Tsi̍t lâng tsi̍t khuán miā", "mandarin": "每个人命运各不相同", "category": "proverb", "frequency": 97.9, "pos": { "x": 605, "y": 194 }, "reviewStatus": "pending" }
+]
+
+
+文件：src/core/AudioManager.ts
+import { XIAMEN_TONE_CONTOUR, tonesOf } from '../learning/tailo';
+
+export type Sfx = 'click' | 'lock' | 'ok' | 'bad' | 'collect' | 'dice' | 'unlock';
+
+/**
+ * 音频管理：收音机杂音 + 人声（占位合成）+ 低通滤波。
+ * 正式版本中 playPhrase 应改为播放母语者录音（SoundEntry.audio）。
+ */
+class AudioManagerImpl {
+  private ctx: AudioContext | null = null;
+  private master!: GainNode;
+  private noiseGain!: GainNode;
+  private voiceGain!: GainNode;
+  private voiceFilter!: BiquadFilterNode;
+  private cleanBus!: GainNode;
+  private noiseSrc: AudioBufferSourceNode | null = null;
+  private loopKey: string | null = null;
+  private loopTimer: number | null = null;
+  private volume = 0.8;
+
+  get ready(): boolean {
+    return this.ctx !== null;
+  }
+
+  /** 必须在用户手势中调用 */
+  init(): void {
+    if (this.ctx) {
+      void this.ctx.resume();
+      return;
+    }
+    const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+    if (!Ctx) return;
+    const ctx = new Ctx();
+    this.ctx = ctx;
+    this.master = ctx.createGain();
+    this.master.gain.value = this.volume;
+    this.master.connect(ctx.destination);
+
+    this.noiseGain = ctx.createGain();
+    this.noiseGain.gain.value = 0;
+    const noiseBand = ctx.createBiquadFilter();
+    noiseBand.type = 'bandpass';
+    noiseBand.frequency.value = 2200;
+    noiseBand.Q.value = 0.4;
+    this.noiseGain.connect(noiseBand).connect(this.master);
+
+    this.voiceFilter = ctx.createBiquadFilter();
+    this.voiceFilter.type = 'lowpass';
+    this.voiceFilter.frequency.value = 400;
+    this.voiceGain = ctx.createGain();
+    this.voiceGain.gain.value = 0;
+    this.voiceFilter.connect(this.voiceGain).connect(this.master);
+
+    this.cleanBus = ctx.createGain();
+    this.cleanBus.gain.value = 1;
+    this.cleanBus.connect(this.master);
+  }
+
+  setVolume(v: number): void {
+    this.volume = v;
+    if (this.ctx) this.master.gain.setTargetAtTime(v, this.ctx.currentTime, 0.05);
+  }
+
+  radioOn(on: boolean): void {
+    const ctx = this.ctx;
+    if (!ctx) return;
+    if (on && !this.noiseSrc) {
+      const len = ctx.sampleRate * 2;
+      const buf = ctx.createBuffer(1, len, ctx.sampleRate);
+      const data = buf.getChannelData(0);
+      for (let i = 0; i < len; i++) data[i] = Math.random() * 2 - 1;
+      const src = ctx.createBufferSource();
+      src.buffer = buf;
+      src.loop = true;
+      src.connect(this.noiseGain);
+      src.start();
+      this.noiseSrc = src;
+    } else if (!on) {
+      this.noiseSrc?.stop();
+      this.noiseSrc = null;
+      this.setVoiceLoop(null);
+      this.setMix(0, 0, 400);
+    }
+  }
+
+  /** 杂音音量、人声音量、低通截止频率 */
+  setMix(noise: number, voice: number, cutoff: number): void {
+    const ctx = this.ctx;
+    if (!ctx) return;
+    const t = ctx.currentTime;
+    this.noiseGain.gain.setTargetAtTime(noise * 0.35, t, 0.05);
+    this.voiceGain.gain.setTargetAtTime(voice, t, 0.05);
+    this.voiceFilter.frequency.setTargetAtTime(cutoff, t, 0.05);
+  }
+
+  /** 在收音机通道中循环播放某句话（经过滤波） */
+  setVoiceLoop(tailo: string | null): void {
+    if (tailo === this.loopKey) return;
+    if (this.loopTimer !== null) window.clearTimeout(this.loopTimer);
+    this.loopTimer = null;
+    this.loopKey = tailo;
+    if (!tailo || !this.ctx) return;
+    const loop = () => {
+      if (this.loopKey !== tailo) return;
+      const dur = this.synthPhrase(tailo, this.voiceFilter);
+      this.loopTimer = window.setTimeout(loop, (dur + 0.8) * 1000);
+    };
+    loop();
+  }
+
+  /** 清晰播放一句（挑战、收集簿用），返回时长（秒） */
+  playPhrase(tailo: string, rate = 1): number {
+    if (!this.ctx) return 0;
+    void this.ctx.resume();
+    return this.synthPhrase(tailo, this.cleanBus, rate);
+  }
+
+  /** 播放单个调类的示意音 */
+  playTone(tone: number): number {
+    if (!this.ctx) return 0;
+    return this.synthSyllables([tone], this.cleanBus, 1.4);
+  }
+
+  private synthPhrase(tailo: string, dest: AudioNode, rate = 1): number {
+    const tones = tonesOf(tailo);
+    return this.synthSyllables(tones.length ? tones : [1], dest, rate);
+  }
+
+  /** 占位合成：按厦门腔调值生成音高轮廓（不是真人发音） */
+  private synthSyllables(tones: number[], dest: AudioNode, rate: number): number {
+    const ctx = this.ctx!;
+    let t = ctx.currentTime + 0.05;
+    const pitch = (level: number) => 130 * Math.pow(2, (level - 1) / 4);
+    for (const tone of tones) {
+      const c = XIAMEN_TONE_CONTOUR[tone] ?? XIAMEN_TONE_CONTOUR[1];
+      const dur = (c.short ? 0.16 : 0.32) * rate;
+      const osc = ctx.createOscillator();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(pitch(c.from), t);
+      osc.frequency.linearRampToValueAtTime(pitch(c.to), t + dur);
+      const formant = ctx.createBiquadFilter();
+      formant.type = 'bandpass';
+      formant.frequency.value = 900;
+      formant.Q.value = 1.2;
+      const env = ctx.createGain();
+      env.gain.setValueAtTime(0, t);
+      env.gain.linearRampToValueAtTime(0.9, t + 0.03);
+      env.gain.setValueAtTime(0.9, t + dur - (c.short ? 0.02 : 0.08));
+      env.gain.linearRampToValueAtTime(0, t + dur);
+      osc.connect(formant).connect(env).connect(dest);
+      osc.start(t);
+      osc.stop(t + dur + 0.02);
+      t += dur + 0.07 * rate;
+    }
+    return t - ctx.currentTime;
+  }
+
+  sfx(kind: Sfx): void {
+    const ctx = this.ctx;
+    if (!ctx) return;
+    const seq: Record<Sfx, Array<[number, number]>> = {
+      click: [[880, 0.04]],
+      lock: [[660, 0.08], [990, 0.12]],
+      ok: [[784, 0.08], [1046, 0.14]],
+      bad: [[220, 0.18]],
+      collect: [[523, 0.08], [659, 0.08], [784, 0.08], [1046, 0.2]],
+      dice: [[300, 0.03], [420, 0.03], [360, 0.03]],
+      unlock: [[392, 0.1], [523, 0.1], [784, 0.25]],
+    };
+    let t = ctx.currentTime;
+    for (const [f, d] of seq[kind]) {
+      const osc = ctx.createOscillator();
+      osc.type = 'square';
+      osc.frequency.value = f;
+      const g = ctx.createGain();
+      g.gain.setValueAtTime(0.12, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + d);
+      osc.connect(g).connect(this.cleanBus);
+      osc.start(t);
+      osc.stop(t + d);
+      t += d;
+    }
+  }
+}
+
+export const AudioManager = new AudioManagerImpl();
+
+
+文件：src/scenes/LocationScene.ts
+import Phaser from 'phaser';
+import { drawLocation } from '../art/sceneArt';
+import { sceneBackdrop } from '../art/illustrations';
+import { portrait } from '../art/portraits';
+import { AudioManager } from '../core/AudioManager';
+import { Content } from '../core/ContentRepository';
+import { EventBus } from '../core/EventBus';
+import { StateStore } from '../core/StateStore';
+import { openBargain } from '../minigames/Bargain';
+import { openBobing } from '../minigames/Bobing';
+import type { HotspotDef, KnowledgeDef, SceneDef } from '../types';
+import { runChallenge } from '../systems/challenge/ChallengeRunner';
+import { CollectionSystem } from '../systems/collection/CollectionSystem';
+import { DialogueSystem, type DialogueLine } from '../systems/dialogue/DialogueSystem';
+import { KnowledgeSystem } from '../systems/knowledge/KnowledgeSystem';
+import { QuestSystem } from '../systems/quest/QuestSystem';
+import { RadioSystem } from '../systems/radio/RadioSystem';
+import { TIME_TINT, TimeSystem } from '../systems/timeWeather/TimeSystem';
+import { Hud } from '../ui/Hud';
+import { RadioPanel } from '../ui/RadioPanel';
+import { Stage, UIState, el } from '../ui/dom';
+
+const WORLD_W = 720;
+const WORLD_H = 270;
+const SPEED = 74;
+const MIN_X = 16;
+const MAX_X = 704;
+const MIN_Y = 184;
+const MAX_Y = 262;
+const TALK_RANGE = 56;
+const KNOW_RANGE = 44;
+const SPAWN = { x: 100, y: 236 };
+/** 场景中人物（玩家与 NPC）相对场景的放大倍率 */
+const CHAR_SCALE = 1.35;
+
+/** 角色/物件深度：按脚底 y 排序，保持在地面层(4)与前景层(25)之间 */
+const depthOf = (y: number) => 10 + (y - 150) / 200;
+
+/** 本次会话内已播放过开场白的场景（不写入存档） */
+const introShown = new Set<string>();
+
+interface HotspotView {
+  kind: 'hotspot' | 'knowledge';
+  label: string;
+  def?: HotspotDef;
+  know?: KnowledgeDef;
+  /** 精灵底部中心（世界坐标） */
+  x: number;
+  y: number;
+  sprite: Phaser.GameObjects.Image;
+  tag: HTMLDivElement;
+  mark?: Phaser.GameObjects.Image;
+}
+
+type KeyMap = Record<'up' | 'down' | 'left' | 'right' | 'w' | 'a' | 's' | 'd' | 'q' | 'e' | 'shift' | 'space' | 'enter' | 'esc' | 'm', Phaser.Input.Keyboard.Key>;
+
+/** 关卡场景：行走 + 收音机调频 + NPC 交互 + 挑战收集 */
+export class LocationScene extends Phaser.Scene {
+  private sc!: SceneDef;
+  private player!: Phaser.GameObjects.Sprite;
+  private target: { x: number; y: number } | null = null;
+  private pendingTalk: HotspotView | null = null;
+  private hotspots: HotspotView[] = [];
+  private hintTag!: HTMLDivElement;
+  private bubble!: HTMLDivElement;
+  private labelsRoot!: HTMLDivElement;
+  private tint!: Phaser.GameObjects.Rectangle;
+  private waves = new Map<string, Phaser.GameObjects.Image>();
+  private radio!: RadioSystem;
+  private panel!: RadioPanel;
+  private hud!: Hud;
+  private keys!: KeyMap;
+  private offs: Array<() => void> = [];
+  private challengeActive = false;
+  private uiPaused = false;
+  /** 最近一次处于弹窗/对话状态的时间，用于屏蔽关闭弹窗的同一次按键 */
+  private lastModalAt = 0;
+  private tuneHold = 0;
+  private walkClock = 0;
+  private nearest: HotspotView | null = null;
+
+  constructor() {
+    super('Location');
+  }
+
+  init(data: { sceneId?: string }): void {
+    const id = data.sceneId && Content.scenes.some((s) => s.id === data.sceneId) ? data.sceneId : Content.scenes[0].id;
+    this.sc = Content.scene(id);
+    this.hotspots = [];
+    this.waves = new Map();
+    this.offs = [];
+    this.target = null;
+    this.pendingTalk = null;
+    this.challengeActive = false;
+    this.uiPaused = false;
+    this.nearest = null;
+  }
+
+  create(): void {
+    const sc = this.sc;
+    StateStore.setScene(sc.id);
+    EventBus.emit('scene:enter', { sceneId: sc.id });
+
+    drawLocation(this, sc.palette);
+    const cam = this.cameras.main;
+    cam.setBounds(0, 0, WORLD_W, WORLD_H);
+
+    // 玩家
+    this.player = this.add.sprite(SPAWN.x, SPAWN.y, 'player').setOrigin(0.5, 1).setScale(CHAR_SCALE).setDepth(depthOf(SPAWN.y));
+    cam.startFollow(this.player, true, 0.15, 0.15);
+    cam.setRoundPixels(true);
+
+    // DOM 标签层
+    this.labelsRoot = el('div');
+    this.hintTag = el('div', { class: 'tag hint hidden', text: '空格 交谈' });
+    this.bubble = el('div', { class: 'know-bubble hidden' });
+    Stage.layer('labels').append(this.labelsRoot);
+    this.labelsRoot.append(this.bubble, this.hintTag);
+
+    this.createHotspots();
+    this.createKnowledge();
+
+    // 时段色调
+    this.tint = this.add.rectangle(0, 0, 480, 270, 0xffffff, 0).setOrigin(0).setScrollFactor(0).setDepth(30);
+    this.applyTint();
+
+    this.refreshWaves();
+
+    // 收音机
+    this.radio = new RadioSystem();
+    this.panel = new RadioPanel(this.radio);
+    this.panel.mount();
+    this.radio.setOn(true);
+
+    this.hud = new Hud(sc.id, {
+      onMap: () => this.scene.start('WorldMap'),
+      onReset: () => {
+        StateStore.loadOrNew(true);
+        this.scene.start('Title');
+      },
+    });
+    this.hud.mount();
+
+    this.setupInput();
+
+    this.offs.push(
+      EventBus.on('time:changed', () => {
+        this.applyTint();
+        this.refreshWaves();
+      }),
+      EventBus.on('sound:collected', () => this.refreshWaves()),
+      EventBus.on('radio:locked', ({ soundId }) => this.onLocked(soundId)),
+    );
+
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.cleanup());
+
+    if (!introShown.has(sc.id)) {
+      introShown.add(sc.id);
+      DialogueSystem.show({ speaker: sc.name, text: sc.storyIntro }, undefined, { bg: sceneBackdrop(sc.id), playerPortrait: portrait('player') });
+    }
+  }
+
+  private textureFor(def: HotspotDef): string {
+    const s = def.sprite;
+    if (s) {
+      const key = s.startsWith('obj-') ? s : `npc-${s}`;
+      if (this.textures.exists(key)) return key;
+    }
+    if (def.action === 'minigame:bobing') return 'obj-bobing';
+    return 'npc-tourist';
+  }
+
+  private bindClick(view: HotspotView, range: number): void {
+    view.sprite.setInteractive({ useHandCursor: true });
+    view.sprite.on('pointerdown', (_p: Phaser.Input.Pointer, _lx: number, _ly: number, ev: Phaser.Types.Input.EventData) => {
+      ev.stopPropagation();
+      if (this.inputBlocked()) return;
+      if (this.distanceTo(view) <= range) this.interact(view);
+      else {
+        this.pendingTalk = view;
+        this.walkTo(view.x + (this.player.x < view.x ? -22 : 22), view.y + 10);
+      }
+    });
+  }
+
+  private createHotspots(): void {
+    for (const def of this.sc.hotspots) {
+      const x = def.x;
+      const y = def.y;
+      const sprite = this.add.image(x, y, this.textureFor(def)).setOrigin(0.5, 1).setDepth(depthOf(y));
+      const isChar = !sprite.texture.key.startsWith('obj-');
+      if (isChar) sprite.setScale(CHAR_SCALE);
+      // 角色脚下的柔和阴影
+      this.add.ellipse(x, y - 1, Math.min(sprite.displayWidth, 40), 6, 0x2b1d16, 0.28).setDepth(depthOf(y) - 0.01);
+      const view: HotspotView = { kind: 'hotspot', label: def.label, def, x, y, sprite, tag: el('div', { class: 'tag', text: def.label }) };
+      this.bindClick(view, TALK_RANGE);
+      // 小幅呼吸动画，让 NPC 显得「活着」
+      if (isChar) {
+        this.tweens.add({ targets: sprite, scaleY: CHAR_SCALE * 1.03, duration: 800 + Math.random() * 300, yoyo: true, repeat: -1, ease: 'Stepped', easeParams: [2] });
+      }
+      this.labelsRoot.append(view.tag);
+      this.hotspots.push(view);
+    }
+  }
+
+  /** 闽南文化科普点：小物件 + 头顶标记，靠近弹出简介，空格/点击打开图文卡 */
+  private createKnowledge(): void {
+    for (const k of Content.knowledgeIn(this.sc.id)) {
+      const key = this.textures.exists(`prop-${k.prop}`) ? `prop-${k.prop}` : 'know-mark';
+      const sprite = this.add.image(k.x, k.y, key).setOrigin(0.5, 1).setDepth(depthOf(k.y));
+      const mark = this.add.image(k.x, k.y - sprite.height - 8, 'know-mark').setDepth(24);
+      this.tweens.add({ targets: mark, y: mark.y - 3, duration: 650, yoyo: true, repeat: -1, ease: 'Stepped', easeParams: [2] });
+      const view: HotspotView = {
+        kind: 'knowledge',
+        label: k.title,
+        know: k,
+        x: k.x,
+        y: k.y,
+        sprite,
+        mark,
+        tag: el('div', { class: 'tag know', text: k.title }),
+      };
+      this.refreshMark(view);
+      this.bindClick(view, KNOW_RANGE);
+      this.labelsRoot.append(view.tag);
+      this.hotspots.push(view);
+    }
+  }
+
+  private refreshMark(v: HotspotView): void {
+    if (!v.know || !v.mark) return;
+    v.mark.setAlpha(KnowledgeSystem.isSeen(v.know.id) ? 0.45 : 1);
+  }
+
+  private rangeOf(v: HotspotView): number {
+    return v.kind === 'knowledge' ? KNOW_RANGE : TALK_RANGE;
+  }
+
+  private setupInput(): void {
+    const kb = this.input.keyboard!;
+    const K = Phaser.Input.Keyboard.KeyCodes;
+    // enableCapture=false：不阻止浏览器默认行为，避免影响弹窗里的按钮 / 输入框
+    const add = (code: number) => kb.addKey(code, false);
+    this.keys = {
+      up: add(K.UP), down: add(K.DOWN), left: add(K.LEFT), right: add(K.RIGHT),
+      w: add(K.W), a: add(K.A), s: add(K.S), d: add(K.D),
+      q: add(K.Q), e: add(K.E), shift: add(K.SHIFT),
+      space: add(K.SPACE), enter: add(K.ENTER), esc: add(K.ESC), m: add(K.M),
+    };
+
+    this.input.on('pointerdown', (p: Phaser.Input.Pointer) => {
+      if (this.inputBlocked()) return;
+      AudioManager.init();
+      this.pendingTalk = null;
+      this.walkTo(p.worldX, p.worldY);
+    });
+  }
+
+  private inputBlocked(): boolean {
+    return UIState.modalOpen || this.challengeActive || this.time.now - this.lastModalAt < 200;
+  }
+
+  private walkTo(x: number, y: number): void {
+    this.target = {
+      x: Phaser.Math.Clamp(x, MIN_X, MAX_X),
+      y: Phaser.Math.Clamp(y, MIN_Y, MAX_Y),
+    };
+  }
+
+  private distanceTo(h: HotspotView): number {
+    return Math.hypot(h.x - this.player.x, (h.y - this.player.y) * 0.6);
+  }
+
+  private interact(h: HotspotView): void {
+    this.target = null;
+    this.pendingTalk = null;
+    AudioManager.init();
+    AudioManager.sfx('click');
+    this.player.setFlipX(h.x < this.player.x);
+    if (h.kind === 'knowledge' && h.know) {
+      KnowledgeSystem.open(h.know, () => {
+        this.lastModalAt = this.time.now;
+        this.refreshMark(h);
+      });
+      return;
+    }
+    const def = h.def!;
+    switch (def.action) {
+      case 'npc': {
+        const name = def.label.replace(/[（(].*$/, '');
+        const lines: DialogueLine[] = def.dialogue?.length
+          ? def.dialogue.map((d) => ({ speaker: d.speaker ?? name, text: d.text, tailo: d.tailo }))
+          : [{ speaker: name, text: def.npcLine ?? '……' }];
+        DialogueSystem.show(lines, undefined, {
+          bg: sceneBackdrop(this.sc.id),
+          portrait: def.sprite ? portrait(def.sprite) : null,
+          playerPortrait: portrait('player'),
+        });
+        break;
+      }
+      case 'minigame:bargain':
+        openBargain();
+        break;
+      case 'minigame:bobing':
+        openBobing();
+        break;
+      default:
+        break;
+    }
+  }
+
+  private onLocked(soundId: string): void {
+    if (this.challengeActive) return;
+    this.challengeActive = true;
+    this.target = null;
+    this.radio.setPaused(true);
+    runChallenge(
+      soundId,
+      (r) => {
+        CollectionSystem.collect(soundId, r.stars);
+        this.challengeActive = false;
+        this.lastModalAt = this.time.now;
+        this.radio.setPaused(false);
+        QuestSystem.evaluate();
+        this.refreshWaves();
+        this.hud.refresh();
+      },
+      () => {
+        // 放弃挑战：恢复收音，5 秒内不再锁定同一段声音
+        this.challengeActive = false;
+        this.lastModalAt = this.time.now;
+        this.radio.snooze(soundId, 5);
+        this.radio.setPaused(false);
+      },
+    );
+  }
+
+  private applyTint(): void {
+    const t = TIME_TINT[TimeSystem.current];
+    this.tint.setFillStyle(t.color, t.alpha);
+  }
+
+  /** 当前时段可听到、尚未收集的声源显示「声波」提示 */
+  private refreshWaves(): void {
+    const audible = Content.audibleIn(this.sc.id, TimeSystem.current).filter((s) => !StateStore.isCollected(s.id));
+    const keep = new Set(audible.map((s) => s.id));
+    for (const [id, img] of this.waves) {
+      if (!keep.has(id)) {
+        this.tweens.killTweensOf(img);
+        img.destroy();
+        this.waves.delete(id);
+      }
+    }
+    for (const s of audible) {
+      if (this.waves.has(s.id)) continue;
+      const img = this.add.image(s.pos.x, s.pos.y - 14, 'wave').setDepth(15).setAlpha(0.35);
+      this.tweens.add({
+        targets: img,
+        scale: { from: 0.7, to: 1.15 },
+        alpha: { from: 0.45, to: 0.1 },
+        duration: 1100 + (s.frequency % 1) * 600,
+        repeat: -1,
+        ease: 'Sine.easeOut',
+      });
+      this.waves.set(s.id, img);
+    }
+  }
+
+  update(time: number, delta: number): void {
+    const dt = Math.min(delta, 50) / 1000;
+    const modal = UIState.modalOpen;
+    if (modal) this.lastModalAt = time;
+
+    // 弹窗 / 对话期间暂停收音（挑战由 onLocked 单独暂停）
+    const shouldPause = modal && !this.challengeActive;
+    if (shouldPause !== this.uiPaused) {
+      this.uiPaused = shouldPause;
+      if (!this.challengeActive) this.radio.setPaused(shouldPause);
+    }
+
+    const blocked = this.inputBlocked();
+    if (!blocked) {
+      this.handleTuning(dt);
+      this.handleMovement(dt);
+      if (Phaser.Input.Keyboard.JustDown(this.keys.m)) {
+        this.scene.start('WorldMap');
+        return;
+      }
+    } else {
+      this.setWalking(false);
+      // 消耗掉弹窗期间的按键，避免关闭后误触发
+      Phaser.Input.Keyboard.JustDown(this.keys.space);
+      Phaser.Input.Keyboard.JustDown(this.keys.enter);
+      Phaser.Input.Keyboard.JustDown(this.keys.q);
+      Phaser.Input.Keyboard.JustDown(this.keys.e);
+      Phaser.Input.Keyboard.JustDown(this.keys.m);
+    }
+
+    // 最近的可交互对象
+    let best: HotspotView | null = null;
+    let bestD = Infinity;
+    for (const h of this.hotspots) {
+      const d = this.distanceTo(h) / this.rangeOf(h);
+      if (d < bestD) {
+        bestD = d;
+        best = h;
+      }
+    }
+    this.nearest = best && bestD <= 1 ? best : null;
+
+    if (this.pendingTalk && this.distanceTo(this.pendingTalk) <= this.rangeOf(this.pendingTalk) && !blocked) {
+      this.interact(this.pendingTalk);
+    } else if (!blocked && this.nearest) {
+      const sp = Phaser.Input.Keyboard.JustDown(this.keys.space);
+      const en = Phaser.Input.Keyboard.JustDown(this.keys.enter);
+      if (sp || en) this.interact(this.nearest);
+    } else if (!blocked) {
+      Phaser.Input.Keyboard.JustDown(this.keys.space);
+      Phaser.Input.Keyboard.JustDown(this.keys.enter);
+    }
+
+    // 收音机
+    const sig = this.radio.update(
+      dt,
+      this.player.x,
+      this.player.y,
+      Content.audibleIn(this.sc.id, TimeSystem.current),
+      (id) => StateStore.isCollected(id),
+    );
+    this.panel.render(sig);
+    for (const [id, img] of this.waves) img.setTint(id === sig.nearestId ? 0xffffff : 0xd9a441);
+
+    this.updateLabels();
+  }
+
+  private handleTuning(dt: number): void {
+    const k = this.keys;
+    const step = k.shift.isDown ? 1 : 0.1;
+    if (Phaser.Input.Keyboard.JustDown(k.q)) {
+      this.radio.tune(-step);
+      this.tuneHold = 0;
+    }
+    if (Phaser.Input.Keyboard.JustDown(k.e)) {
+      this.radio.tune(step);
+      this.tuneHold = 0;
+    }
+    const dir = (k.e.isDown ? 1 : 0) - (k.q.isDown ? 1 : 0);
+    if (dir === 0) {
+      this.tuneHold = 0;
+      return;
+    }
+    // 按住 0.35 秒后连续调频
+    const prev = this.tuneHold;
+    this.tuneHold += dt;
+    if (this.tuneHold > 0.35) {
+      const ticks = Math.floor((this.tuneHold - 0.35) / 0.06) - Math.floor(Math.max(0, prev - 0.35) / 0.06);
+      if (ticks > 0) this.radio.tune(dir * step * ticks);
+    }
+  }
+
+  private handleMovement(dt: number): void {
+    const k = this.keys;
+    let vx = (k.right.isDown || k.d.isDown ? 1 : 0) - (k.left.isDown || k.a.isDown ? 1 : 0);
+    let vy = (k.down.isDown || k.s.isDown ? 1 : 0) - (k.up.isDown || k.w.isDown ? 1 : 0);
+
+    if (vx !== 0 || vy !== 0) {
+      this.target = null;
+      this.pendingTalk = null;
+    } else if (this.target) {
+      const dx = this.target.x - this.player.x;
+      const dy = this.target.y - this.player.y;
+      const d = Math.hypot(dx, dy);
+      if (d < 1.5) {
+        this.target = null;
+      } else {
+        vx = dx / d;
+        vy = dy / d;
+      }
+    }
+
+    if (vx === 0 && vy === 0) {
+      this.setWalking(false);
+      return;
+    }
+    const len = Math.hypot(vx, vy);
+    const step = SPEED * dt;
+    let nx = this.player.x + (vx / len) * step;
+    let ny = this.player.y + (vy / len) * step * 0.75;
+    if (this.target) {
+      // 不越过目标点
+      if (Math.abs(this.target.x - this.player.x) < Math.abs(nx - this.player.x)) nx = this.target.x;
+      if (Math.abs(this.target.y - this.player.y) < Math.abs(ny - this.player.y)) ny = this.target.y;
+    }
+    this.player.x = Phaser.Math.Clamp(nx, MIN_X, MAX_X);
+    this.player.y = Phaser.Math.Clamp(ny, MIN_Y, MAX_Y);
+    this.player.setDepth(depthOf(this.player.y));
+    if (vx !== 0) this.player.setFlipX(vx < 0);
+    this.setWalking(true, dt);
+  }
+
+  private setWalking(walking: boolean, dt = 0): void {
+    if (!walking) {
+      if (this.player.texture.key !== 'player') this.player.setTexture('player');
+      this.walkClock = 0;
+      return;
+    }
+    this.walkClock += dt;
+    const seq = this.textures.exists('player-walk2') ? ['player-walk', 'player', 'player-walk2', 'player'] : ['player-walk', 'player'];
+    const frame = seq[Math.floor(this.walkClock / 0.14) % seq.length];
+    if (this.player.texture.key !== frame) this.player.setTexture(frame);
+  }
+
+  private updateLabels(): void {
+    const cam = this.cameras.main;
+    const showHint = !!this.nearest && !this.inputBlocked();
+    for (const h of this.hotspots) {
+      const sx = h.x - cam.scrollX;
+      const sy = h.y - h.sprite.displayHeight - 3 - cam.scrollY;
+      // 科普点平时只显示头顶标记，靠近时才出现名字
+      const visible = sx > -40 && sx < 520 && h.kind === 'hotspot';
+      h.tag.classList.toggle('hidden', !visible || (showHint && h === this.nearest));
+      if (visible) Stage.place(h.tag, sx, sy);
+    }
+    this.hintTag.classList.toggle('hidden', !showHint);
+    const n = showHint ? this.nearest : null;
+    if (n && n.kind === 'knowledge' && n.know) {
+      const k = n.know;
+      const html = `<b>${k.title}</b>${KnowledgeSystem.isSeen(k.id) ? ' <em>已读</em>' : ''}<br>${k.summary}`;
+      if (this.bubble.dataset.id !== k.id) {
+        this.bubble.dataset.id = k.id;
+        this.bubble.innerHTML = html;
+      }
+      this.bubble.classList.remove('hidden');
+      Stage.place(this.bubble, Phaser.Math.Clamp(n.x - cam.scrollX, 70, 410), n.y - n.sprite.displayHeight - 24 - cam.scrollY);
+    } else {
+      this.bubble.classList.add('hidden');
+      this.bubble.dataset.id = '';
+    }
+    if (n) {
+      const verb = n.kind === 'knowledge' ? '了解' : n.def?.action === 'npc' ? '交谈' : '开始';
+      const text = `空格 ${verb}：${n.label}`;
+      if (this.hintTag.textContent !== text) this.hintTag.textContent = text;
+      this.hintTag.classList.toggle('know', n.kind === 'knowledge');
+      Stage.place(this.hintTag, n.x - cam.scrollX, n.y - n.sprite.displayHeight - (n.kind === 'knowledge' ? 14 : 3) - cam.scrollY);
+    }
+  }
+
+  private cleanup(): void {
+    DialogueSystem.dismiss();
+    this.offs.forEach((f) => f());
+    this.offs = [];
+    this.radio?.setOn(false);
+    AudioManager.radioOn(false);
+    this.hud?.destroy();
+    this.panel?.destroy();
+    this.labelsRoot?.remove();
+    Stage.clear('labels');
+    this.input.removeAllListeners();
+    this.input.keyboard?.removeAllKeys(false);
+  }
+}
+
+
+文件：src/systems/dialogue/DialogueSystem.ts
+import { AudioManager } from '../../core/AudioManager';
+import { Stage, UIState, el } from '../../ui/dom';
+
+export interface DialogueLine {
+  speaker?: string;
+  text: string;
+  /** 有台罗时显示「▶」按钮，可播放占位合成音 */
+  tailo?: string;
+  /** 该句的立绘（dataURL）；未提供则沿用对话选项里的立绘 */
+  portrait?: string | null;
+}
+
+export interface DialogueOptions {
+  /** 全屏背景插画 dataURL：提供时进入「视觉小说」式对话 */
+  bg?: string;
+  /** 对方立绘 dataURL */
+  portrait?: string | null;
+  /** 玩家立绘 dataURL（speaker 为「我」时显示在左侧） */
+  playerPortrait?: string | null;
+}
+
+/**
+ * 底部对话框：逐字显示，点击 / 空格 / 回车 → 若未打完则补全，否则下一句。
+ * 对话期间计入 UIState.modalDepth，场景不响应移动。
+ */
+class DialogueSystemImpl {
+  private queue: DialogueLine[] = [];
+  private box: HTMLDivElement | null = null;
+  private textEl!: HTMLDivElement;
+  private speakerEl!: HTMLDivElement;
+  private playBtn!: HTMLButtonElement;
+  private scrim: HTMLDivElement | null = null;
+  private portraitEl: HTMLImageElement | null = null;
+  private opts: DialogueOptions = {};
+  private full = '';
+  private shown = 0;
+  private timer: number | null = null;
+  private onDone: (() => void) | null = null;
+  private keyHandler = (e: KeyboardEvent) => {
+    if (e.key === ' ' || e.key === 'Enter' || e.key === 'e' || e.key === 'E') {
+      e.preventDefault();
+      e.stopPropagation();
+      this.advance();
+    }
+  };
+
+  get active(): boolean {
+    return this.box !== null;
+  }
+
+  /** 切换场景时强制关闭：清空队列、释放 modalDepth，不触发 onDone */
+  dismiss(): void {
+    if (!this.box) return;
+    this.queue = [];
+    this.onDone = null;
+    this.close();
+  }
+
+  show(lines: DialogueLine[] | DialogueLine, onDone?: () => void, opts: DialogueOptions = {}): void {
+    const arr = Array.isArray(lines) ? lines : [lines];
+    if (!arr.length) {
+      onDone?.();
+      return;
+    }
+    if (this.box) {
+      // 已在对话中：追加到队列，回调串联
+      this.queue.push(...arr);
+      const prev = this.onDone;
+      this.onDone = () => {
+        prev?.();
+        onDone?.();
+      };
+      return;
+    }
+    this.queue = [...arr];
+    this.onDone = onDone ?? null;
+    this.opts = opts;
+    this.open();
+    this.next();
+  }
+
+  private open(): void {
+    const layer = Stage.layer('dialogue');
+    if (this.opts.bg) {
+      const bg = el('div', { class: 'dlg-bg' });
+      bg.style.backgroundImage = `url(${this.opts.bg})`;
+      this.portraitEl = el('img', { class: 'dlg-portrait hidden' }) as HTMLImageElement;
+      this.portraitEl.alt = '';
+      this.scrim = el('div', { class: 'dlg-scrim' }, [bg, el('div', { class: 'dlg-shade' }), this.portraitEl]);
+      layer.append(this.scrim);
+    }
+    this.speakerEl = el('div', { class: 'dlg-speaker' });
+    this.textEl = el('div', { class: 'dlg-text' });
+    this.playBtn = el('button', { class: 'dlg-play hidden', text: '▶', title: '播放' });
+    this.playBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const t = this.playBtn.dataset.tailo;
+      if (t) AudioManager.playPhrase(t);
+    });
+    const more = el('div', { class: 'dlg-more', text: '▼' });
+    this.box = el('div', { class: `dlg-box ${this.opts.bg ? 'vn' : ''}` }, [this.speakerEl, this.textEl, this.playBtn, more]);
+    this.box.addEventListener('click', () => this.advance());
+    this.scrim?.addEventListener('click', () => this.advance());
+    layer.append(this.box);
+    UIState.modalDepth += 1;
+    window.addEventListener('keydown', this.keyHandler, true);
+  }
+
+  private close(): void {
+    if (this.timer !== null) window.clearInterval(this.timer);
+    this.timer = null;
+    this.box?.remove();
+    this.box = null;
+    this.scrim?.remove();
+    this.scrim = null;
+    this.portraitEl = null;
+    this.opts = {};
+    UIState.modalDepth = Math.max(0, UIState.modalDepth - 1);
+    window.removeEventListener('keydown', this.keyHandler, true);
+    const cb = this.onDone;
+    this.onDone = null;
+    cb?.();
+  }
+
+  private next(): void {
+    const line = this.queue.shift();
+    if (!line) {
+      this.close();
+      return;
+    }
+    this.speakerEl.textContent = line.speaker ?? '';
+    this.speakerEl.classList.toggle('hidden', !line.speaker);
+    if (this.portraitEl) {
+      const isPlayer = line.speaker === '我';
+      const src = line.portrait !== undefined ? line.portrait : isPlayer ? this.opts.playerPortrait : this.opts.portrait;
+      this.portraitEl.classList.toggle('hidden', !src);
+      this.portraitEl.classList.toggle('left', isPlayer);
+      if (src && this.portraitEl.src !== src) {
+        this.portraitEl.src = src;
+        this.portraitEl.classList.remove('enter');
+        void this.portraitEl.offsetWidth;
+        this.portraitEl.classList.add('enter');
+      }
+    }
+    this.playBtn.classList.toggle('hidden', !line.tailo);
+    this.playBtn.dataset.tailo = line.tailo ?? '';
+    this.full = line.text;
+    this.shown = 0;
+    this.textEl.textContent = '';
+    if (this.timer !== null) window.clearInterval(this.timer);
+    this.timer = window.setInterval(() => {
+      this.shown += 1;
+      this.textEl.textContent = this.full.slice(0, this.shown);
+      if (this.shown >= this.full.length && this.timer !== null) {
+        window.clearInterval(this.timer);
+        this.timer = null;
+      }
+    }, 28);
+  }
+
+  private advance(): void {
+    if (!this.box) return;
+    AudioManager.sfx('click');
+    if (this.timer !== null) {
+      window.clearInterval(this.timer);
+      this.timer = null;
+      this.textEl.textContent = this.full;
+      return;
+    }
+    this.next();
+  }
+}
+
+export const DialogueSystem = new DialogueSystemImpl();

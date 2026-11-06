@@ -1,0 +1,574 @@
+{
+  "scenes": [
+    {
+      "id": "laocuo",
+      "name": "外妈老厝",
+      "tailo": "Guā-má ê lāu-tshù",
+      "desc": "红砖燕尾脊的闽南老厝，天井里晒着菜脯，阿嬷正在泡茶。",
+      "palette": "laocuo",
+      "mapPos": {
+        "x": 300,
+        "y": 150
+      },
+      "unlock": {
+        "requireCollected": 0
+      },
+      "storyIntro": "暑假回到厦门外妈家。阿公留下一台老收音机：「这台收音机听会着厝边头尾的声。」打开它，把散落在老厝里的闽南话收集回来吧。",
+      "hotspots": [
+        {
+          "id": "ama",
+          "label": "阿嬷",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "ama",
+          "dialogue": [
+            {
+              "speaker": "阿嬷",
+              "text": "汝转来矣！紧入来坐，日头遮大。",
+              "tailo": "Lí tńg--lâi--ah! Kín ji̍p--lâi tsē, ji̍t-thâu tsia tuā."
+            },
+            {
+              "speaker": "阿嬷",
+              "text": "先来食茶。这泡是铁观音，你阿公上爱彼个味。",
+              "tailo": "Sing lâi tsia̍h tê. Tsit phàu sī thih-kuan-im, lí a-kong siōng ài hit ê bī."
+            },
+            {
+              "speaker": "我",
+              "text": "阿嬷，阿公彼台收音机犹阁会振无？",
+              "tailo": "A-má, a-kong hit tâi siu-im-ki iáu-koh ē tín--bô?"
+            },
+            {
+              "speaker": "阿嬷",
+              "text": "会啦，慢慢仔转，声就出来矣。",
+              "tailo": "Ē--lah, bān-bān-á tńg, siann tō tshut--lâi--ah."
+            }
+          ]
+        },
+        {
+          "id": "akong",
+          "label": "阿公的藤椅",
+          "x": 340,
+          "y": 206,
+          "w": 30,
+          "h": 34,
+          "action": "npc",
+          "sprite": "akong",
+          "dialogue": [
+            {
+              "speaker": "阿公",
+              "text": "坐遮，风对天井吹入来，上凉。",
+              "tailo": "Tsē tsia, hong tuì thinn-tsínn tshue--ji̍p--lâi, siōng liâng."
+            },
+            {
+              "speaker": "阿公",
+              "text": "汝知影无？这款厝叫做「燕尾脊」，翘起来亲像燕仔尾。",
+              "tailo": "Lí tsai-iánn--bô? Tsit khuán tshù kiò-tsò «iàn-bué-tsiah», khiàu--khí-lâi tshin-tshiūnn iàn-á-bué."
+            },
+            {
+              "speaker": "我",
+              "text": "彼片墙哪会一瑰红一瑰白？",
+              "tailo": "Hit phiàn tshiûnn ná ē tsi̍t kuī âng tsi̍t kuī pe̍h?"
+            },
+            {
+              "speaker": "阿公",
+              "text": "彼是「出砖入石」，古早人用破砖碎石起的，俭阁勇。",
+              "tailo": "He sī «tshut-tsng-ji̍p-tsio̍h», kóo-tsá-lâng iōng phuà-tsng tshuì-tsio̍h khí--ê, khiām koh ióng."
+            }
+          ]
+        },
+        {
+          "id": "neighbor",
+          "label": "厝边阿姨",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "pilgrim",
+          "dialogue": [
+            {
+              "speaker": "厝边阿姨",
+              "text": "食饱未？我拄才煎一盘菜脯卵，提一寡予汝。",
+              "tailo": "Tsia̍h-pá--bē? Guá tú-tsiah tsian tsi̍t puânn tshài-póo-nn̄g, the̍h tsi̍t-kuá hōo lí."
+            },
+            {
+              "speaker": "我",
+              "text": "多谢阿姨！",
+              "tailo": "To-siā a-î!"
+            },
+            {
+              "speaker": "厝边阿姨",
+              "text": "免客气啦，厝边头尾逐家拢是家己人。",
+              "tailo": "Bián kheh-khì--lah, tshù-pinn thâu-bué ta̍k-ke lóng sī ka-kī-lâng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bashi",
+      "name": "八市",
+      "tailo": "Pat-tshī",
+      "desc": "第八市场，海鲜摊一字排开，叫卖声、讨价声此起彼伏。",
+      "palette": "bashi",
+      "mapPos": {
+        "x": 215,
+        "y": 128
+      },
+      "unlock": {
+        "requireCollected": 6,
+        "fromScene": "laocuo"
+      },
+      "storyIntro": "清早的八市最闹热。听说头家娘只同会讲闽南话的人算较俗，来试看觅！",
+      "hotspots": [
+        {
+          "id": "boss",
+          "label": "头家娘",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "boss",
+          "dialogue": [
+            {
+              "speaker": "头家娘",
+              "text": "少年家，欲买啥物？今仔日的蚵仔足肥。",
+              "tailo": "Siàu-liân-ke, beh bé siánn-mih? Kin-á-ji̍t--ê ô-á tsiok puî."
+            },
+            {
+              "speaker": "我",
+              "text": "头家娘，一斤偌济钱？",
+              "tailo": "Thâu-ke-niû, tsi̍t kin guā-tsē tsînn?"
+            },
+            {
+              "speaker": "头家娘",
+              "text": "三十箍。毋过汝会晓讲闽南话，算你较俗。",
+              "tailo": "Sann-tsa̍p khoo. M̄-koh lí ē-hiáu kóng Bân-lâm-uē, sǹg lí khah sio̍k."
+            }
+          ]
+        },
+        {
+          "id": "stall",
+          "label": "海鲜摊（砍价）",
+          "x": 340,
+          "y": 206,
+          "w": 70,
+          "h": 46,
+          "action": "minigame:bargain",
+          "sprite": "obj-stall"
+        },
+        {
+          "id": "fishman",
+          "label": "卖鱼阿伯",
+          "x": 540,
+          "y": 218,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "uncle",
+          "dialogue": [
+            {
+              "speaker": "卖鱼阿伯",
+              "text": "看觅！这尾石斑透早拄落船，鳃犹咧振。",
+              "tailo": "Khuànn-māi! Tsit bué tsio̍h-pan thàu-tsá tú lo̍h-tsûn, tshi iáu leh tín."
+            },
+            {
+              "speaker": "我",
+              "text": "按怎看鱼鲜无鲜？",
+              "tailo": "Án-tsuánn khuànn hî tshinn bô tshinn?"
+            },
+            {
+              "speaker": "卖鱼阿伯",
+              "text": "目睭清、鳃红、肉有弹性，就是鲜。买转去紧煮，莫囥过暗。",
+              "tailo": "Ba̍k-tsiu tshing, tshi âng, bah ū tân-sìng, tō sī tshinn. Bé tńg--khì kín tsú, mài khǹg kuè àm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山路",
+      "tailo": "Tiong-san-lōo",
+      "desc": "南洋风骑楼连成长廊，沙茶面香气飘满街，远处是鹭江与鼓浪屿。",
+      "palette": "zhongshan",
+      "mapPos": {
+        "x": 200,
+        "y": 160
+      },
+      "unlock": {
+        "requireCollected": 14,
+        "fromScene": "bashi"
+      },
+      "storyIntro": "中秋快到了，中山路骑楼下已经传来骰子落碗的声音——有人在跋饼！",
+      "hotspots": [
+        {
+          "id": "noodle",
+          "label": "沙茶面头家",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "noodle",
+          "dialogue": [
+            {
+              "speaker": "沙茶面头家",
+              "text": "来一碗沙茶面无？料家己拣，大肠、鱿鱼、豆干拢有。",
+              "tailo": "Lâi tsi̍t uánn sa-te-mī--bô? Liāu ka-kī kíng, tuā-tn̂g, jiû-hî, tāu-kuann lóng ū."
+            },
+            {
+              "speaker": "我",
+              "text": "我欲加一个卵，莫伤辣。",
+              "tailo": "Guá beh ke tsi̍t ê nn̄g, mài siunn hiam."
+            },
+            {
+              "speaker": "沙茶面头家",
+              "text": "好势！沙茶是阮阿公对南洋学转来的，汤头熬规暝。",
+              "tailo": "Hó-sè! Sa-te sī gún a-kong uì Lâm-iûnn o̍h--tńg-lâi--ê, thng-thâu ngâu kui-mî."
+            }
+          ]
+        },
+        {
+          "id": "bobing",
+          "label": "骑楼下的博饼桌（跋饼）",
+          "x": 340,
+          "y": 206,
+          "w": 60,
+          "h": 40,
+          "action": "minigame:bobing",
+          "sprite": "obj-bobing"
+        },
+        {
+          "id": "tourist",
+          "label": "问路的游客",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            {
+              "speaker": "游客",
+              "text": "请问鼓浪屿欲去佗位坐船？",
+              "tailo": "Tshiánn-mn̄g Kóo-lōng-sū beh khì tó-uī tsē tsûn?"
+            },
+            {
+              "speaker": "我",
+              "text": "直直行到海边，倒爿就是轮渡码头。",
+              "tailo": "Ti̍t-ti̍t kiânn kàu hái-pinn, tò-pîng tō sī lûn-tōo bé-thâu."
+            },
+            {
+              "speaker": "游客",
+              "text": "多谢！你的闽南话讲了真好。",
+              "tailo": "To-siā! Lí ê Bân-lâm-uē kóng liáu tsin hó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gulangyu",
+      "name": "鼓浪屿",
+      "tailo": "Kóo-lōng-sū",
+      "desc": "万国建筑掩映在榕树和三角梅之间，巷子里不时飘出钢琴声。",
+      "palette": "gulangyu",
+      "mapPos": {
+        "x": 150,
+        "y": 175
+      },
+      "unlock": {
+        "requireCollected": 24,
+        "fromScene": "zhongshan"
+      },
+      "storyIntro": "坐轮渡过鹭江，鼓浪屿到了。海浪拍礁石的声音像鼓——这就是「鼓浪」的由来。",
+      "hotspots": [
+        {
+          "id": "pianist",
+          "label": "弹琴的阿姐",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "pianist",
+          "dialogue": [
+            {
+              "speaker": "弹琴阿姐",
+              "text": "汝嘛是来听琴的？鼓浪屿逐间厝几若台钢琴。",
+              "tailo": "Lí mā sī lâi thiann khîm--ê? Kóo-lōng-sū ta̍k king tshù kuí-nā tâi kǹg-khîm."
+            },
+            {
+              "speaker": "我",
+              "text": "这首曲真好听，叫做啥物？",
+              "tailo": "Tsit siú khik tsin hó-thiann, kiò-tsò siánn-mih?"
+            },
+            {
+              "speaker": "阿姐",
+              "text": "《鼓浪屿之波》。慢慢仔听，海风会共你唱后半段。",
+              "tailo": "«Kóo-lōng-sū tsi pho». Bān-bān-á thiann, hái-hong ē kā lí tshiùnn āu puànn-tuānn."
+            }
+          ]
+        },
+        {
+          "id": "islander",
+          "label": "老岛民阿伯",
+          "x": 340,
+          "y": 206,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "islander",
+          "dialogue": [
+            {
+              "speaker": "老岛民阿伯",
+              "text": "阮佇岛顶蹛七十冬矣，囡仔时就佇这条巷仔走来走去。",
+              "tailo": "Gún tī tó-tíng tuà tshit-tsa̍p tang--ah, gín-á sî tō tī tsit tiâu hāng-á tsáu-lâi-tsáu-khì."
+            },
+            {
+              "speaker": "我",
+              "text": "这遐的洋楼是啥人起的？",
+              "tailo": "Tsia hia ê iûnn-lâu sī siánn-lâng khí--ê?"
+            },
+            {
+              "speaker": "老岛民阿伯",
+              "text": "有番客、有外国领事馆，所以叫「万国建筑」。",
+              "tailo": "Ū huan-kheh, ū guā-kok líng-sū-kuán, sóo-í kiò «bān-kok kiàn-tiok»."
+            }
+          ]
+        },
+        {
+          "id": "visitor",
+          "label": "翕相的游客",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            {
+              "speaker": "游客",
+              "text": "会使共阮翕一张相无？后壁彼丛三角梅真媠！",
+              "tailo": "Ē-sái kā gún hip tsi̍t tiunn siòng--bô? Āu-piah hit tsâng sam-kak-muî tsin suí!"
+            },
+            {
+              "speaker": "我",
+              "text": "好啊，一、二、三——笑！",
+              "tailo": "Hó--ah, it, jī, sann——tshiò!"
+            },
+            {
+              "speaker": "游客",
+              "text": "多谢！等一下欲去日光岩看日头落山。",
+              "tailo": "To-siā! Tán--tsi̍t-ē beh khì Ji̍t-kong-giâm khuànn ji̍t-thâu lo̍h-suann."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zengcuoan",
+      "name": "曾厝垵",
+      "tailo": "Tsan-tshù-uann",
+      "desc": "渔村的石厝挨着文艺小店，窄巷里挂满灯笼，走到巷尾就是海。",
+      "palette": "zengcuoan",
+      "mapPos": {
+        "x": 330,
+        "y": 215
+      },
+      "unlock": {
+        "requireCollected": 34,
+        "fromScene": "gulangyu"
+      },
+      "storyIntro": "天欲暗矣，曾厝垵的灯笼一盏一盏亮起来。海风里混着烧肉粽和姜母鸭的味。",
+      "hotspots": [
+        {
+          "id": "vendor",
+          "label": "卖烧肉粽阿伯",
+          "x": 160,
+          "y": 214,
+          "w": 26,
+          "h": 42,
+          "action": "npc",
+          "sprite": "vendor",
+          "dialogue": [
+            {
+              "speaker": "卖粽阿伯",
+              "text": "烧肉粽拄出锅，烧烫烫，欲食紧来。",
+              "tailo": "Sio-bah-tsàng tú tshut-ue, sio-thǹg-thǹg, beh tsia̍h kín lâi."
+            },
+            {
+              "speaker": "我",
+              "text": "阿伯，粽仔内底包啥物？",
+              "tailo": "A-peh, tsàng-á lāi-té pau siánn-mih?"
+            },
+            {
+              "speaker": "卖粽阿伯",
+              "text": "三层肉、香菇、咸卵仁、栗子，阁有虾米。沾甜辣酱上对味。",
+              "tailo": "Sann-tsàn-bah, hiunn-koo, kiâm-nn̄g-jîn, la̍t-tsí, koh ū hê-bí. Tsim thinn-lua̍h-tsiùnn siōng tuì-bī."
+            }
+          ]
+        },
+        {
+          "id": "fisher",
+          "label": "渔家阿姐",
+          "x": 340,
+          "y": 206,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "fisher",
+          "dialogue": [
+            {
+              "speaker": "渔家阿姐",
+              "text": "阮祖公三代拢佇遮讨海。这马逐家改做小店矣。",
+              "tailo": "Gún tsóo-kong sann tāi lóng tī tsia thó-hái. Tsit-má ta̍k-ke kái tsò sió-tiàm--ah."
+            },
+            {
+              "speaker": "我",
+              "text": "巷仔尾彼间是卖啥？",
+              "tailo": "Hāng-á-bué hit king sī bē siánn?"
+            },
+            {
+              "speaker": "渔家阿姐",
+              "text": "卖姜母鸭。老姜、麻油、米酒，寒天食一碗上补。",
+              "tailo": "Bē kionn-bú-ah. Lāu-kionn, muâ-iû, bí-tsiú, kuânn-thinn tsia̍h tsi̍t uánn siōng póo."
+            }
+          ]
+        },
+        {
+          "id": "young",
+          "label": "开小店的少年家",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            {
+              "speaker": "少年家",
+              "text": "阮遮的店，一半是古厝改的。墙顶的石敢当拢留着。",
+              "tailo": "Gún tsia ê tiàm, tsi̍t-puànn sī kóo-tshù kái--ê. Tshiûnn-tíng ê tsio̍h-kám-tong lóng lâu--leh."
+            },
+            {
+              "speaker": "我",
+              "text": "石敢当是咧镇啥？",
+              "tailo": "Tsio̍h-kám-tong sī leh tìn siánn?"
+            },
+            {
+              "speaker": "少年家",
+              "text": "镇路冲、镇海风。古早人起厝，一定会先看风水。",
+              "tailo": "Tìn lōo-tshiong, tìn hái-hong. Kóo-tsá-lâng khí tshù, it-tīng ē sing khuànn hong-suí."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanputuo",
+      "name": "南普陀",
+      "tailo": "Lâm-phóo-tô",
+      "desc": "黄墙红柱的千年古刹，放生池里荷花正开，后山是五老峰的青影。",
+      "palette": "nanputuo",
+      "mapPos": {
+        "x": 265,
+        "y": 200
+      },
+      "unlock": {
+        "requireCollected": 46,
+        "fromScene": "zengcuoan"
+      },
+      "storyIntro": "南普陀的钟声一响，整座五老峰都静下来。师父说：心静，才听得清别人的话。",
+      "hotspots": [
+        {
+          "id": "monk",
+          "label": "师父",
+          "x": 160,
+          "y": 214,
+          "w": 24,
+          "h": 42,
+          "action": "npc",
+          "sprite": "monk",
+          "dialogue": [
+            {
+              "speaker": "师父",
+              "text": "施主，入来食一杯茶。行遮远，歇睏一下。",
+              "tailo": "Si-tšú, ji̍p--lâi tsia̍h tsi̍t puê tê. Kiânn tsiah hn̄g, hioh-khùn tsi̍t-ē."
+            },
+            {
+              "speaker": "我",
+              "text": "师父，闽南话的经文，我听着有淡薄仔生。",
+              "tailo": "Su-hū, Bân-lâm-uē ê king-bûn, guá thiann-tio̍h ū tām-po̍h-á tshinn."
+            },
+            {
+              "speaker": "师父",
+              "text": "慢慢仔读，一字一字读予伊清。语言亲像香，急是袂着的。",
+              "tailo": "Bān-bān-á tha̍k, tsi̍t jī tsi̍t jī tha̍k hōo i tshing. Gí-giân tshin-tshiūnn hiunn, kip sī bē tio̍h--ê."
+            }
+          ]
+        },
+        {
+          "id": "pilgrim",
+          "label": "拜拜的阿婶",
+          "x": 340,
+          "y": 206,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "pilgrim",
+          "dialogue": [
+            {
+              "speaker": "拜拜阿婶",
+              "text": "来，三支香，先拜天公，阁拜佛祖。",
+              "tailo": "Lâi, sann ki hiunn, sing pài Thinn-kong, koh pài Pu̍t-tsóo."
+            },
+            {
+              "speaker": "我",
+              "text": "阿婶，汝逐个月拢来？",
+              "tailo": "A-tsím, lí ta̍k kò gue̍h lóng lâi?"
+            },
+            {
+              "speaker": "拜拜阿婶",
+              "text": "初一十五一定来。拜完买一盒素饼转去分囡仔。",
+              "tailo": "Tshe-it tsa̍p-gōo it-tīng lâi. Pài liáu bé tsi̍t a̍p sòo-piánn tńg--khì pun gín-á."
+            }
+          ]
+        },
+        {
+          "id": "visitor2",
+          "label": "爬山的少年",
+          "x": 540,
+          "y": 218,
+          "w": 24,
+          "h": 40,
+          "action": "npc",
+          "sprite": "tourist",
+          "dialogue": [
+            {
+              "speaker": "少年",
+              "text": "对遮上去就是五老峰，天气好会当看着鼓浪屿。",
+              "tailo": "Tuì tsia tsiūnn--khì tō sī Ngóo-lóo-hong, thinn-khì hó ē-tàng khuànn-tio̍h Kóo-lōng-sū."
+            },
+            {
+              "speaker": "我",
+              "text": "遐远？我犹未食中昼呢。",
+              "tailo": "Hiah hn̄g? Guá iáu-buē tsia̍h tiong-tàu--neh."
+            },
+            {
+              "speaker": "少年",
+              "text": "山下有素菜馆，食饱阁有气力。走！",
+              "tailo": "Suann-ē ū sòo-tshài-kuán, tsia̍h-pá koh ū khuì-la̍t. Tsáu!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upcoming": []
+}

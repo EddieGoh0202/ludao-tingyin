@@ -1,0 +1,314 @@
+[
+  {
+    "id": "np01",
+    "sceneId": "nanputuo",
+    "hanzi": "拜拜",
+    "tailo": "pài-pài",
+    "mandarin": "拜神、祭拜",
+    "culture": "闽南话「拜拜」不是再见，而是烧香祭拜。逢年过节家家都要「拜拜」。",
+    "category": "daily",
+    "frequency": 90.1,
+    "pos": {
+      "x": 44,
+      "y": 206
+    },
+    "speaker": "香客阿姨",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np01.mp3"
+  },
+  {
+    "id": "np02",
+    "sceneId": "nanputuo",
+    "hanzi": "烧香",
+    "tailo": "sio-hiunn",
+    "mandarin": "烧香",
+    "category": "daily",
+    "frequency": 98.9,
+    "pos": {
+      "x": 78,
+      "y": 242
+    },
+    "times": [
+      "morning"
+    ],
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np02.mp3"
+  },
+  {
+    "id": "np03",
+    "sceneId": "nanputuo",
+    "hanzi": "素饼",
+    "tailo": "sòo-piánn",
+    "mandarin": "素饼",
+    "culture": "南普陀素饼用素油做酥皮，不含荤油，是寺里有名的茶点。",
+    "category": "food",
+    "frequency": 104.7,
+    "pos": {
+      "x": 112,
+      "y": 188
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np04",
+    "sceneId": "nanputuo",
+    "hanzi": "食菜",
+    "tailo": "tsia̍h-tshài",
+    "mandarin": "吃素",
+    "culture": "闽南话「食菜」专指吃素，不是单纯吃蔬菜。",
+    "category": "food",
+    "frequency": 93.9,
+    "pos": {
+      "x": 146,
+      "y": 228
+    },
+    "speaker": "师父",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np04.mp3"
+  },
+  {
+    "id": "np05",
+    "sceneId": "nanputuo",
+    "hanzi": "莲花",
+    "tailo": "liân-hue",
+    "mandarin": "荷花",
+    "category": "place",
+    "frequency": 101.5,
+    "pos": {
+      "x": 180,
+      "y": 252
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np05.mp3"
+  },
+  {
+    "id": "np06",
+    "sceneId": "nanputuo",
+    "hanzi": "五老峰",
+    "tailo": "Ngóo-ló-hong",
+    "mandarin": "五老峰",
+    "culture": "南普陀背倚五座山峰，远看像五位老人并肩而坐。",
+    "category": "place",
+    "frequency": 88.1,
+    "pos": {
+      "x": 214,
+      "y": 198
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np07",
+    "sceneId": "nanputuo",
+    "hanzi": "钟声",
+    "tailo": "tsing-siann",
+    "mandarin": "钟声",
+    "category": "daily",
+    "frequency": 96.7,
+    "pos": {
+      "x": 248,
+      "y": 234
+    },
+    "times": [
+      "morning",
+      "dusk"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np08",
+    "sceneId": "nanputuo",
+    "hanzi": "师父",
+    "tailo": "sai-hū",
+    "mandarin": "师父（对僧人的称呼）",
+    "category": "family",
+    "frequency": 105.9,
+    "pos": {
+      "x": 282,
+      "y": 186
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np08.mp3"
+  },
+  {
+    "id": "np09",
+    "sceneId": "nanputuo",
+    "hanzi": "平安",
+    "tailo": "pîng-an",
+    "mandarin": "平安",
+    "category": "greeting",
+    "frequency": 91.5,
+    "pos": {
+      "x": 316,
+      "y": 220
+    },
+    "speaker": "师父",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np09.mp3"
+  },
+  {
+    "id": "np10",
+    "sceneId": "nanputuo",
+    "hanzi": "心肝静",
+    "tailo": "sim-kuann tsīng",
+    "mandarin": "心里平静",
+    "category": "daily",
+    "frequency": 99.7,
+    "pos": {
+      "x": 350,
+      "y": 248
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np11",
+    "sceneId": "nanputuo",
+    "hanzi": "保庇",
+    "tailo": "pó-pì",
+    "mandarin": "保佑",
+    "category": "daily",
+    "frequency": 87.7,
+    "pos": {
+      "x": 384,
+      "y": 196
+    },
+    "speaker": "香客阿姨",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np11.mp3"
+  },
+  {
+    "id": "np12",
+    "sceneId": "nanputuo",
+    "hanzi": "寺庙",
+    "tailo": "sī-biō",
+    "mandarin": "寺庙",
+    "category": "place",
+    "frequency": 95.5,
+    "pos": {
+      "x": 418,
+      "y": 238
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np13",
+    "sceneId": "nanputuo",
+    "hanzi": "好心有好报",
+    "tailo": "Hó-sim ū hó-pò",
+    "mandarin": "好心有好报",
+    "category": "proverb",
+    "frequency": 102.3,
+    "pos": {
+      "x": 452,
+      "y": 190
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np14",
+    "sceneId": "nanputuo",
+    "hanzi": "扒山",
+    "tailo": "peh-suann",
+    "mandarin": "爬山",
+    "category": "daily",
+    "frequency": 92.7,
+    "pos": {
+      "x": 486,
+      "y": 226
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np15",
+    "sceneId": "nanputuo",
+    "hanzi": "放生池",
+    "tailo": "hòng-sing-tî",
+    "mandarin": "放生池",
+    "category": "place",
+    "frequency": 100.9,
+    "pos": {
+      "x": 520,
+      "y": 254
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "np16",
+    "sceneId": "nanputuo",
+    "hanzi": "下昏",
+    "tailo": "ē-hng",
+    "mandarin": "晚上",
+    "category": "daily",
+    "frequency": 89.5,
+    "pos": {
+      "x": 554,
+      "y": 204
+    },
+    "times": [
+      "night"
+    ],
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np16.mp3"
+  },
+  {
+    "id": "np17",
+    "sceneId": "nanputuo",
+    "hanzi": "头前",
+    "tailo": "thâu-tsîng",
+    "mandarin": "前面",
+    "category": "place",
+    "frequency": 97.1,
+    "pos": {
+      "x": 588,
+      "y": 186
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np17.mp3"
+  },
+  {
+    "id": "np18",
+    "sceneId": "nanputuo",
+    "hanzi": "感恩",
+    "tailo": "kám-un",
+    "mandarin": "感恩、感谢",
+    "category": "greeting",
+    "frequency": 106.7,
+    "pos": {
+      "x": 622,
+      "y": 232
+    },
+    "speaker": "师父",
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np18.mp3"
+  },
+  {
+    "id": "np19",
+    "sceneId": "nanputuo",
+    "hanzi": "顺行",
+    "tailo": "Sūn-kiânn",
+    "mandarin": "慢走（送客用语）",
+    "category": "greeting",
+    "frequency": 94.1,
+    "pos": {
+      "x": 656,
+      "y": 250
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np19.mp3"
+  },
+  {
+    "id": "np20",
+    "sceneId": "nanputuo",
+    "hanzi": "一样米饲百样人",
+    "tailo": "Tsi̍t-iūnn bí tshī pah-iūnn lâng",
+    "mandarin": "一样米养百样人",
+    "culture": "意思是同样的米养出各式各样的人，劝人包容彼此的不同。",
+    "category": "proverb",
+    "frequency": 103.1,
+    "pos": {
+      "x": 688,
+      "y": 212
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/np20.mp3"
+  }
+]

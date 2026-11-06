@@ -1,0 +1,15 @@
+[
+  { "id": "q-laocuo-1", "title": "阿嬷的茶", "desc": "在老厝里收集 5 段声音", "sceneId": "laocuo", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "解锁「八市」的线索" },
+  { "id": "q-laocuo-2", "title": "厝边头尾", "desc": "收集全部 20 段老厝声音", "sceneId": "laocuo", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：老厝完整页" },
+  { "id": "q-bashi-1", "title": "会晓讲价", "desc": "在八市砍价成功一次", "sceneId": "bashi", "goal": { "type": "minigame_win", "target": 1, "key": "bargain" }, "reward": "头家娘送你一把葱" },
+  { "id": "q-bashi-2", "title": "八市的声音", "desc": "收集全部 20 段八市声音", "sceneId": "bashi", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：八市完整页" },
+  { "id": "q-zs-1", "title": "状元郎", "desc": "博饼掷出一次状元", "sceneId": "zhongshan", "goal": { "type": "minigame_win", "target": 1, "key": "bobing" }, "reward": "状元饼一枚" },
+  { "id": "q-zs-2", "title": "骑楼听雨", "desc": "收集全部 20 段中山路声音", "sceneId": "zhongshan", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：中山路完整页" },
+  { "id": "q-gl-1", "title": "琴岛初听", "desc": "在鼓浪屿收集 5 段声音", "sceneId": "gulangyu", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "琴师送你一张老唱片" },
+  { "id": "q-gl-2", "title": "钢琴之岛", "desc": "收集全部 20 段鼓浪屿声音", "sceneId": "gulangyu", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：鼓浪屿完整页" },
+  { "id": "q-zc-1", "title": "讨海人的话", "desc": "在曾厝垵收集 5 段声音", "sceneId": "zengcuoan", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "摊主请你食一粒烧肉粽" },
+  { "id": "q-zc-2", "title": "渔村灯火", "desc": "收集全部 20 段曾厝垵声音", "sceneId": "zengcuoan", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：曾厝垵完整页" },
+  { "id": "q-np-1", "title": "晨钟", "desc": "在南普陀收集 5 段声音", "sceneId": "nanputuo", "goal": { "type": "collect_in_scene", "target": 5 }, "reward": "师父送你一块素饼" },
+  { "id": "q-np-2", "title": "心肝静", "desc": "收集全部 20 段南普陀声音", "sceneId": "nanputuo", "goal": { "type": "collect_in_scene", "target": 20 }, "reward": "声音簿：南普陀完整页" },
+  { "id": "q-all", "title": "鹭岛听音人", "desc": "收集全部 120 段声音", "sceneId": "laocuo", "goal": { "type": "collect_total", "target": 120 }, "reward": "结局：把收音机交给下一个囡仔" }
+]

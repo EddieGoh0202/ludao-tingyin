@@ -1,0 +1,13 @@
+node_modules
+dist
+*.log
+.env
+.env.*
+.npmrc
+.netrc
+.tidb/
+.ssh/
+.aws/
+*.pem
+*.key
+outputs/

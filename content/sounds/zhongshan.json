@@ -1,0 +1,297 @@
+[
+  {
+    "id": "zs01",
+    "sceneId": "zhongshan",
+    "hanzi": "沙茶面",
+    "tailo": "sa-te-mī",
+    "mandarin": "沙茶面",
+    "culture": "厦门代表小吃。沙茶酱源自东南亚，由华侨带回厦门。",
+    "category": "food",
+    "frequency": 97.1,
+    "pos": {
+      "x": 30,
+      "y": 225
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs02",
+    "sceneId": "zhongshan",
+    "hanzi": "花生汤",
+    "tailo": "hue-sing-thng",
+    "mandarin": "花生汤",
+    "category": "food",
+    "frequency": 90.7,
+    "pos": {
+      "x": 98,
+      "y": 199
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs03",
+    "sceneId": "zhongshan",
+    "hanzi": "骑楼",
+    "tailo": "khiâ-lâu",
+    "mandarin": "骑楼",
+    "culture": "中山路骑楼融合南洋风格，楼下连成长廊，可以遮阳避雨。",
+    "category": "place",
+    "frequency": 101.9,
+    "pos": {
+      "x": 165,
+      "y": 246
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs04",
+    "sceneId": "zhongshan",
+    "hanzi": "鼓浪屿",
+    "tailo": "Kóo-lōng-sū",
+    "mandarin": "鼓浪屿",
+    "category": "place",
+    "frequency": 93.9,
+    "pos": {
+      "x": 233,
+      "y": 189
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs05",
+    "sceneId": "zhongshan",
+    "hanzi": "厦门",
+    "tailo": "Ē-mn̂g",
+    "mandarin": "厦门",
+    "category": "place",
+    "frequency": 88.3,
+    "pos": {
+      "x": 301,
+      "y": 235
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs06",
+    "sceneId": "zhongshan",
+    "hanzi": "行街",
+    "tailo": "kiânn-ke",
+    "mandarin": "逛街",
+    "category": "daily",
+    "frequency": 99.5,
+    "pos": {
+      "x": 368,
+      "y": 210
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs07",
+    "sceneId": "zhongshan",
+    "hanzi": "落雨矣",
+    "tailo": "Lo̍h-hōo--ah",
+    "mandarin": "下雨了",
+    "category": "daily",
+    "frequency": 92.3,
+    "pos": {
+      "x": 436,
+      "y": 256
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs08",
+    "sceneId": "zhongshan",
+    "hanzi": "雨伞",
+    "tailo": "hōo-suànn",
+    "mandarin": "雨伞",
+    "category": "daily",
+    "frequency": 102.7,
+    "pos": {
+      "x": 504,
+      "y": 194
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs08.mp3"
+  },
+  {
+    "id": "zs09",
+    "sceneId": "zhongshan",
+    "hanzi": "伫遮",
+    "tailo": "tī tsia",
+    "mandarin": "在这里",
+    "category": "place",
+    "frequency": 95.5,
+    "pos": {
+      "x": 572,
+      "y": 230
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs10",
+    "sceneId": "zhongshan",
+    "hanzi": "欲去佗位？",
+    "tailo": "Beh khì tó-uī?",
+    "mandarin": "要去哪里？",
+    "category": "place",
+    "frequency": 89.9,
+    "pos": {
+      "x": 639,
+      "y": 205
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs11",
+    "sceneId": "zhongshan",
+    "hanzi": "直直行",
+    "tailo": "Ti̍t-ti̍t kiânn",
+    "mandarin": "一直往前走",
+    "category": "place",
+    "frequency": 100.3,
+    "pos": {
+      "x": 690,
+      "y": 251
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs12",
+    "sceneId": "zhongshan",
+    "hanzi": "倒爿",
+    "tailo": "tò-pîng",
+    "mandarin": "左边",
+    "category": "place",
+    "frequency": 91.5,
+    "pos": {
+      "x": 64,
+      "y": 256
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs12.mp3"
+  },
+  {
+    "id": "zs13",
+    "sceneId": "zhongshan",
+    "hanzi": "正爿",
+    "tailo": "tsiànn-pîng",
+    "mandarin": "右边",
+    "category": "place",
+    "frequency": 98.7,
+    "pos": {
+      "x": 132,
+      "y": 184
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs13.mp3"
+  },
+  {
+    "id": "zs14",
+    "sceneId": "zhongshan",
+    "hanzi": "跋饼",
+    "tailo": "pua̍h-piánn",
+    "mandarin": "博饼",
+    "culture": "中秋博饼是厦门特有的习俗：六颗骰子掷进大碗，按点数组合领「状元」「对堂」等奖。",
+    "category": "daily",
+    "frequency": 94.7,
+    "pos": {
+      "x": 199,
+      "y": 220
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs15",
+    "sceneId": "zhongshan",
+    "hanzi": "状元",
+    "tailo": "tsiōng-guân",
+    "mandarin": "状元（博饼最大奖）",
+    "category": "daily",
+    "frequency": 103.5,
+    "pos": {
+      "x": 267,
+      "y": 251
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs15.mp3"
+  },
+  {
+    "id": "zs16",
+    "sceneId": "zhongshan",
+    "hanzi": "中秋",
+    "tailo": "Tiong-tshiu",
+    "mandarin": "中秋节",
+    "category": "daily",
+    "frequency": 89.1,
+    "pos": {
+      "x": 335,
+      "y": 189
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs16.mp3"
+  },
+  {
+    "id": "zs17",
+    "sceneId": "zhongshan",
+    "hanzi": "闹热",
+    "tailo": "lāu-lia̍t",
+    "mandarin": "热闹",
+    "culture": "厦门腔常把 j 声母读成 l，「热」读 lia̍t（台湾腔多读 jia̍t）。",
+    "category": "daily",
+    "frequency": 96.3,
+    "pos": {
+      "x": 402,
+      "y": 230
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs17.mp3"
+  },
+  {
+    "id": "zs18",
+    "sceneId": "zhongshan",
+    "hanzi": "好耍",
+    "tailo": "hó-sńg",
+    "mandarin": "好玩",
+    "category": "daily",
+    "frequency": 101.1,
+    "pos": {
+      "x": 470,
+      "y": 210
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs19",
+    "sceneId": "zhongshan",
+    "hanzi": "慢慢仔行",
+    "tailo": "Bān-bān-á kiânn",
+    "mandarin": "慢走（送客用语）",
+    "category": "greeting",
+    "frequency": 93.1,
+    "pos": {
+      "x": 538,
+      "y": 246
+    },
+    "times": [
+      "dusk",
+      "night"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "zs20",
+    "sceneId": "zhongshan",
+    "hanzi": "一人一款命",
+    "tailo": "Tsi̍t lâng tsi̍t khuán miā",
+    "mandarin": "每个人命运各不相同",
+    "category": "proverb",
+    "frequency": 97.9,
+    "pos": {
+      "x": 605,
+      "y": 194
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/zs20.mp3"
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": "gl01",
+    "sceneId": "gulangyu",
+    "hanzi": "钢琴",
+    "tailo": "kǹg-khîm",
+    "mandarin": "钢琴",
+    "culture": "鼓浪屿人均钢琴拥有率曾居全国前列，被称为「钢琴之岛」。",
+    "category": "daily",
+    "frequency": 88.3,
+    "pos": {
+      "x": 40,
+      "y": 196
+    },
+    "speaker": "琴师",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl01.webm"
+  },
+  {
+    "id": "gl02",
+    "sceneId": "gulangyu",
+    "hanzi": "弹琴",
+    "tailo": "tuānn khîm",
+    "mandarin": "弹琴",
+    "category": "daily",
+    "frequency": 95.7,
+    "pos": {
+      "x": 74,
+      "y": 236
+    },
+    "speaker": "琴师",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl02.webm"
+  },
+  {
+    "id": "gl03",
+    "sceneId": "gulangyu",
+    "hanzi": "洋楼",
+    "tailo": "iûnn-lâu",
+    "mandarin": "西式小楼",
+    "culture": "岛上保留了上千栋中西合璧的老洋楼，很多是归国华侨所建。",
+    "category": "place",
+    "frequency": 101.1,
+    "pos": {
+      "x": 108,
+      "y": 210
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl03.webm"
+  },
+  {
+    "id": "gl04",
+    "sceneId": "gulangyu",
+    "hanzi": "三角梅",
+    "tailo": "sann-kak-bûi",
+    "mandarin": "三角梅",
+    "culture": "三角梅是厦门市花，墙头巷尾一年四季都能看到。",
+    "category": "place",
+    "frequency": 90.9,
+    "pos": {
+      "x": 142,
+      "y": 252
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl04.wav"
+  },
+  {
+    "id": "gl05",
+    "sceneId": "gulangyu",
+    "hanzi": "日光岩",
+    "tailo": "Ji̍t-kong-giâm",
+    "mandarin": "日光岩",
+    "category": "place",
+    "frequency": 104.5,
+    "pos": {
+      "x": 176,
+      "y": 188
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl05.wav"
+  },
+  {
+    "id": "gl06",
+    "sceneId": "gulangyu",
+    "hanzi": "渡船头",
+    "tailo": "tōo-tsûn-thâu",
+    "mandarin": "轮渡码头",
+    "category": "place",
+    "frequency": 93.1,
+    "pos": {
+      "x": 210,
+      "y": 224
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl06.wav"
+  },
+  {
+    "id": "gl07",
+    "sceneId": "gulangyu",
+    "hanzi": "坐船",
+    "tailo": "tsē tsûn",
+    "mandarin": "坐船",
+    "category": "daily",
+    "frequency": 99.5,
+    "pos": {
+      "x": 244,
+      "y": 244
+    },
+    "times": [
+      "morning",
+      "noon"
+    ],
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl07.webm"
+  },
+  {
+    "id": "gl08",
+    "sceneId": "gulangyu",
+    "hanzi": "海风真透",
+    "tailo": "Hái-hong tsin thàu",
+    "mandarin": "海风很大",
+    "category": "daily",
+    "frequency": 87.5,
+    "pos": {
+      "x": 278,
+      "y": 202
+    },
+    "speaker": "岛民阿伯",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl08.wav"
+  },
+  {
+    "id": "gl09",
+    "sceneId": "gulangyu",
+    "hanzi": "红砖厝",
+    "tailo": "âng-tsng-tshù",
+    "mandarin": "红砖房",
+    "culture": "闽南红砖厝用烧成红色的砖瓦砌成，屋脊两端像燕尾一样翘起。",
+    "category": "place",
+    "frequency": 97.3,
+    "pos": {
+      "x": 312,
+      "y": 230
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl09.wav"
+  },
+  {
+    "id": "gl10",
+    "sceneId": "gulangyu",
+    "hanzi": "榕仔",
+    "tailo": "tshîng-á",
+    "mandarin": "榕树",
+    "culture": "老榕树的气根垂到地上，树下常有老人乘凉、讲古。",
+    "category": "place",
+    "frequency": 106.1,
+    "pos": {
+      "x": 346,
+      "y": 190
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl10.wav"
+  },
+  {
+    "id": "gl11",
+    "sceneId": "gulangyu",
+    "hanzi": "番客",
+    "tailo": "huan-kheh",
+    "mandarin": "华侨",
+    "culture": "早年下南洋谋生的闽南人被称为「番客」，他们寄回的「侨批」承载着乡愁。",
+    "category": "family",
+    "frequency": 91.7,
+    "pos": {
+      "x": 380,
+      "y": 248
+    },
+    "speaker": "岛民阿伯",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl11.wav"
+  },
+  {
+    "id": "gl12",
+    "sceneId": "gulangyu",
+    "hanzi": "欢迎来鼓浪屿",
+    "tailo": "Huan-gîng lâi Kóo-lōng-sū",
+    "mandarin": "欢迎来鼓浪屿",
+    "category": "greeting",
+    "frequency": 102.7,
+    "pos": {
+      "x": 414,
+      "y": 214
+    },
+    "speaker": "岛民阿伯",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl12.webm"
+  },
+  {
+    "id": "gl13",
+    "sceneId": "gulangyu",
+    "hanzi": "行路",
+    "tailo": "kiânn-lōo",
+    "mandarin": "走路",
+    "culture": "鼓浪屿岛上没有机动车，出门基本靠走路。",
+    "category": "daily",
+    "frequency": 94.9,
+    "pos": {
+      "x": 448,
+      "y": 186
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl13.webm"
+  },
+  {
+    "id": "gl14",
+    "sceneId": "gulangyu",
+    "hanzi": "海沙埔",
+    "tailo": "hái-sua-poo",
+    "mandarin": "沙滩",
+    "category": "place",
+    "frequency": 89.1,
+    "pos": {
+      "x": 482,
+      "y": 238
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl14.webm"
+  },
+  {
+    "id": "gl15",
+    "sceneId": "gulangyu",
+    "hanzi": "翕相",
+    "tailo": "hip-siōng",
+    "mandarin": "拍照",
+    "category": "daily",
+    "frequency": 100.3,
+    "pos": {
+      "x": 516,
+      "y": 206
+    },
+    "speaker": "游客",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl15.webm"
+  },
+  {
+    "id": "gl16",
+    "sceneId": "gulangyu",
+    "hanzi": "日头落山矣",
+    "tailo": "Ji̍t-thâu lo̍h-suann--ah",
+    "mandarin": "太阳下山了",
+    "category": "daily",
+    "frequency": 96.5,
+    "pos": {
+      "x": 550,
+      "y": 254
+    },
+    "times": [
+      "dusk"
+    ],
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl16.webm"
+  },
+  {
+    "id": "gl17",
+    "sceneId": "gulangyu",
+    "hanzi": "馅饼",
+    "tailo": "ānn-piánn",
+    "mandarin": "馅饼",
+    "culture": "鼓浪屿馅饼皮酥馅甜，是游客最常带走的伴手礼。",
+    "category": "food",
+    "frequency": 107.3,
+    "pos": {
+      "x": 584,
+      "y": 220
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl17.webm"
+  },
+  {
+    "id": "gl18",
+    "sceneId": "gulangyu",
+    "hanzi": "鱼丸",
+    "tailo": "hî-uân",
+    "mandarin": "鱼丸",
+    "category": "food",
+    "frequency": 92.5,
+    "pos": {
+      "x": 618,
+      "y": 192
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl18.webm"
+  },
+  {
+    "id": "gl19",
+    "sceneId": "gulangyu",
+    "hanzi": "慢慢仔行",
+    "tailo": "Bān-bān-á kiânn",
+    "mandarin": "慢慢走（慢走）",
+    "category": "greeting",
+    "frequency": 98.7,
+    "pos": {
+      "x": 652,
+      "y": 242
+    },
+    "speaker": "琴师",
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl19.webm"
+  },
+  {
+    "id": "gl20",
+    "sceneId": "gulangyu",
+    "hanzi": "真好听",
+    "tailo": "Tsin hó-thiann",
+    "mandarin": "真好听",
+    "category": "daily",
+    "frequency": 103.9,
+    "pos": {
+      "x": 686,
+      "y": 212
+    },
+    "times": [
+      "night"
+    ],
+    "reviewStatus": "pending",
+    "audio": "recordings/voice/audio/gl20.webm"
+  }
+]

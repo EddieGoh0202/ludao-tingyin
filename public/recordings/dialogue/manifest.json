@@ -1,0 +1,518 @@
+{
+  "source": "https://sutian.moe.edu.tw",
+  "queryLanguage": "zh-hant",
+  "generatedAt": "2026-10-31T03:18:23.454Z",
+  "total": 50,
+  "found": 0,
+  "missing": 50,
+  "items": [
+    {
+      "id": "laocuo-ama-01",
+      "sceneId": "laocuo",
+      "hotspotId": "ama",
+      "lineIndex": 0,
+      "text": "汝转来矣！紧入来坐，日头遮大。",
+      "query": "汝转來矣！紧入來坐，日頭遮大。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:14:23.219Z"
+    },
+    {
+      "id": "laocuo-ama-02",
+      "sceneId": "laocuo",
+      "hotspotId": "ama",
+      "lineIndex": 1,
+      "text": "先来食茶。这泡是铁观音，你阿公上爱彼个味。",
+      "query": "先來食茶。這泡是铁观音，你阿公上爱彼個味。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:14:28.742Z"
+    },
+    {
+      "id": "laocuo-ama-03",
+      "sceneId": "laocuo",
+      "hotspotId": "ama",
+      "lineIndex": 2,
+      "text": "阿嬷，阿公彼台收音机犹阁会振无？",
+      "query": "阿嬷，阿公彼臺收音机犹阁會振無？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:14:32.504Z"
+    },
+    {
+      "id": "laocuo-ama-04",
+      "sceneId": "laocuo",
+      "hotspotId": "ama",
+      "lineIndex": 3,
+      "text": "会啦，慢慢仔转，声就出来矣。",
+      "query": "會啦，慢慢仔转，聲就出來矣。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:14:35.377Z"
+    },
+    {
+      "id": "laocuo-akong-01",
+      "sceneId": "laocuo",
+      "hotspotId": "akong",
+      "lineIndex": 0,
+      "text": "坐遮，风对天井吹入来，上凉。",
+      "query": "坐遮，風对天井吹入來，上凉。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:13:27.178Z"
+    },
+    {
+      "id": "laocuo-akong-02",
+      "sceneId": "laocuo",
+      "hotspotId": "akong",
+      "lineIndex": 1,
+      "text": "汝知影无？这款厝叫做「燕尾脊」，翘起来亲像燕仔尾。",
+      "query": "汝知影無？這款厝叫做「燕尾脊」，翘起來亲像燕仔尾。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:13:39.645Z"
+    },
+    {
+      "id": "laocuo-akong-03",
+      "sceneId": "laocuo",
+      "hotspotId": "akong",
+      "lineIndex": 2,
+      "text": "彼片墙哪会一瑰红一瑰白？",
+      "query": "彼片墙哪會一瑰紅一瑰白？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:13:48.381Z"
+    },
+    {
+      "id": "laocuo-akong-04",
+      "sceneId": "laocuo",
+      "hotspotId": "akong",
+      "lineIndex": 3,
+      "text": "彼是「出砖入石」，古早人用破砖碎石起的，俭阁勇。",
+      "query": "彼是「出磚入石」，古早人用破磚碎石起的，俭阁勇。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:13:57.816Z"
+    },
+    {
+      "id": "laocuo-neighbor-01",
+      "sceneId": "laocuo",
+      "hotspotId": "neighbor",
+      "lineIndex": 0,
+      "text": "食饱未？我拄才煎一盘菜脯卵，提一寡予汝。",
+      "query": "食饱未？我拄才煎一盘菜脯卵，提一寡予汝。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:15:28.311Z"
+    },
+    {
+      "id": "laocuo-neighbor-02",
+      "sceneId": "laocuo",
+      "hotspotId": "neighbor",
+      "lineIndex": 1,
+      "text": "多谢阿姨！",
+      "query": "多谢阿姨！",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:15:44.572Z"
+    },
+    {
+      "id": "laocuo-neighbor-03",
+      "sceneId": "laocuo",
+      "hotspotId": "neighbor",
+      "lineIndex": 2,
+      "text": "免客气啦，厝边头尾逐家拢是家己人。",
+      "query": "免客气啦，厝邊頭尾逐家拢是家己人。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:15:48.178Z"
+    },
+    {
+      "id": "bashi-boss-01",
+      "sceneId": "bashi",
+      "hotspotId": "boss",
+      "lineIndex": 0,
+      "text": "少年家，欲买啥物？今仔日的蚵仔足肥。",
+      "query": "少年家，欲買啥物？今仔日的蚵仔足肥。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:15:51.839Z"
+    },
+    {
+      "id": "bashi-boss-02",
+      "sceneId": "bashi",
+      "hotspotId": "boss",
+      "lineIndex": 1,
+      "text": "头家娘，一斤偌济钱？",
+      "query": "頭家娘，一斤偌濟錢？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:15:54.927Z"
+    },
+    {
+      "id": "bashi-boss-03",
+      "sceneId": "bashi",
+      "hotspotId": "boss",
+      "lineIndex": 2,
+      "text": "三十箍。毋过汝会晓讲闽南话，算你较俗。",
+      "query": "三十箍。毋過汝會晓讲闽南話，算你較俗。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:16:25.003Z"
+    },
+    {
+      "id": "bashi-fishman-01",
+      "sceneId": "bashi",
+      "hotspotId": "fishman",
+      "lineIndex": 0,
+      "text": "看觅！这尾石斑透早拄落船，鳃犹咧振。",
+      "query": "看觅！這尾石斑透早拄落船，鳃犹咧振。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:08.816Z"
+    },
+    {
+      "id": "bashi-fishman-02",
+      "sceneId": "bashi",
+      "hotspotId": "fishman",
+      "lineIndex": 1,
+      "text": "按怎看鱼鲜无鲜？",
+      "query": "按怎看魚鮮無鮮？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:11.275Z"
+    },
+    {
+      "id": "bashi-fishman-03",
+      "sceneId": "bashi",
+      "hotspotId": "fishman",
+      "lineIndex": 2,
+      "text": "目睭清、鳃红、肉有弹性，就是鲜。买转去紧煮，莫囥过暗。",
+      "query": "目睭清、鳃紅、肉有彈性，就是鮮。買转去紧煮，莫囥過暗。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:16.752Z"
+    },
+    {
+      "id": "zhongshan-noodle-01",
+      "sceneId": "zhongshan",
+      "hotspotId": "noodle",
+      "lineIndex": 0,
+      "text": "来一碗沙茶面无？料家己拣，大肠、鱿鱼、豆干拢有。",
+      "query": "來一碗沙茶麵無？料家己拣，大肠、鱿魚、豆干拢有。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:21.424Z"
+    },
+    {
+      "id": "zhongshan-noodle-02",
+      "sceneId": "zhongshan",
+      "hotspotId": "noodle",
+      "lineIndex": 1,
+      "text": "我欲加一个卵，莫伤辣。",
+      "query": "我欲加一個卵，莫傷辣。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:23.753Z"
+    },
+    {
+      "id": "zhongshan-noodle-03",
+      "sceneId": "zhongshan",
+      "hotspotId": "noodle",
+      "lineIndex": 2,
+      "text": "好势！沙茶是阮阿公对南洋学转来的，汤头熬规暝。",
+      "query": "好势！沙茶是阮阿公对南洋学转來的，湯頭熬规暝。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:29.046Z"
+    },
+    {
+      "id": "zhongshan-tourist-01",
+      "sceneId": "zhongshan",
+      "hotspotId": "tourist",
+      "lineIndex": 0,
+      "text": "请问鼓浪屿欲去佗位坐船？",
+      "query": "请问鼓浪嶼欲去佗位坐船？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:32.067Z"
+    },
+    {
+      "id": "zhongshan-tourist-02",
+      "sceneId": "zhongshan",
+      "hotspotId": "tourist",
+      "lineIndex": 1,
+      "text": "直直行到海边，倒爿就是轮渡码头。",
+      "query": "直直行到海邊，倒爿就是轮渡码頭。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:37.239Z"
+    },
+    {
+      "id": "zhongshan-tourist-03",
+      "sceneId": "zhongshan",
+      "hotspotId": "tourist",
+      "lineIndex": 2,
+      "text": "多谢！你的闽南话讲了真好。",
+      "query": "多谢！你的闽南話讲了真好。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:17:55.532Z"
+    },
+    {
+      "id": "gulangyu-pianist-01",
+      "sceneId": "gulangyu",
+      "hotspotId": "pianist",
+      "lineIndex": 0,
+      "text": "汝嘛是来听琴的？鼓浪屿逐间厝几若台钢琴。",
+      "query": "汝嘛是來聽琴的？鼓浪嶼逐间厝几若臺鋼琴。",
+      "audio": "audio/gulangyu-pianist-01.webm",
+      "status": "missing",
+      "mime": "audio/webm;codecs=opus",
+      "updatedAt": "2026-11-05T05:20:26.039Z"
+    },
+    {
+      "id": "gulangyu-pianist-02",
+      "sceneId": "gulangyu",
+      "hotspotId": "pianist",
+      "lineIndex": 1,
+      "text": "这首曲真好听，叫做啥物？",
+      "query": "這首曲真好聽，叫做啥物？",
+      "audio": "audio/gulangyu-pianist-02.webm",
+      "status": "missing",
+      "mime": "audio/webm;codecs=opus",
+      "updatedAt": "2026-11-05T05:20:35.201Z"
+    },
+    {
+      "id": "gulangyu-pianist-03",
+      "sceneId": "gulangyu",
+      "hotspotId": "pianist",
+      "lineIndex": 2,
+      "text": "《鼓浪屿之波》。慢慢仔听，海风会共你唱后半段。",
+      "query": "《鼓浪嶼之波》。慢慢仔聽，海風會共你唱后半段。",
+      "audio": "audio/gulangyu-pianist-03.webm",
+      "status": "missing",
+      "mime": "audio/webm;codecs=opus",
+      "updatedAt": "2026-11-05T05:20:45.501Z"
+    },
+    {
+      "id": "gulangyu-islander-01",
+      "sceneId": "gulangyu",
+      "hotspotId": "islander",
+      "lineIndex": 0,
+      "text": "阮佇岛顶蹛七十冬矣，囡仔时就佇这条巷仔走来走去。",
+      "query": "阮佇岛顶蹛七十冬矣，囡仔时就佇這条巷仔走來走去。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:19:23.997Z"
+    },
+    {
+      "id": "gulangyu-islander-02",
+      "sceneId": "gulangyu",
+      "hotspotId": "islander",
+      "lineIndex": 1,
+      "text": "这遐的洋楼是啥人起的？",
+      "query": "這遐的洋樓是啥人起的？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:19:26.764Z"
+    },
+    {
+      "id": "gulangyu-islander-03",
+      "sceneId": "gulangyu",
+      "hotspotId": "islander",
+      "lineIndex": 2,
+      "text": "有番客、有外国领事馆，所以叫「万国建筑」。",
+      "query": "有番客、有外国领事馆，所以叫「万国建筑」。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:19:31.245Z"
+    },
+    {
+      "id": "gulangyu-visitor-01",
+      "sceneId": "gulangyu",
+      "hotspotId": "visitor",
+      "lineIndex": 0,
+      "text": "会使共阮翕一张相无？后壁彼丛三角梅真媠！",
+      "query": "會使共阮翕一张相無？后壁彼丛三角梅真媠！",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:20:15.277Z"
+    },
+    {
+      "id": "gulangyu-visitor-02",
+      "sceneId": "gulangyu",
+      "hotspotId": "visitor",
+      "lineIndex": 1,
+      "text": "好啊，一、二、三——笑！",
+      "query": "好啊，一、二、三——笑！",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:20:18.209Z"
+    },
+    {
+      "id": "gulangyu-visitor-03",
+      "sceneId": "gulangyu",
+      "hotspotId": "visitor",
+      "lineIndex": 2,
+      "text": "多谢！等一下欲去日光岩看日头落山。",
+      "query": "多谢！等一下欲去日光岩看日頭落山。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:20:22.052Z"
+    },
+    {
+      "id": "zengcuoan-vendor-01",
+      "sceneId": "zengcuoan",
+      "hotspotId": "vendor",
+      "lineIndex": 0,
+      "text": "烧肉粽拄出锅，烧烫烫，欲食紧来。",
+      "query": "燒肉粽拄出锅，燒烫烫，欲食紧來。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:20:49.883Z"
+    },
+    {
+      "id": "zengcuoan-vendor-02",
+      "sceneId": "zengcuoan",
+      "hotspotId": "vendor",
+      "lineIndex": 1,
+      "text": "阿伯，粽仔内底包啥物？",
+      "query": "阿伯，粽仔内底包啥物？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:20:53.343Z"
+    },
+    {
+      "id": "zengcuoan-vendor-03",
+      "sceneId": "zengcuoan",
+      "hotspotId": "vendor",
+      "lineIndex": 2,
+      "text": "三层肉、香菇、咸卵仁、栗子，阁有虾米。沾甜辣酱上对味。",
+      "query": "三层肉、香菇、咸卵仁、栗子，阁有蝦米。沾甜辣酱上对味。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:21:01.347Z"
+    },
+    {
+      "id": "zengcuoan-fisher-01",
+      "sceneId": "zengcuoan",
+      "hotspotId": "fisher",
+      "lineIndex": 0,
+      "text": "阮祖公三代拢佇遮讨海。这马逐家改做小店矣。",
+      "query": "阮祖公三代拢佇遮討海。這马逐家改做小店矣。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:22:24.898Z"
+    },
+    {
+      "id": "zengcuoan-fisher-02",
+      "sceneId": "zengcuoan",
+      "hotspotId": "fisher",
+      "lineIndex": 1,
+      "text": "巷仔尾彼间是卖啥？",
+      "query": "巷仔尾彼间是卖啥？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:22:26.943Z"
+    },
+    {
+      "id": "zengcuoan-fisher-03",
+      "sceneId": "zengcuoan",
+      "hotspotId": "fisher",
+      "lineIndex": 2,
+      "text": "卖姜母鸭。老姜、麻油、米酒，寒天食一碗上补。",
+      "query": "卖姜母鴨。老姜、麻油、米酒，寒天食一碗上补。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:22:39.427Z"
+    },
+    {
+      "id": "zengcuoan-young-01",
+      "sceneId": "zengcuoan",
+      "hotspotId": "young",
+      "lineIndex": 0,
+      "text": "阮遮的店，一半是古厝改的。墙顶的石敢当拢留着。",
+      "query": "阮遮的店，一半是古厝改的。墙顶的石敢當拢留着。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:17.232Z"
+    },
+    {
+      "id": "zengcuoan-young-02",
+      "sceneId": "zengcuoan",
+      "hotspotId": "young",
+      "lineIndex": 1,
+      "text": "石敢当是咧镇啥？",
+      "query": "石敢當是咧镇啥？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:23.467Z"
+    },
+    {
+      "id": "zengcuoan-young-03",
+      "sceneId": "zengcuoan",
+      "hotspotId": "young",
+      "lineIndex": 2,
+      "text": "镇路冲、镇海风。古早人起厝，一定会先看风水。",
+      "query": "镇路冲、镇海風。古早人起厝，一定會先看風水。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:34.690Z"
+    },
+    {
+      "id": "nanputuo-monk-01",
+      "sceneId": "nanputuo",
+      "hotspotId": "monk",
+      "lineIndex": 0,
+      "text": "施主，入来食一杯茶。行遮远，歇睏一下。",
+      "query": "施主，入來食一杯茶。行遮远，歇睏一下。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:42.115Z"
+    },
+    {
+      "id": "nanputuo-monk-02",
+      "sceneId": "nanputuo",
+      "hotspotId": "monk",
+      "lineIndex": 1,
+      "text": "师父，闽南话的经文，我听着有淡薄仔生。",
+      "query": "師父，闽南話的经文，我聽着有淡薄仔生。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:47.928Z"
+    },
+    {
+      "id": "nanputuo-monk-03",
+      "sceneId": "nanputuo",
+      "hotspotId": "monk",
+      "lineIndex": 2,
+      "text": "慢慢仔读，一字一字读予伊清。语言亲像香，急是袂着的。",
+      "query": "慢慢仔读，一字一字读予伊清。語言亲像香，急是袂着的。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:55.325Z"
+    },
+    {
+      "id": "nanputuo-pilgrim-01",
+      "sceneId": "nanputuo",
+      "hotspotId": "pilgrim",
+      "lineIndex": 0,
+      "text": "来，三支香，先拜天公，阁拜佛祖。",
+      "query": "來，三支香，先拜天公，阁拜佛祖。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:24:59.616Z"
+    },
+    {
+      "id": "nanputuo-pilgrim-02",
+      "sceneId": "nanputuo",
+      "hotspotId": "pilgrim",
+      "lineIndex": 1,
+      "text": "阿婶，汝逐个月拢来？",
+      "query": "阿婶，汝逐個月拢來？",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:25:01.402Z"
+    },
+    {
+      "id": "nanputuo-pilgrim-03",
+      "sceneId": "nanputuo",
+      "hotspotId": "pilgrim",
+      "lineIndex": 2,
+      "text": "初一十五一定来。拜完买一盒素饼转去分囡仔。",
+      "query": "初一十五一定來。拜完買一盒素餅转去分囡仔。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:25:05.686Z"
+    },
+    {
+      "id": "nanputuo-visitor2-01",
+      "sceneId": "nanputuo",
+      "hotspotId": "visitor2",
+      "lineIndex": 0,
+      "text": "对遮上去就是五老峰，天气好会当看着鼓浪屿。",
+      "query": "对遮上去就是五老峰，天气好會當看着鼓浪嶼。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:25:10.289Z"
+    },
+    {
+      "id": "nanputuo-visitor2-02",
+      "sceneId": "nanputuo",
+      "hotspotId": "visitor2",
+      "lineIndex": 1,
+      "text": "遐远？我犹未食中昼呢。",
+      "query": "遐远？我犹未食中昼呢。",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:25:12.825Z"
+    },
+    {
+      "id": "nanputuo-visitor2-03",
+      "sceneId": "nanputuo",
+      "hotspotId": "visitor2",
+      "lineIndex": 2,
+      "text": "山下有素菜馆，食饱阁有气力。走！",
+      "query": "山下有素菜馆，食饱阁有气力。走！",
+      "status": "missing",
+      "updatedAt": "2026-11-05T03:25:16.705Z"
+    }
+  ],
+  "recorded": 0,
+  "complete": false
+}

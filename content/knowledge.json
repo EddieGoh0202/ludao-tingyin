@@ -1,0 +1,313 @@
+{
+  "knowledge": [
+    {
+      "id": "k-lc-tea", "sceneId": "laocuo", "title": "功夫茶", "tailo": "kang-hu-tê", "category": "custom", "prop": "tea", "x": 70, "y": 194,
+      "summary": "闽南人一天从一泡茶开始，客人进门先「来食茶」。",
+      "body": [
+        "功夫茶讲究「烫杯、洗茶、冲泡、斟茶」，小小的茶杯一口一杯，主人不停地斟，客人不停地聊。",
+        "厦门人常喝闽南乌龙茶，安溪铁观音最常见。斟茶时轮流点满几个杯子，叫「关公巡城」「韩信点兵」。",
+        "喝茶在闽南话里说「食茶」，招呼人坐下说「来食茶」，比「请坐」更亲切。"
+      ],
+      "words": [
+        { "hanzi": "食茶", "tailo": "tsia̍h tê", "mandarin": "喝茶" },
+        { "hanzi": "茶瓯", "tailo": "tê-au", "mandarin": "茶杯" },
+        { "hanzi": "铁观音", "tailo": "thih-kuan-im", "mandarin": "铁观音" }
+      ]
+    },
+    {
+      "id": "k-lc-wall", "sceneId": "laocuo", "title": "出砖入石", "tailo": "tshut-tsng-ji̍p-tsio̍h", "category": "architecture", "prop": "wall", "x": 250, "y": 194,
+      "summary": "红砖和白石交错砌成的墙，是闽南大厝的招牌。",
+      "body": [
+        "古早闽南人把倒塌房屋留下的破砖、碎石混在一起砌墙，砖略凸出、石略凹入，所以叫「出砖入石」。",
+        "这种墙既节省材料又结实，红白相间还很好看，成为闽南红砖厝独有的装饰。",
+        "看到墙面高低错落、红白相间，就知道这是一座老闽南厝。"
+      ],
+      "words": [
+        { "hanzi": "红砖", "tailo": "âng-tsng", "mandarin": "红砖" },
+        { "hanzi": "石头", "tailo": "tsio̍h-thâu", "mandarin": "石头" }
+      ]
+    },
+    {
+      "id": "k-lc-well", "sceneId": "laocuo", "title": "天井古井", "tailo": "thinn-tsínn kóo-tsínn", "category": "architecture", "prop": "well", "x": 430, "y": 194,
+      "summary": "大厝中间露天的天井采光通风，井水夏天冰凉。",
+      "body": [
+        "闽南大厝围着中间的天井布局，雨水从四面屋顶流进天井，寓意「四水归堂」，财不外流。",
+        "天井边常有一口古井，以前洗菜、洗衣、冰西瓜都靠它，是一家人的生活中心。"
+      ],
+      "words": [
+        { "hanzi": "天井", "tailo": "thinn-tsínn", "mandarin": "天井" },
+        { "hanzi": "井水", "tailo": "tsínn-tsuí", "mandarin": "井水" }
+      ]
+    },
+    {
+      "id": "k-lc-caipo", "sceneId": "laocuo", "title": "晒菜脯", "tailo": "phak tshài-póo", "category": "food", "prop": "caipo", "x": 640, "y": 194,
+      "summary": "萝卜切条用盐腌、太阳晒，就是闽南人家家有的菜脯。",
+      "body": [
+        "冬天萝卜（菜头）丰收，阿嬷把它切开撒盐，铺在竹筛上晒干，反复几次就成了菜脯。",
+        "菜脯可以配粥，也能炒蛋做成香喷喷的「菜脯卵」。放得越久颜色越深，老菜脯还被当成养生的宝贝。"
+      ],
+      "words": [
+        { "hanzi": "菜脯", "tailo": "tshài-póo", "mandarin": "萝卜干" },
+        { "hanzi": "菜脯卵", "tailo": "tshài-póo-nn̄g", "mandarin": "萝卜干炒蛋" },
+        { "hanzi": "曝日", "tailo": "pha̍k-ji̍t", "mandarin": "晒太阳" }
+      ]
+    },
+    {
+      "id": "k-bs-tusundong", "sceneId": "bashi", "title": "土笋冻", "tailo": "thôo-sún-tàng", "category": "food", "prop": "tusundong", "x": 70, "y": 194,
+      "summary": "晶莹的小冻里卷着海边的星虫，是厦门人的心头好。",
+      "body": [
+        "土笋其实不是笋，而是生长在海边滩涂的星虫。洗净熬煮后，胶质冷却凝固成一个个小冻。",
+        "吃的时候蘸酱油、陈醋、蒜蓉、芥末和辣酱，口感爽脆冰凉。第一次吃的人常被它的模样吓到，吃了却停不下来。"
+      ],
+      "words": [
+        { "hanzi": "土笋冻", "tailo": "thôo-sún-tàng", "mandarin": "土笋冻" },
+        { "hanzi": "冻", "tailo": "tàng", "mandarin": "冻、凝固" }
+      ]
+    },
+    {
+      "id": "k-bs-oyster", "sceneId": "bashi", "title": "海蛎煎", "tailo": "ô-á-tsian", "category": "food", "prop": "oyster", "x": 250, "y": 194,
+      "summary": "海蛎、地瓜粉、蒜苗、鸡蛋一起煎，外脆里嫩。",
+      "body": [
+        "厦门沿海盛产小颗海蛎，闽南话叫「蚵仔」。把海蛎和地瓜粉浆、蒜苗拌匀，在大平底锅里煎到金黄，再打上鸡蛋。",
+        "好吃的海蛎煎要「粉少蚵多」，蘸一点甜辣酱。台湾叫「蚵仔煎」，和厦门是同一道菜。"
+      ],
+      "words": [
+        { "hanzi": "蚵仔", "tailo": "ô-á", "mandarin": "海蛎" },
+        { "hanzi": "煎", "tailo": "tsian", "mandarin": "煎" },
+        { "hanzi": "番薯粉", "tailo": "han-tsî-hún", "mandarin": "地瓜粉" }
+      ]
+    },
+    {
+      "id": "k-bs-scale", "sceneId": "bashi", "title": "杆秤", "tailo": "kuáinn-tshìn", "category": "craft", "prop": "scale", "x": 430, "y": 194,
+      "summary": "一根木杆、一个铁秤砣，老菜市场的分量全靠它。",
+      "body": [
+        "杆秤靠杠杆原理称重：提起秤纽，移动秤砣，看秤星（刻度点）平衡就知道重量。",
+        "菜市场夸人「秤头足」，意思是分量给得够、不短斤少两，是做生意最实在的信用。"
+      ],
+      "words": [
+        { "hanzi": "秤", "tailo": "tshìn", "mandarin": "秤" },
+        { "hanzi": "秤头", "tailo": "tshìn-thâu", "mandarin": "分量" },
+        { "hanzi": "一斤", "tailo": "tsi̍t kin", "mandarin": "一斤（500 克）" }
+      ]
+    },
+    {
+      "id": "k-bs-fishball", "sceneId": "bashi", "title": "鱼丸", "tailo": "hî-uân", "category": "food", "prop": "fishball", "x": 640, "y": 194,
+      "summary": "鱼肉打成浆挤成丸，咬开会爆汁，汤里撒点芹菜珠。",
+      "body": [
+        "厦门鱼丸多用鲨鱼肉或鳗鱼肉，加少量地瓜粉，反复摔打成胶，才有弹牙的口感。",
+        "有的鱼丸里还包一小团肉馅，叫「包心鱼丸」。煮汤时加点芹菜珠、胡椒粉，是最家常的一碗。"
+      ],
+      "words": [
+        { "hanzi": "鱼丸", "tailo": "hî-uân", "mandarin": "鱼丸" },
+        { "hanzi": "鱼浆", "tailo": "hî-tsiunn", "mandarin": "鱼浆" },
+        { "hanzi": "汤", "tailo": "thng", "mandarin": "汤" }
+      ]
+    },
+    {
+      "id": "k-zs-shacha", "sceneId": "zhongshan", "title": "沙茶面", "tailo": "sa-te-mī", "category": "food", "prop": "shacha", "x": 70, "y": 194,
+      "summary": "南洋血统的沙茶酱，熬进一碗厦门人的早餐。",
+      "body": [
+        "沙茶源自东南亚的「沙嗲」，由下南洋的华侨带回厦门，用花生、虾米、辣椒、香料炒成浓酱。",
+        "沙茶面的面条是碱水油面，汤底用沙茶酱加骨汤熬，配料自己挑：猪肝、鱿鱼、豆干、大肠、鸭血……一碗就是一顿丰盛的早餐。"
+      ],
+      "words": [
+        { "hanzi": "沙茶", "tailo": "sa-te", "mandarin": "沙茶" },
+        { "hanzi": "面", "tailo": "mī", "mandarin": "面" },
+        { "hanzi": "料", "tailo": "liāu", "mandarin": "配料" }
+      ]
+    },
+    {
+      "id": "k-zs-qilou", "sceneId": "zhongshan", "title": "骑楼", "tailo": "khiâ-lâu", "category": "architecture", "prop": "qilou", "x": 250, "y": 194,
+      "summary": "楼下让出长廊给行人遮阳避雨，是南洋传来的街区设计。",
+      "body": [
+        "骑楼一层向内退，柱子撑着二楼，形成一条连续的有顶走廊。人在廊下走，日晒雨淋都不怕。",
+        "中山路的骑楼融合南洋与欧式装饰，拱窗、山花、女儿墙各不相同，从上世纪二十年代一直站到现在。"
+      ],
+      "words": [
+        { "hanzi": "骑楼", "tailo": "khiâ-lâu", "mandarin": "骑楼" },
+        { "hanzi": "走廊", "tailo": "tsáu-lông", "mandarin": "走廊" },
+        { "hanzi": "遮雨", "tailo": "jia-hōo", "mandarin": "挡雨" }
+      ]
+    },
+    {
+      "id": "k-zs-peanut", "sceneId": "zhongshan", "title": "花生汤", "tailo": "hue-sing-thng", "category": "food", "prop": "peanut", "x": 430, "y": 194,
+      "summary": "花生煮到一抿就化，汤色乳白，配油条或甜饼。",
+      "body": [
+        "做花生汤要先把花生仁泡胀、去膜，再用小火炖几个小时，直到花生「入口即化」。",
+        "厦门人喝花生汤常配一根油条，或者打一个生鸡蛋冲成蛋花。冬天热喝，夏天冰镇。"
+      ],
+      "words": [
+        { "hanzi": "花生", "tailo": "hue-sing", "mandarin": "花生" },
+        { "hanzi": "甜甜", "tailo": "tinn-tinn", "mandarin": "甜甜的" },
+        { "hanzi": "油条", "tailo": "iû-tiâu", "mandarin": "油条" }
+      ]
+    },
+    {
+      "id": "k-zs-pia", "sceneId": "zhongshan", "title": "馅饼", "tailo": "hānn-piánn", "category": "food", "prop": "pia", "x": 640, "y": 194,
+      "summary": "酥皮一层层，里头是绿豆沙或肉馅，配茶刚好。",
+      "body": [
+        "厦门馅饼分甜咸两种：甜的是绿豆沙、红豆沙，咸的包肉丁、香菇、虾米。",
+        "皮要用猪油和面，烤出来层层起酥，一咬掉渣。老厦门买馅饼当伴手礼，讲究「皮酥、馅香、不腻」。"
+      ],
+      "words": [
+        { "hanzi": "馅饼", "tailo": "hānn-piánn", "mandarin": "馅饼" },
+        { "hanzi": "绿豆", "tailo": "li̍k-tāu", "mandarin": "绿豆" },
+        { "hanzi": "酥", "tailo": "soo", "mandarin": "酥" }
+      ]
+    },
+    {
+      "id": "k-gl-piano", "sceneId": "gulangyu", "title": "钢琴之岛", "tailo": "kǹg-khîm tsi tó", "category": "custom", "prop": "piano", "x": 70, "y": 194,
+      "summary": "小岛上曾家家有琴，鼓浪屿因此被叫作「琴岛」。",
+      "body": [
+        "近代鼓浪屿是国际社区，教堂、学校带来西洋音乐。鼎盛时岛上几百户人家就有上百台钢琴，密度全国罕见。",
+        "岛上出了周淑安、李嘉禄等音乐家，还有中国第一座钢琴博物馆。走在巷子里听见琴声，是鼓浪屿最经典的记忆。"
+      ],
+      "words": [
+        { "hanzi": "钢琴", "tailo": "kǹg-khîm", "mandarin": "钢琴" },
+        { "hanzi": "琴声", "tailo": "khîm-siann", "mandarin": "琴声" },
+        { "hanzi": "音乐", "tailo": "im-ga̍k", "mandarin": "音乐" }
+      ]
+    },
+    {
+      "id": "k-gl-villa", "sceneId": "gulangyu", "title": "万国建筑", "tailo": "bān-kok kiàn-tiok", "category": "architecture", "prop": "villa", "x": 250, "y": 194,
+      "summary": "领事馆、洋行、华侨别墅挤在小岛上，风格各不相同。",
+      "body": [
+        "鸦片战争后厦门开埠，各国在鼓浪屿设领事馆，华侨也回乡建别墅，留下哥特、罗马、南洋、闽南红砖混搭的建筑群。",
+        "这些老房子被称为「万国建筑博览」。红瓦、拱廊、外廊、柱式，再加上本地的红砖与石雕，形成独一无二的岛上市容。"
+      ],
+      "words": [
+        { "hanzi": "洋楼", "tailo": "iûnn-lâu", "mandarin": "洋楼" },
+        { "hanzi": "番仔楼", "tailo": "huan-á-lâu", "mandarin": "华侨建的洋楼" },
+        { "hanzi": "红瓦", "tailo": "âng-hiā", "mandarin": "红瓦" }
+      ]
+    },
+    {
+      "id": "k-gl-bougain", "sceneId": "gulangyu", "title": "三角梅", "tailo": "sam-kak-muî", "category": "nature", "prop": "bougain", "x": 430, "y": 194,
+      "summary": "厦门市花，一年开好几季，紫红色爬满老墙。",
+      "body": [
+        "三角梅耐热耐旱，在厦门几乎一年四季都能开花。我们看到的「花瓣」其实是三片苞叶，真正的小花藏在中间。",
+        "1986 年三角梅被选为厦门市花。鼓浪屿的老墙、洋楼阳台上，常常垂下一整片紫红色的花瀑。"
+      ],
+      "words": [
+        { "hanzi": "三角梅", "tailo": "sam-kak-muî", "mandarin": "三角梅" },
+        { "hanzi": "花", "tailo": "hue", "mandarin": "花" },
+        { "hanzi": "开花", "tailo": "khui-hue", "mandarin": "开花" }
+      ]
+    },
+    {
+      "id": "k-gl-sunrock", "sceneId": "gulangyu", "title": "日光岩", "tailo": "Ji̍t-kong-giâm", "category": "nature", "prop": "sunrock", "x": 640, "y": 194,
+      "summary": "鼓浪屿最高点，站上去能望见整个厦门港。",
+      "body": [
+        "日光岩是一块巨大的花岗岩，海拔约 93 米，是鼓浪屿的最高点，俗称「岩仔山」。",
+        "传说郑成功曾在这里操练水师。登上岩顶，鹭江、厦门本岛和点点船帆尽收眼底。"
+      ],
+      "words": [
+        { "hanzi": "日光岩", "tailo": "Ji̍t-kong-giâm", "mandarin": "日光岩" },
+        { "hanzi": "山顶", "tailo": "suann-tíng", "mandarin": "山顶" },
+        { "hanzi": "海", "tailo": "hái", "mandarin": "海" }
+      ]
+    },
+    {
+      "id": "k-zc-zongzi", "sceneId": "zengcuoan", "title": "烧肉粽", "tailo": "sio-bah-tsàng", "category": "food", "prop": "zongzi", "x": 70, "y": 194,
+      "summary": "热腾腾的咸肉粽，料多饭香，是闽南夜市的老味道。",
+      "body": [
+        "闽南烧肉粽用卤过的糯米，包进三层肉、香菇、虾米、栗子、咸蛋黄，用竹叶裹好蒸透。",
+        "「烧」在闽南话里是「热」的意思。卖粽的阿伯一声「烧肉粽！」，是许多厦门人的童年夜晚。"
+      ],
+      "words": [
+        { "hanzi": "粽", "tailo": "tsàng", "mandarin": "粽子" },
+        { "hanzi": "烧", "tailo": "sio", "mandarin": "热" },
+        { "hanzi": "三层肉", "tailo": "sann-tsàn-bah", "mandarin": "五花肉" }
+      ]
+    },
+    {
+      "id": "k-zc-shigandang", "sceneId": "zengcuoan", "title": "石敢当", "tailo": "tsio̍h-kám-tong", "category": "custom", "prop": "shigandang", "x": 250, "y": 194,
+      "summary": "立在路口墙角的小石碑，替一家人挡住煞气。",
+      "body": [
+        "闽南人认为房子正对路口（路冲）不吉利，就在墙角立一块刻着「石敢当」或「泰山石敢当」的石碑镇守。",
+        "渔村海风大，石敢当也寄托了「挡风浪、保平安」的心愿。曾厝垵的巷子里，至今还能找到不少老石碑。"
+      ],
+      "words": [
+        { "hanzi": "石敢当", "tailo": "tsio̍h-kám-tong", "mandarin": "石敢当" },
+        { "hanzi": "路冲", "tailo": "lōo-tshiong", "mandarin": "正对路口" }
+      ]
+    },
+    {
+      "id": "k-zc-wangchuan", "sceneId": "zengcuoan", "title": "送王船", "tailo": "sàng-ông-tsûn", "category": "custom", "prop": "wangchuan", "x": 430, "y": 194,
+      "summary": "渔村把造好的王船送出海，祈求出海平安、风调雨顺。",
+      "body": [
+        "送王船是闽南沿海的古老民俗：村民合力打造一艘精美木船，迎请「王爷」上船，再巡境、送到海边。",
+        "2020 年，「送王船」由中国和马来西亚联合申报，列入联合国教科文组织人类非物质文化遗产代表作名录。"
+      ],
+      "words": [
+        { "hanzi": "王船", "tailo": "ông-tsûn", "mandarin": "王船" },
+        { "hanzi": "讨海", "tailo": "thó-hái", "mandarin": "出海捕鱼" },
+        { "hanzi": "平安", "tailo": "pîng-an", "mandarin": "平安" }
+      ]
+    },
+    {
+      "id": "k-zc-gingerduck", "sceneId": "zengcuoan", "title": "姜母鸭", "tailo": "kionn-bú-ah", "category": "food", "prop": "gingerduck", "x": 640, "y": 194,
+      "summary": "老姜、麻油、米酒焖番鸭，砂锅一开满巷飘香。",
+      "body": [
+        "「姜母」是指老姜。姜母鸭用大量老姜和麻油爆香，再放番鸭块、米酒，砂锅里小火慢焖。",
+        "闽南人相信它驱寒暖身，秋冬晚上围着砂锅吃一锅，是最实在的「补」。"
+      ],
+      "words": [
+        { "hanzi": "姜母", "tailo": "kionn-bú", "mandarin": "老姜" },
+        { "hanzi": "鸭", "tailo": "ah", "mandarin": "鸭" },
+        { "hanzi": "麻油", "tailo": "muâ-iû", "mandarin": "芝麻油" }
+      ]
+    },
+    {
+      "id": "k-np-supia", "sceneId": "nanputuo", "title": "素饼", "tailo": "sòo-piánn", "category": "food", "prop": "supia", "x": 70, "y": 194,
+      "summary": "南普陀的素饼皮薄馅香，是来寺里必带的伴手礼。",
+      "body": [
+        "南普陀素饼用植物油和面，不含荤腥，馅料有绿豆沙、芋泥、椰丝等，酥得一碰就掉渣。",
+        "许多人拜完佛会买几盒带回家，分给家里的老人和囡仔，寓意分享平安福气。"
+      ],
+      "words": [
+        { "hanzi": "素", "tailo": "sòo", "mandarin": "素（不含荤）" },
+        { "hanzi": "饼", "tailo": "piánn", "mandarin": "饼" }
+      ]
+    },
+    {
+      "id": "k-np-censer", "sceneId": "nanputuo", "title": "香炉与敬香", "tailo": "hiunn-lôo", "category": "custom", "prop": "censer", "x": 250, "y": 194,
+      "summary": "大殿前的铜香炉里青烟袅袅，三支香表达敬意。",
+      "body": [
+        "闽南人拜拜常点三支香，双手持香齐眉，默念心愿后插进香炉。初一、十五是寺庙最热闹的日子。",
+        "现在南普陀提倡「文明敬香」，少烧香、烧小香，也是保护环境、保护古建筑的好习惯。"
+      ],
+      "words": [
+        { "hanzi": "香", "tailo": "hiunn", "mandarin": "香" },
+        { "hanzi": "拜拜", "tailo": "pài-pài", "mandarin": "祭拜" },
+        { "hanzi": "香炉", "tailo": "hiunn-lôo", "mandarin": "香炉" }
+      ]
+    },
+    {
+      "id": "k-np-lotus", "sceneId": "nanputuo", "title": "放生池", "tailo": "hòng-sing-tî", "category": "nature", "prop": "lotus", "x": 430, "y": 194,
+      "summary": "寺前的大池塘里荷叶田田，乌龟和锦鲤悠闲游动。",
+      "body": [
+        "放生池原本用来放养信众带来的鱼龟，体现佛教「慈悲护生」的理念。夏天池里开满荷花。",
+        "荷花「出淤泥而不染」，在佛教里象征清净。池边常有人静静坐着看鱼，是寺里最安静的角落。"
+      ],
+      "words": [
+        { "hanzi": "莲花", "tailo": "liân-hue", "mandarin": "荷花" },
+        { "hanzi": "水池", "tailo": "tsuí-tî", "mandarin": "水池" },
+        { "hanzi": "龟", "tailo": "ku", "mandarin": "乌龟" }
+      ]
+    },
+    {
+      "id": "k-np-fostone", "sceneId": "nanputuo", "title": "「佛」字石刻", "tailo": "Pu̍t jī tsio̍h-khik", "category": "craft", "prop": "fostone", "x": 640, "y": 194,
+      "summary": "后山巨石上刻着一个四米多高的「佛」字。",
+      "body": [
+        "南普陀后山的岩壁上，刻着清代书写的巨大「佛」字，高约四米多，远远就能看见，是寺里的标志之一。",
+        "沿着山路往上走，还有许多历代名人的题刻。闽南石刻工艺精湛，惠安石匠的手艺更是远近闻名。"
+      ],
+      "words": [
+        { "hanzi": "佛", "tailo": "pu̍t", "mandarin": "佛" },
+        { "hanzi": "石头", "tailo": "tsio̍h-thâu", "mandarin": "石头" },
+        { "hanzi": "刻字", "tailo": "khik-jī", "mandarin": "刻字" }
+      ]
+    }
+  ]
+}

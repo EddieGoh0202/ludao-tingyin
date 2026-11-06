@@ -1,0 +1,303 @@
+[
+  {
+    "id": "bs01",
+    "sceneId": "bashi",
+    "hanzi": "这个偌济钱？",
+    "tailo": "Tsit ê guā-tsē tsînn?",
+    "mandarin": "这个多少钱？",
+    "category": "market",
+    "frequency": 94.9,
+    "pos": {
+      "x": 30,
+      "y": 220
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs02",
+    "sceneId": "bashi",
+    "hanzi": "有较俗无？",
+    "tailo": "Ū khah sio̍k bô?",
+    "mandarin": "有便宜一点吗？",
+    "culture": "「俗」在闽南话里是便宜的意思，不是「俗气」。",
+    "category": "market",
+    "frequency": 99.7,
+    "pos": {
+      "x": 98,
+      "y": 246
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs03",
+    "sceneId": "bashi",
+    "hanzi": "伤贵矣",
+    "tailo": "Siunn kuì--ah",
+    "mandarin": "太贵了",
+    "category": "market",
+    "frequency": 88.5,
+    "pos": {
+      "x": 165,
+      "y": 199
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs04",
+    "sceneId": "bashi",
+    "hanzi": "蚵仔",
+    "tailo": "ô-á",
+    "mandarin": "海蛎（牡蛎）",
+    "culture": "厦门普通话叫「海蛎」，闽南话叫「蚵仔」。",
+    "category": "food",
+    "frequency": 102.1,
+    "pos": {
+      "x": 233,
+      "y": 235
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs04.mp3"
+  },
+  {
+    "id": "bs05",
+    "sceneId": "bashi",
+    "hanzi": "蚵仔煎",
+    "tailo": "ô-á-tsian",
+    "mandarin": "海蛎煎",
+    "culture": "海蛎加地瓜粉、蒜苗煎成，是厦门街头经典小吃。",
+    "category": "food",
+    "frequency": 91.7,
+    "pos": {
+      "x": 301,
+      "y": 210
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs05.mp3"
+  },
+  {
+    "id": "bs06",
+    "sceneId": "bashi",
+    "hanzi": "鱼",
+    "tailo": "hî",
+    "mandarin": "鱼",
+    "category": "food",
+    "frequency": 97.3,
+    "pos": {
+      "x": 368,
+      "y": 251
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs06.mp3"
+  },
+  {
+    "id": "bs07",
+    "sceneId": "bashi",
+    "hanzi": "足鲜",
+    "tailo": "Tsiok tshinn",
+    "mandarin": "很新鲜",
+    "category": "market",
+    "frequency": 89.3,
+    "pos": {
+      "x": 436,
+      "y": 194
+    },
+    "speaker": "卖鱼阿伯",
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs08",
+    "sceneId": "bashi",
+    "hanzi": "一斤",
+    "tailo": "tsi̍t kin",
+    "mandarin": "一斤",
+    "category": "market",
+    "frequency": 100.5,
+    "pos": {
+      "x": 504,
+      "y": 230
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs09",
+    "sceneId": "bashi",
+    "hanzi": "头家",
+    "tailo": "thâu-ke",
+    "mandarin": "老板",
+    "category": "market",
+    "frequency": 93.3,
+    "pos": {
+      "x": 572,
+      "y": 205
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs09.mp3"
+  },
+  {
+    "id": "bs10",
+    "sceneId": "bashi",
+    "hanzi": "头家娘",
+    "tailo": "thâu-ke-niû",
+    "mandarin": "老板娘",
+    "category": "market",
+    "frequency": 98.1,
+    "pos": {
+      "x": 639,
+      "y": 246
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs10.mp3"
+  },
+  {
+    "id": "bs11",
+    "sceneId": "bashi",
+    "hanzi": "土笋冻",
+    "tailo": "thôo-sún-tàng",
+    "mandarin": "土笋冻",
+    "culture": "用海边的星虫熬煮成冻，配酱油、醋、蒜蓉，是厦门名小吃。",
+    "category": "food",
+    "frequency": 87.7,
+    "pos": {
+      "x": 690,
+      "y": 199
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs12",
+    "sceneId": "bashi",
+    "hanzi": "菜头",
+    "tailo": "tshài-thâu",
+    "mandarin": "萝卜",
+    "culture": "菜头谐音「彩头」，过年常吃菜头粿讨好彩头。",
+    "category": "food",
+    "frequency": 95.7,
+    "pos": {
+      "x": 64,
+      "y": 189
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs12.mp3"
+  },
+  {
+    "id": "bs13",
+    "sceneId": "bashi",
+    "hanzi": "番薯",
+    "tailo": "han-tsî",
+    "mandarin": "地瓜",
+    "category": "food",
+    "frequency": 101.3,
+    "pos": {
+      "x": 132,
+      "y": 220
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs13.mp3"
+  },
+  {
+    "id": "bs14",
+    "sceneId": "bashi",
+    "hanzi": "加送一寡",
+    "tailo": "Ke sàng tsi̍t-kuá",
+    "mandarin": "多送一点",
+    "category": "market",
+    "frequency": 90.1,
+    "pos": {
+      "x": 199,
+      "y": 256
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs15",
+    "sceneId": "bashi",
+    "hanzi": "免找矣",
+    "tailo": "Bián tsāu--ah",
+    "mandarin": "不用找零了",
+    "category": "market",
+    "frequency": 96.5,
+    "pos": {
+      "x": 267,
+      "y": 189
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs16",
+    "sceneId": "bashi",
+    "hanzi": "好食",
+    "tailo": "hó-tsia̍h",
+    "mandarin": "好吃",
+    "category": "food",
+    "frequency": 92.5,
+    "pos": {
+      "x": 335,
+      "y": 225
+    },
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs17",
+    "sceneId": "bashi",
+    "hanzi": "虾",
+    "tailo": "hê",
+    "mandarin": "虾",
+    "category": "food",
+    "frequency": 102.9,
+    "pos": {
+      "x": 402,
+      "y": 210
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs17.mp3"
+  },
+  {
+    "id": "bs18",
+    "sceneId": "bashi",
+    "hanzi": "买菜",
+    "tailo": "bé tshài",
+    "mandarin": "买菜",
+    "category": "market",
+    "frequency": 94.1,
+    "pos": {
+      "x": 470,
+      "y": 256
+    },
+    "times": [
+      "morning",
+      "noon"
+    ],
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs19",
+    "sceneId": "bashi",
+    "hanzi": "欲买啥物？",
+    "tailo": "Beh bé siánn-mih?",
+    "mandarin": "要买什么？",
+    "category": "market",
+    "frequency": 98.9,
+    "pos": {
+      "x": 538,
+      "y": 184
+    },
+    "speaker": "头家娘",
+    "reviewStatus": "pending"
+  },
+  {
+    "id": "bs20",
+    "sceneId": "bashi",
+    "hanzi": "秤头",
+    "tailo": "tshìn-thâu",
+    "mandarin": "分量（秤得足不足）",
+    "culture": "菜市场说「秤头足」，就是分量给得够、不缺斤少两。",
+    "category": "market",
+    "frequency": 90.9,
+    "pos": {
+      "x": 605,
+      "y": 225
+    },
+    "reviewStatus": "pending",
+    "audio": "recordings/dictionary/bs20.mp3"
+  }
+]
